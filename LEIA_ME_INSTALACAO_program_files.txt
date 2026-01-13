@@ -1,0 +1,25 @@
+Como gerar EXE e instalador (Program Files)
+
+Arquivos:
+- sistema_gui_principal_instalavel.py  (seu código com dados em AppData)
+- build_exe_program_files.bat          (gera dist\SistemaNFE.exe)
+- SistemaNFE_program_files.iss         (script do Inno Setup)
+- build_installer_program_files.bat    (gera output\SistemaNFE_Setup.exe)
+
+Passo a passo:
+1) Coloque os 4 arquivos acima na mesma pasta do projeto.
+2) Abra o terminal nessa pasta.
+3) Execute: build_exe_program_files.bat
+4) Instale o Inno Setup 6 (se ainda não tiver).
+5) Execute: build_installer_program_files.bat
+
+Resultado:
+- EXE: dist\SistemaNFE.exe
+- Instalador: output\SistemaNFE_Setup.exe
+
+Onde ficam os dados:
+- JSON e log em: %LOCALAPPDATA%\SistemaNFE\data\
+  (ex.: produtos.json, audit.log)
+
+Observação:
+- Instalar em Program Files exige permissões de administrador (UAC), isso é normal.
