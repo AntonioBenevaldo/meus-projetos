@@ -23,5 +23,5 @@ Projetos Ciência de Dados
 ### 🌐 Conecte-se comigo
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/SEULINKEDIN)
 [![Portfolio](https://img.shields.io/badge/-Portfolio-black?logo=firefox&logoColor=white&style=flat)](https://SEUPORTFOLIO.com)
-2
+
 
