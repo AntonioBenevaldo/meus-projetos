@@ -1,0 +1,223 @@
+import sys
+import pandas as pd
+import numpy as np
+from faker import Faker
+
+from PySide6.QtWidgets import (
+    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
+    QPushButton, QFileDialog, QMessageBox, QLineEdit, QLabel, QSpinBox,
+    QTableView
+)
+from PySide6.QtCore import QAbstractTableModel, Qt
+
+
+# =========================
+# GERADOR DE BASE FICTÍCIA
+# =========================
+def gerar_base_vendas(n=5000):
+    fake = Faker("pt_BR")
+    np.random.seed(42)
+
+    ufs = ["SP", "RJ", "MG", "BA", "PR", "SC", "RS", "GO", "PE", "CE"]
+    categorias = ["Eletrônicos", "Informática", "Acessórios", "Serviços"]
+    formas_pgto = ["PIX", "Cartão", "Boleto", "Dinheiro"]
+
+    dados = []
+    for i in range(n):
+        categoria = np.random.choice(categorias, p=[0.35, 0.30, 0.25, 0.10])
+        uf = np.random.choice(ufs)
+        data = fake.date_between(start_date="-180d", end_date="today")
+
+        preco_base = {
+            "Eletrônicos": np.random.uniform(200, 5000),
+            "Informática": np.random.uniform(150, 8000),
+            "Acessórios": np.random.uniform(20, 500),
+            "Serviços": np.random.uniform(50, 800)
+        }[categoria]
+
+        qtd = np.random.randint(1, 6)
+        desconto = np.random.choice([0, 0.05, 0.10, 0.15], p=[0.60, 0.20, 0.15, 0.05])
+        total_bruto = preco_base * qtd
+        total_liquido = total_bruto * (1 - desconto)
+
+        aliquota = np.random.choice([0.07, 0.12, 0.18], p=[0.20, 0.30, 0.50])
+        imposto_estimado = total_liquido * aliquota
+
+        dados.append({
+            "id_venda": i + 1,
+            "data": str(data),
+            "cliente": fake.name(),
+            "cidade": fake.city(),
+            "uf": uf,
+            "categoria": categoria,
+            "forma_pagamento": np.random.choice(formas_pgto),
+            "preco_unitario": round(preco_base, 2),
+            "quantidade": int(qtd),
+            "desconto": float(desconto),
+            "total_liquido": round(total_liquido, 2),
+            "aliquota": float(aliquota),
+            "imposto_estimado": round(imposto_estimado, 2),
+        })
+
+    return pd.DataFrame(dados)
+
+
+# =========================
+# MODEL DO PANDAS -> QT
+# =========================
+class DataFrameModel(QAbstractTableModel):
+    def __init__(self, df=pd.DataFrame()):
+        super().__init__()
+        self._df = df
+
+    def set_dataframe(self, df):
+        self.beginResetModel()
+        self._df = df
+        self.endResetModel()
+
+    def rowCount(self, parent=None):
+        return 0 if self._df is None else len(self._df)
+
+    def columnCount(self, parent=None):
+        return 0 if self._df is None else self._df.shape[1]
+
+    def data(self, index, role=Qt.DisplayRole):
+        if not index.isValid() or self._df is None:
+            return None
+
+        if role == Qt.DisplayRole:
+            value = self._df.iat[index.row(), index.column()]
+            return str(value)
+
+        return None
+
+    def headerData(self, section, orientation, role=Qt.DisplayRole):
+        if self._df is None:
+            return None
+
+        if role == Qt.DisplayRole:
+            if orientation == Qt.Horizontal:
+                return str(self._df.columns[section])
+            else:
+                return str(section + 1)
+
+        return None
+
+
+# =========================
+# APP PYSIDE6
+# =========================
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("Visualizador de Dados (PySide6 + pandas)")
+        self.resize(1200, 650)
+
+        self.df = pd.DataFrame()
+        self.df_view = pd.DataFrame()
+
+        central = QWidget()
+        self.setCentralWidget(central)
+        layout = QVBoxLayout(central)
+
+        # Barra de ações
+        top = QHBoxLayout()
+        layout.addLayout(top)
+
+        btn_gerar = QPushButton("Gerar Base Fictícia")
+        btn_gerar.clicked.connect(self.gerar)
+        top.addWidget(btn_gerar)
+
+        btn_load = QPushButton("Carregar CSV")
+        btn_load.clicked.connect(self.carregar_csv)
+        top.addWidget(btn_load)
+
+        btn_save = QPushButton("Salvar CSV")
+        btn_save.clicked.connect(self.salvar_csv)
+        top.addWidget(btn_save)
+
+        top.addSpacing(20)
+
+        top.addWidget(QLabel("Linhas exibidas:"))
+        self.spin_limite = QSpinBox()
+        self.spin_limite.setRange(50, 100000)
+        self.spin_limite.setValue(2000)
+        self.spin_limite.valueChanged.connect(self.aplicar_filtro)
+        top.addWidget(self.spin_limite)
+
+        top.addSpacing(20)
+
+        top.addWidget(QLabel("Filtro (contém):"))
+        self.ed_filtro = QLineEdit()
+        self.ed_filtro.setPlaceholderText("Ex.: SP, Eletrônicos, PIX, etc...")
+        self.ed_filtro.textChanged.connect(self.aplicar_filtro)
+        top.addWidget(self.ed_filtro)
+
+        top.addStretch(1)
+
+        # Tabela
+        self.table = QTableView()
+        layout.addWidget(self.table)
+
+        self.model = DataFrameModel(self.df_view)
+        self.table.setModel(self.model)
+
+        # Status
+        self.status_label = QLabel("Pronto.")
+        layout.addWidget(self.status_label)
+
+    def gerar(self):
+        self.df = gerar_base_vendas(n=5000)
+        self.status_label.setText(f"Base gerada com {len(self.df)} linhas e {len(self.df.columns)} colunas.")
+        self.aplicar_filtro()
+
+    def carregar_csv(self):
+        path, _ = QFileDialog.getOpenFileName(self, "Selecione um CSV", "", "CSV (*.csv);;Todos (*.*)")
+        if not path:
+            return
+        try:
+            self.df = pd.read_csv(path)
+            self.status_label.setText(f"CSV carregado: {path} ({len(self.df)} linhas).")
+            self.aplicar_filtro()
+        except Exception as e:
+            QMessageBox.critical(self, "Erro", f"Não foi possível carregar o CSV:\n{e}")
+
+    def salvar_csv(self):
+        if self.df.empty:
+            QMessageBox.warning(self, "Aviso", "Não há dados para salvar.")
+            return
+        path, _ = QFileDialog.getSaveFileName(self, "Salvar CSV", "base.csv", "CSV (*.csv)")
+        if not path:
+            return
+        try:
+            self.df.to_csv(path, index=False)
+            self.status_label.setText(f"CSV salvo em: {path}")
+        except Exception as e:
+            QMessageBox.critical(self, "Erro", f"Não foi possível salvar:\n{e}")
+
+    def aplicar_filtro(self):
+        if self.df.empty:
+            self.model.set_dataframe(pd.DataFrame())
+            return
+
+        texto = self.ed_filtro.text().strip().lower()
+        df_view = self.df.copy()
+
+        if texto:
+            mask = df_view.astype(str).apply(lambda col: col.str.lower().str.contains(texto, na=False))
+            df_view = df_view[mask.any(axis=1)]
+
+        limite = int(self.spin_limite.value())
+        df_view = df_view.head(limite)
+
+        self.df_view = df_view
+        self.model.set_dataframe(self.df_view)
+
+        self.status_label.setText(f"Exibindo {len(df_view)} de {len(self.df)} linhas | Colunas: {len(self.df.columns)}")
+
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    w = MainWindow()
+    w.show()
+    sys.exit(app.exec())
