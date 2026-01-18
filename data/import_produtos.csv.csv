@@ -1,0 +1,4 @@
+﻿categoria,marca,descricao,unidade,estoque_inicial,preco_custo,preco_venda,ncm,ean,cest,origem,cst_csosn,cfop,pis,cofins,ipi,ativo
+ELETRONICOS,Samsung,Smartphone A14 128GB,UN,10,950,1299,85171231,,0100100,0 - Nacional,102,5102,01,01,50,1
+ELETRONICOS,LG,Smart TV 50 4K,UN,4,1900,2499,85287200,,0100200,0 - Nacional,060,5102,01,01,50,1
+INFORMATICA,Kingston,SSD NVMe 1TB,UN,8,350,499,84717012,,0100300,0 - Nacional,102,5102,01,01,50,1

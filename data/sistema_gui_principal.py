@@ -2081,5 +2081,3 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         # Encerrado pelo usuário (Ctrl+C / botão Stop do VS Code)
         pass
-
-    
