@@ -1,0 +1,1501 @@
+cliente_id,nome,tipo,documento,uf,cidade,segmento,canal_aquisicao,data_cadastro
+1,Patrícia Carvalho,PF,22363356089,PR,Ponta Grossa,Pessoa Física,Orgânico,2024-07-03
+2,Helena Santos,PF,65643318329,PR,Londrina,Atacado,Anúncio,2023-02-16
+3,Patrícia Cardoso,PF,56227418463,DF,Ceilândia,Corporativo,Orgânico,2023-05-01
+4,Vanessa Lima,PF,57826961121,MS,Campo Grande,Atacado,Orgânico,2024-09-08
+5,Natália Almeida,PF,79557445305,MG,Juiz de Fora,Pessoa Física,Orgânico,2023-08-14
+6,Otávio Gomes,PF,80228556270,RJ,Petrópolis,Pessoa Física,Orgânico,2023-09-03
+7,Helena Almeida,PJ,18614067232322,SP,Campinas,Pessoa Física,Indicação,2023-11-22
+8,Otávio Silva,PF,48729293527,MG,Juiz de Fora,Pessoa Física,Orgânico,2024-05-18
+9,Larissa Martins,PF,38051846850,MT,Sinop,Corporativo,Orgânico,2023-06-17
+10,Patrícia Santos,PF,22994826322,DF,Brasília,Varejo,Anúncio,2025-05-29
+11,Larissa Souza,PF,43231931583,MS,Ponta Porã,Varejo,Orgânico,2025-01-02
+12,Kaique Barbosa,PF,86720397783,DF,Guará,Varejo,Anúncio,2025-05-17
+13,Larissa Teixeira,PF,39522800701,SP,Ribeirão Preto,Varejo,Orgânico,2025-10-11
+14,Otávio Cardoso,PF,94740170533,MG,Contagem,Pessoa Física,Orgânico,2024-10-20
+15,Igor Souza,PF,96633602660,PA,Castanhal,Varejo,Indicação,2024-02-01
+16,Kaique Almeida,PF,75279422504,SC,Chapecó,Varejo,Orgânico,2025-12-07
+17,Natália Souza,PF,00478024596,MT,Várzea Grande,Corporativo,Orgânico,2024-09-12
+18,Kaique Ribeiro,PF,50016326848,MT,Rondonópolis,Varejo,Orgânico,2024-05-23
+19,Bruno Ferreira,PF,77817995788,PA,Ananindeua,Varejo,Orgânico,2024-03-31
+20,Helena Ferreira,PF,88374889541,CE,Maracanaú,Varejo,Orgânico,2023-02-13
+21,Thiago Gomes,PF,65568147877,GO,Aparecida de Goiânia,Atacado,Orgânico,2025-11-13
+22,Ana Souza,PF,89625717592,PA,Santarém,Pessoa Física,Orgânico,2025-06-17
+23,Bruno Cardoso,PF,94565917922,AM,Itacoatiara,Pessoa Física,Orgânico,2025-02-05
+24,Kaique Almeida,PJ,47977462410885,ES,Vila Velha,Pessoa Física,Marketplace,2023-08-31
+25,Juliana Lima,PJ,00172288735280,ES,Vitória,Pessoa Física,Orgânico,2025-10-14
+26,Juliana Carvalho,PF,75741764334,PA,Belém,Pessoa Física,Orgânico,2023-07-13
+27,Patrícia Martins,PF,22209211943,SC,Florianópolis,Pessoa Física,Anúncio,2023-09-22
+28,Marcos Oliveira,PF,40328047852,SC,Blumenau,Pessoa Física,Orgânico,2023-03-18
+29,Ana Carvalho,PF,32626693946,MT,Tangará da Serra,Pessoa Física,Marketplace,2023-11-12
+30,Helena Pereira,PF,68473447608,ES,Vila Velha,Corporativo,Orgânico,2023-12-26
+31,Carla Costa,PF,71960482942,ES,Cariacica,Atacado,Anúncio,2025-05-21
+32,Guilherme Ribeiro,PJ,35691951936602,SP,Sorocaba,Atacado,WhatsApp,2023-12-24
+33,Carla Oliveira,PF,63008115165,GO,Luziânia,Varejo,Orgânico,2025-11-13
+34,Helena Martins,PF,64764021022,RS,Caxias do Sul,Pessoa Física,Orgânico,2023-11-28
+35,Kaique Carvalho,PF,03512001467,RJ,Duque de Caxias,Varejo,Indicação,2024-07-28
+36,Thiago Martins,PF,66927958185,ES,Linhares,Pessoa Física,WhatsApp,2024-10-12
+37,Igor Martins,PJ,20743394021688,BA,Feira de Santana,Pessoa Física,Anúncio,2025-06-27
+38,Vanessa Carvalho,PF,67461550573,PE,Caruaru,Corporativo,Indicação,2025-04-03
+39,Vanessa Teixeira,PJ,52213896664467,RS,Santa Maria,Varejo,Orgânico,2025-08-08
+40,Bruno Oliveira,PF,45422047690,SP,Campinas,Corporativo,Indicação,2025-10-24
+41,Guilherme Costa,PF,77423686560,DF,Samambaia,Atacado,Orgânico,2023-05-09
+42,Juliana Barbosa,PF,60985376752,ES,Serra,Pessoa Física,Indicação,2023-04-14
+43,Guilherme Santos,PF,02545293834,BA,Feira de Santana,Pessoa Física,Orgânico,2024-05-07
+44,Eduardo Almeida,PF,62238146740,DF,Ceilândia,Pessoa Física,Anúncio,2023-06-14
+45,Larissa Barbosa,PF,04808603295,MS,Ponta Porã,Pessoa Física,Orgânico,2024-06-24
+46,Natália Oliveira,PF,32502166413,AM,Manacapuru,Pessoa Física,Indicação,2024-10-08
+47,Sabrina Gomes,PF,82118159642,AM,Manacapuru,Pessoa Física,Indicação,2023-10-30
+48,Juliana Pereira,PF,01910843759,GO,Anápolis,Varejo,Marketplace,2023-04-18
+49,Guilherme Barbosa,PF,47842920590,MT,Sinop,Varejo,WhatsApp,2025-11-23
+50,Guilherme Pereira,PF,88942518645,ES,Cariacica,Varejo,Anúncio,2024-02-11
+51,Guilherme Carvalho,PF,75899673048,MS,Campo Grande,Pessoa Física,Indicação,2025-07-08
+52,Guilherme Almeida,PF,15141787725,PE,Petrolina,Pessoa Física,Orgânico,2024-11-15
+53,Patrícia Lima,PF,13560848556,ES,Cariacica,Pessoa Física,WhatsApp,2024-12-26
+54,Ana Almeida,PF,81504882353,RJ,Duque de Caxias,Pessoa Física,Indicação,2025-05-05
+55,Carla Cardoso,PF,13459536744,DF,Ceilândia,Pessoa Física,Anúncio,2023-10-18
+56,Kaique Ribeiro,PJ,28813290235257,PE,Petrolina,Varejo,Anúncio,2023-08-27
+57,Thiago Pereira,PF,80109657525,DF,Ceilândia,Varejo,Marketplace,2025-12-28
+58,Otávio Santos,PJ,70640243264470,RS,Canoas,Pessoa Física,Marketplace,2025-01-02
+59,Vanessa Souza,PF,30918136812,SP,São Paulo,Pessoa Física,Marketplace,2023-11-17
+60,Patrícia Teixeira,PF,83270888214,PR,Londrina,Pessoa Física,Anúncio,2024-12-08
+61,Kaique Teixeira,PF,39697710052,RJ,Petrópolis,Varejo,Anúncio,2024-03-07
+62,Patrícia Santos,PF,91961033351,MT,Tangará da Serra,Pessoa Física,WhatsApp,2025-07-31
+63,Juliana Pereira,PF,16929330446,SC,Florianópolis,Pessoa Física,Indicação,2024-07-11
+64,Carla Costa,PF,11401695195,RS,Canoas,Pessoa Física,Anúncio,2023-12-10
+65,Guilherme Cardoso,PF,71506290616,MS,Ponta Porã,Varejo,Indicação,2025-01-26
+66,Otávio Silva,PF,49630540522,ES,Vila Velha,Pessoa Física,Indicação,2025-04-02
+67,Igor Souza,PF,03204214094,MT,Rondonópolis,Pessoa Física,Indicação,2024-02-13
+68,Vanessa Ribeiro,PF,98954708302,SP,São Paulo,Pessoa Física,Indicação,2025-04-04
+69,Sabrina Oliveira,PF,20608473116,SP,Campinas,Pessoa Física,Marketplace,2023-09-14
+70,Bruno Barbosa,PF,72398423551,BA,Juazeiro,Pessoa Física,Marketplace,2023-09-20
+71,Kaique Barbosa,PJ,04714126229119,CE,Maracanaú,Pessoa Física,Anúncio,2025-06-24
+72,Carla Oliveira,PF,50452562849,SP,Santos,Pessoa Física,Orgânico,2024-11-11
+73,Patrícia Barbosa,PJ,03782914349772,BA,Vitória da Conquista,Corporativo,Indicação,2023-02-08
+74,Fernanda Ribeiro,PF,94666646935,MS,Campo Grande,Varejo,Indicação,2025-01-09
+75,Fernanda Souza,PF,13762581036,PE,Petrolina,Varejo,Anúncio,2023-12-02
+76,Fernanda Ferreira,PF,38853088457,MG,Contagem,Pessoa Física,Marketplace,2023-10-28
+77,Larissa Pereira,PF,61697452623,RJ,Duque de Caxias,Varejo,Orgânico,2024-04-09
+78,Vanessa Teixeira,PF,23307491615,ES,Serra,Varejo,Orgânico,2024-05-10
+79,Ana Carvalho,PF,44683812391,PE,Jaboatão,Pessoa Física,Marketplace,2025-09-04
+80,Igor Ferreira,PF,34849777145,PR,Maringá,Pessoa Física,WhatsApp,2024-04-22
+81,Bruno Almeida,PJ,21176276898173,DF,Ceilândia,Varejo,Anúncio,2023-11-22
+82,Diego Oliveira,PF,46649100844,RJ,Duque de Caxias,Atacado,Orgânico,2025-04-27
+83,Vanessa Carvalho,PF,64501941332,MS,Campo Grande,Pessoa Física,Anúncio,2024-08-17
+84,Bruno Almeida,PF,27134589250,PR,Cascavel,Corporativo,Anúncio,2023-01-01
+85,Sabrina Gomes,PF,61061417758,PE,Recife,Corporativo,Anúncio,2024-11-23
+86,Igor Souza,PF,41122325163,AM,Parintins,Corporativo,Orgânico,2024-07-03
+87,Kaique Gomes,PF,65942564543,SP,São Paulo,Varejo,Orgânico,2024-09-21
+88,Bruno Ribeiro,PF,39609707594,PR,Cascavel,Pessoa Física,Indicação,2023-07-22
+89,Thiago Costa,PF,53368876537,RS,Caxias do Sul,Varejo,Indicação,2024-06-08
+90,Larissa Pereira,PF,32853893547,MT,Rondonópolis,Pessoa Física,Indicação,2024-12-09
+91,Igor Cardoso,PF,95758434961,ES,Vila Velha,Varejo,Anúncio,2025-01-11
+92,Thiago Ribeiro,PF,05845759677,ES,Vila Velha,Varejo,Orgânico,2025-01-15
+93,Guilherme Ferreira,PJ,60415153015087,RJ,Duque de Caxias,Varejo,Anúncio,2025-12-29
+94,Larissa Almeida,PJ,71763057003544,AM,Itacoatiara,Pessoa Física,WhatsApp,2024-07-03
+95,Ana Almeida,PF,20006740492,PR,Ponta Grossa,Varejo,Anúncio,2024-04-16
+96,Otávio Oliveira,PF,45344475004,BA,Feira de Santana,Atacado,Indicação,2024-08-17
+97,Kaique Santos,PF,90064226562,AM,Itacoatiara,Varejo,Anúncio,2023-12-27
+98,Otávio Cardoso,PF,58331602709,GO,Rio Verde,Pessoa Física,Marketplace,2023-12-12
+99,Sabrina Gomes,PF,43564892739,ES,Vila Velha,Corporativo,Anúncio,2025-01-26
+100,Vanessa Lima,PF,22771536599,SC,Joinville,Pessoa Física,Anúncio,2023-12-10
+101,Carla Oliveira,PF,66817718634,MS,Corumbá,Pessoa Física,Marketplace,2025-03-31
+102,Larissa Pereira,PJ,49986191109420,PR,Londrina,Pessoa Física,Orgânico,2025-03-27
+103,Carla Carvalho,PF,47956892959,MG,Juiz de Fora,Pessoa Física,Indicação,2025-11-10
+104,Thiago Martins,PJ,10861816208810,ES,Serra,Varejo,Anúncio,2023-05-25
+105,Igor Teixeira,PF,60797216054,PR,Ponta Grossa,Pessoa Física,WhatsApp,2024-02-03
+106,Fernanda Pereira,PJ,72762304215501,MG,Betim,Pessoa Física,Indicação,2025-04-25
+107,Otávio Carvalho,PF,06301926413,PA,Marabá,Atacado,Orgânico,2024-04-15
+108,Juliana Costa,PF,07341825876,ES,Cariacica,Pessoa Física,Marketplace,2024-12-18
+109,Diego Ribeiro,PJ,81954279604737,RS,Porto Alegre,Varejo,Indicação,2025-03-16
+110,Sabrina Teixeira,PJ,70514388456667,RS,Canoas,Pessoa Física,Indicação,2025-08-27
+111,Patrícia Almeida,PF,98144557424,RS,Pelotas,Pessoa Física,Orgânico,2023-09-05
+112,Igor Barbosa,PF,83091682321,PE,Recife,Pessoa Física,Orgânico,2023-10-13
+113,Sabrina Lima,PF,11450860805,CE,Juazeiro do Norte,Atacado,Indicação,2024-05-31
+114,Ana Oliveira,PF,45992597842,PE,Petrolina,Pessoa Física,Anúncio,2024-07-08
+115,Sabrina Ferreira,PF,58967534485,MG,Uberlândia,Pessoa Física,Marketplace,2025-09-18
+116,Otávio Santos,PJ,70759441878028,CE,Caucaia,Varejo,Orgânico,2023-02-12
+117,Rafael Gomes,PF,05498825790,BA,,Pessoa Física,Indicação,2023-09-26
+118,Eduardo Almeida,PF,93167108919,RS,Pelotas,Pessoa Física,Orgânico,2025-09-27
+119,Diego Gomes,PF,99259961020,AM,Itacoatiara,Pessoa Física,Indicação,2024-11-04
+120,Fernanda Ferreira,PF,10755844241,GO,Rio Verde,Pessoa Física,Orgânico,2025-01-10
+121,Natália Teixeira,PF,59526842719,SC,Itajaí,Varejo,Anúncio,2023-10-01
+122,Bruno Barbosa,PF,33702135137,PA,Castanhal,Varejo,Orgânico,2024-11-13
+123,Diego Souza,PF,90605872278,SC,Itajaí,Varejo,Indicação,2024-02-10
+124,Thiago Ribeiro,PF,20464987087,RS,Pelotas,Varejo,Orgânico,2025-03-14
+125,Bruno Souza,PJ,35895066082853,BA,Juazeiro,Corporativo,Marketplace,2023-04-10
+126,Marcos Gomes,PF,00738299169,MT,Rondonópolis,Pessoa Física,Orgânico,2023-11-08
+127,Ana Souza,PJ,30840860209075,SP,Santos,Corporativo,Indicação,2024-12-07
+128,Larissa Gomes,PF,58810165025,ES,Linhares,Pessoa Física,Indicação,2024-10-23
+129,Ana Ribeiro,PF,73997487548,SC,Florianópolis,Corporativo,Orgânico,2025-07-10
+130,Marcos Ferreira,PF,51906650482,RJ,Niterói,Atacado,Orgânico,2025-05-27
+131,Marcos Pereira,PF,68953646772,SP,Santos,Pessoa Física,Orgânico,2023-01-16
+132,Eduardo Pereira,PF,75968997513,SC,Chapecó,Pessoa Física,Indicação,2023-04-09
+133,Vanessa Cardoso,PF,47541740281,RJ,Nova Iguaçu,Corporativo,WhatsApp,2024-01-24
+134,Igor Santos,PF,45019521477,PE,Recife,Pessoa Física,Orgânico,2025-11-16
+135,Eduardo Cardoso,PF,17820957322,PR,Curitiba,Corporativo,Indicação,2024-06-06
+136,Juliana Teixeira,PF,24185953518,AM,Manaus,Varejo,Indicação,2025-09-04
+137,Bruno Ribeiro,PF,71552172526,DF,Brasília,Corporativo,Indicação,2023-03-06
+138,Bruno Almeida,PF,03546147318,PR,Ponta Grossa,Pessoa Física,Anúncio,2025-11-21
+139,Larissa Ferreira,PF,76777505274,GO,Aparecida de Goiânia,Corporativo,WhatsApp,2023-03-08
+140,Juliana Gomes,PF,95594338714,GO,Aparecida de Goiânia,Pessoa Física,Anúncio,2025-06-04
+141,Thiago Ribeiro,PF,36077216297,ES,Cariacica,Pessoa Física,Marketplace,2025-08-19
+142,Otávio Pereira,PF,95902065236,PE,Recife,Corporativo,Orgânico,2023-11-19
+143,Igor Souza,PF,15622352351,RJ,Petrópolis,Pessoa Física,Marketplace,2023-11-26
+144,Rafael Silva,PF,51122093898,SC,Florianópolis,Corporativo,WhatsApp,2024-09-29
+145,Kaique Cardoso,PF,81375058832,PE,Jaboatão,Corporativo,WhatsApp,2025-03-02
+146,Otávio Ribeiro,PJ,32334023186951,SP,Santos,Varejo,Orgânico,2023-05-12
+147,Larissa Costa,PF,94634425701,AM,Manacapuru,Corporativo,Marketplace,2023-09-17
+148,Marcos Lima,PJ,85966863523616,MS,Ponta Porã,Corporativo,Orgânico,2025-04-06
+149,Juliana Carvalho,PF,53078746433,BA,Feira de Santana,Varejo,Indicação,2025-06-04
+150,Otávio Martins,PF,29618151369,SC,Florianópolis,Pessoa Física,Orgânico,2023-06-18
+151,Otávio Carvalho,PF,98209920600,RJ,Petrópolis,Varejo,Indicação,2025-09-02
+152,Ana Ferreira,PF,94163582684,MS,Corumbá,Varejo,Anúncio,2025-08-08
+153,Otávio Costa,PJ,94486877238623,PA,Ananindeua,Pessoa Física,Orgânico,2025-08-09
+154,Sabrina Santos,PF,71172759588,PE,Olinda,Atacado,Orgânico,2023-09-21
+155,Marcos Santos,PF,29710203940,MS,Corumbá,Pessoa Física,Orgânico,2025-01-03
+156,Eduardo Carvalho,PF,42807406476,MG,Contagem,Pessoa Física,Anúncio,2023-06-25
+157,Thiago Costa,PF,74014374813,SC,Florianópolis,Atacado,Marketplace,2023-08-04
+158,Natália Martins,PF,71375758891,CE,Maracanaú,Varejo,Indicação,2023-03-19
+159,Igor Costa,PF,51236482679,SP,São Paulo,Corporativo,Marketplace,2024-06-24
+160,Helena Souza,PF,27054979847,RS,Pelotas,Varejo,Marketplace,2025-02-18
+161,Ana Martins,PJ,05079682956763,PE,Jaboatão,Pessoa Física,Anúncio,2023-08-06
+162,Vanessa Teixeira,PF,66845510064,PE,Petrolina,Pessoa Física,Anúncio,2023-07-24
+163,Fernanda Lima,PF,87113901049,DF,Ceilândia,Pessoa Física,Anúncio,2023-10-31
+164,Igor Costa,PF,64135279221,PR,Curitiba,Corporativo,Orgânico,2023-08-05
+165,Diego Carvalho,PF,74220462046,PA,Castanhal,Pessoa Física,Indicação,2025-07-01
+166,Ana Santos,PJ,32178757303769,SP,São Paulo,Varejo,Indicação,2023-07-05
+167,Igor Ribeiro,PF,92028801569,PR,Cascavel,Pessoa Física,Indicação,2023-11-02
+168,Vanessa Silva,PF,72065955308,BA,Feira de Santana,Pessoa Física,Indicação,2023-12-02
+169,Larissa Lima,PF,81734881389,MS,Dourados,Corporativo,Orgânico,2023-08-11
+170,Ana Lima,PJ,08450666798796,RS,Pelotas,Varejo,Marketplace,2025-10-28
+171,Helena Martins,PF,65705490618,CE,Fortaleza,Varejo,Orgânico,2023-08-18
+172,Igor Gomes,PF,82849702421,MT,Cuiabá,Pessoa Física,Marketplace,2024-06-17
+173,Igor Ribeiro,PF,98421930346,RS,Canoas,Varejo,Orgânico,2024-09-12
+174,Kaique Costa,PF,39693636739,ES,Vila Velha,Pessoa Física,Anúncio,2023-10-13
+175,Guilherme Pereira,PF,88271191843,MS,Corumbá,Pessoa Física,Anúncio,2024-05-31
+176,Larissa Costa,PF,06748352514,DF,Samambaia,Corporativo,Orgânico,2023-07-06
+177,Juliana Lima,PF,55465226976,MG,Betim,Pessoa Física,Anúncio,2024-06-13
+178,Carla Santos,PJ,98516628834112,MT,Cuiabá,Varejo,Orgânico,2023-01-21
+179,Eduardo Barbosa,PF,32146352769,RS,Santa Maria,Corporativo,Indicação,2024-04-26
+180,Rafael Lima,PF,08306119252,RS,Canoas,Pessoa Física,WhatsApp,2024-02-05
+181,Juliana Santos,PF,10044032596,PA,Santarém,Varejo,Orgânico,2024-01-20
+182,Eduardo Costa,PJ,91273842858416,DF,Guará,Pessoa Física,Anúncio,2023-05-01
+183,Larissa Souza,PF,16478481195,PA,Ananindeua,Pessoa Física,Marketplace,2025-12-30
+184,Otávio Santos,PF,41268944104,MT,Rondonópolis,Varejo,Anúncio,2023-01-30
+185,Helena Costa,PF,51468933862,PR,Londrina,Pessoa Física,Marketplace,2023-06-10
+186,Thiago Ferreira,PF,61439082066,DF,Guará,Varejo,Anúncio,2023-04-23
+187,Vanessa Gomes,PF,10141707879,MT,Cuiabá,Pessoa Física,Anúncio,2025-12-07
+188,Fernanda Lima,PF,90373779330,DF,Ceilândia,Pessoa Física,Orgânico,2023-12-16
+189,Vanessa Ribeiro,PF,22448770472,RS,Santa Maria,Pessoa Física,Orgânico,2024-04-17
+190,Rafael Gomes,PF,47784336441,DF,Guará,Pessoa Física,Indicação,2025-04-02
+191,Marcos Cardoso,PF,42587499473,PR,Londrina,Varejo,Marketplace,2023-02-25
+192,Ana Lima,PJ,83218280544103,PA,Marabá,Pessoa Física,Orgânico,2023-03-15
+193,Fernanda Silva,PF,47422649450,SP,São Paulo,Varejo,WhatsApp,2023-07-20
+194,Juliana Souza,PF,18345053144,RS,Porto Alegre,Pessoa Física,Anúncio,2025-01-13
+195,Vanessa Barbosa,PF,15729670737,RS,Pelotas,Varejo,Anúncio,2025-12-08
+196,Eduardo Santos,PF,82206741349,RS,Santa Maria,Varejo,Marketplace,2024-11-11
+197,Diego Souza,PF,13628937761,ES,Vitória,Varejo,Marketplace,2025-08-13
+198,Guilherme Souza,PF,03126520247,PR,Londrina,Varejo,Anúncio,2025-08-24
+199,Sabrina Cardoso,PF,32502054563,ES,Linhares,Varejo,Orgânico,2023-10-30
+200,Juliana Gomes,PF,89191250314,MG,Contagem,Varejo,Orgânico,2023-07-21
+201,Diego Carvalho,PJ,89254469409935,ES,Vitória,Pessoa Física,Orgânico,2023-06-25
+202,Rafael Lima,PJ,85498514625605,CE,Fortaleza,Pessoa Física,Marketplace,2025-05-20
+203,Marcos Ferreira,PF,72570623600,MT,Tangará da Serra,Atacado,Orgânico,2025-01-03
+204,Helena Barbosa,PF,49070444072,ES,Vila Velha,Pessoa Física,Indicação,2025-08-05
+205,Kaique Ferreira,PF,76536999253,ES,Vila Velha,Corporativo,Orgânico,2024-07-09
+206,Bruno Souza,PF,99813773116,BA,Ilhéus,Pessoa Física,Anúncio,2025-12-06
+207,Thiago Almeida,PF,44807299532,MT,Sinop,Atacado,Anúncio,2025-09-06
+208,Helena Lima,PF,19144685754,ES,Vitória,Pessoa Física,Anúncio,2025-06-05
+209,Ana Almeida,PF,12403448970,DF,Guará,Corporativo,Indicação,2025-05-30
+210,Ana Cardoso,PF,47544451526,AM,Parintins,Varejo,WhatsApp,2023-05-16
+211,Sabrina Gomes,PJ,85396400227595,CE,Fortaleza,Pessoa Física,Marketplace,2025-03-27
+212,Juliana Souza,PF,95374246379,CE,Juazeiro do Norte,Pessoa Física,Indicação,2025-11-04
+213,Guilherme Ferreira,PF,42481948779,PE,Petrolina,Pessoa Física,Orgânico,2023-11-17
+214,Diego Carvalho,PF,15020667136,AM,Manacapuru,Corporativo,WhatsApp,2025-06-12
+215,Eduardo Ribeiro,PF,88040818108,MS,Corumbá,Pessoa Física,Marketplace,2024-01-19
+216,Natália Cardoso,PF,44626423035,SC,Chapecó,Pessoa Física,Marketplace,2023-08-21
+217,Igor Pereira,PJ,11641770237083,AM,Manacapuru,Varejo,Anúncio,2025-03-11
+218,Kaique Oliveira,PF,18019546660,PE,Recife,Varejo,Orgânico,2023-07-01
+219,Guilherme Silva,PF,52851822978,SP,Ribeirão Preto,Corporativo,Marketplace,2024-06-11
+220,Eduardo Ribeiro,PF,69152322496,RS,Santa Maria,Varejo,Anúncio,2025-10-23
+221,Sabrina Silva,PF,34525625752,GO,Rio Verde,Corporativo,Orgânico,2023-06-21
+222,Ana Carvalho,PF,57256338351,SC,Florianópolis,Varejo,Anúncio,2023-06-20
+223,Patrícia Pereira,PF,95763378188,AM,Parintins,Pessoa Física,Indicação,2025-10-30
+224,Diego Santos,PF,11683693292,MS,Ponta Porã,Pessoa Física,Orgânico,2025-05-01
+225,Vanessa Carvalho,PF,44526624029,ES,Vila Velha,Pessoa Física,Indicação,2024-05-20
+226,Rafael Costa,PF,56877746281,PA,Marabá,Pessoa Física,Indicação,2024-03-20
+227,Ana Teixeira,PF,88179538512,PE,Caruaru,Corporativo,Anúncio,2025-11-22
+228,Bruno Gomes,PJ,64271240399830,ES,Vitória,Pessoa Física,Orgânico,2025-03-04
+229,Kaique Martins,PF,83716591493,RS,Pelotas,Pessoa Física,WhatsApp,2025-09-22
+230,Eduardo Costa,PF,61725864138,RJ,Duque de Caxias,Pessoa Física,Anúncio,2023-04-11
+231,Helena Barbosa,PF,26437325786,PR,Maringá,Varejo,Anúncio,2024-08-04
+232,Kaique Costa,PF,67224661738,SC,Blumenau,Pessoa Física,Anúncio,2025-03-05
+233,Eduardo Martins,PF,79651383025,GO,Luziânia,Pessoa Física,Anúncio,2023-02-09
+234,Diego Lima,PF,69955805478,MS,Campo Grande,Pessoa Física,Indicação,2024-07-15
+235,Kaique Lima,PF,66652276289,ES,Vitória,Pessoa Física,Orgânico,2023-03-02
+236,Eduardo Martins,PF,62924852036,PA,Belém,Pessoa Física,Marketplace,2025-09-13
+237,Larissa Barbosa,PF,72171045222,CE,Sobral,Pessoa Física,Orgânico,2025-01-16
+238,Rafael Cardoso,PJ,30030350665680,MG,Betim,Pessoa Física,WhatsApp,2023-07-26
+239,Vanessa Pereira,PF,13689544045,SP,São Paulo,Pessoa Física,Indicação,2024-07-25
+240,Marcos Silva,PF,27839197263,SC,Chapecó,Pessoa Física,Orgânico,2023-04-30
+241,Larissa Costa,PF,71231366512,SC,Florianópolis,Varejo,Indicação,2025-05-31
+242,Natália Cardoso,PF,92140382743,MT,Tangará da Serra,Pessoa Física,Orgânico,2023-08-04
+243,Helena Gomes,PF,65329194935,ES,Vila Velha,Varejo,WhatsApp,2024-10-27
+244,Rafael Ribeiro,PF,63256276190,PE,Jaboatão,Atacado,Marketplace,2023-03-28
+245,Fernanda Gomes,PF,64676687842,SC,Joinville,Atacado,Anúncio,2023-06-23
+246,Marcos Oliveira,PF,26502977102,GO,Rio Verde,Corporativo,Anúncio,2025-12-10
+247,Thiago Teixeira,PF,85744694593,SC,Chapecó,Varejo,WhatsApp,2024-02-27
+248,Igor Lima,PF,85846363674,RJ,Nova Iguaçu,Varejo,Indicação,2023-05-15
+249,Otávio Costa,PF,43755010880,SC,,Varejo,Anúncio,2025-02-06
+250,Bruno Oliveira,PJ,07536213871589,MT,Várzea Grande,Pessoa Física,Anúncio,2023-08-09
+251,Kaique Pereira,PF,71221135342,CE,Maracanaú,Pessoa Física,Orgânico,2024-10-07
+252,Guilherme Teixeira,PF,19528891698,SP,Santos,Pessoa Física,Indicação,2025-06-06
+253,Carla Gomes,PF,28445715852,GO,Aparecida de Goiânia,Corporativo,Indicação,2025-01-19
+254,Fernanda Barbosa,PF,05759650517,SP,Sorocaba,Atacado,Marketplace,2023-09-28
+255,Natália Santos,PJ,19341292596033,BA,Vitória da Conquista,Pessoa Física,Indicação,2023-09-17
+256,Diego Santos,PF,22532432495,GO,Rio Verde,Varejo,Indicação,2023-09-01
+257,Juliana Ribeiro,PF,59623441139,SP,Campinas,Pessoa Física,Anúncio,2024-11-23
+258,Larissa Silva,PF,78145443089,SC,Chapecó,Pessoa Física,Marketplace,2025-01-06
+259,Bruno Ferreira,PF,04579479828,SP,Ribeirão Preto,Pessoa Física,Anúncio,2024-07-24
+260,Sabrina Ferreira,PF,40783431905,CE,Caucaia,Varejo,Marketplace,2024-03-13
+261,Juliana Ribeiro,PF,06966898258,MT,Sinop,Varejo,Orgânico,2023-03-10
+262,Guilherme Costa,PF,26086782481,RS,Porto Alegre,Pessoa Física,Indicação,2025-07-04
+263,Natália Ferreira,PF,82556831467,MT,Tangará da Serra,Corporativo,Marketplace,2024-12-24
+264,Fernanda Cardoso,PF,73901091687,MG,Uberlândia,Pessoa Física,Marketplace,2024-11-30
+265,Otávio Silva,PF,90456653142,PA,Belém,Pessoa Física,Orgânico,2023-04-24
+266,Igor Carvalho,PF,57550641279,AM,Manaus,Corporativo,Indicação,2023-11-12
+267,Igor Ferreira,PF,59129162343,CE,Fortaleza,Varejo,Orgânico,2023-11-29
+268,Otávio Carvalho,PJ,89550208238760,PR,Ponta Grossa,Corporativo,Orgânico,2024-10-17
+269,Eduardo Gomes,PF,55379233808,BA,Juazeiro,Varejo,Marketplace,2025-05-12
+270,Eduardo Ferreira,PF,74587206109,MG,Belo Horizonte,Pessoa Física,Marketplace,2025-08-07
+271,Kaique Gomes,PF,46210304355,AM,Manaus,Pessoa Física,Orgânico,2024-07-26
+272,Rafael Ferreira,PF,34039949518,MS,Dourados,Pessoa Física,WhatsApp,2024-02-04
+273,Ana Silva,PF,46637532721,SP,Sorocaba,Corporativo,Anúncio,2024-03-23
+274,Bruno Carvalho,PF,83678678907,GO,Luziânia,Atacado,WhatsApp,2025-03-18
+275,Guilherme Pereira,PF,18021600595,MT,Várzea Grande,Pessoa Física,Marketplace,2023-12-15
+276,Ana Barbosa,PF,46535026301,PE,Olinda,Pessoa Física,WhatsApp,2024-03-31
+277,Juliana Pereira,PF,83075483576,MG,Juiz de Fora,Pessoa Física,Marketplace,2025-05-11
+278,Guilherme Silva,PJ,26711618196423,AM,Parintins,Pessoa Física,WhatsApp,2024-08-18
+279,Fernanda Barbosa,PF,77259261812,MS,Campo Grande,Pessoa Física,Indicação,2024-05-27
+280,Igor Teixeira,PF,43160903910,MT,Sinop,Varejo,Orgânico,2025-03-15
+281,Marcos Costa,PF,70848219793,SP,Campinas,Corporativo,Anúncio,2023-11-13
+282,Thiago Gomes,PF,45423603201,MS,Corumbá,Pessoa Física,Marketplace,2023-03-08
+283,Ana Lima,PF,41358041447,SP,Campinas,Varejo,Orgânico,2025-05-14
+284,Igor Ferreira,PF,49100310298,PE,Jaboatão,Pessoa Física,WhatsApp,2024-05-13
+285,Kaique Lima,PF,09243477567,PE,Olinda,Corporativo,Orgânico,2023-12-23
+286,Kaique Cardoso,PF,13174652192,GO,Rio Verde,Varejo,Marketplace,2023-04-15
+287,Natália Ferreira,PJ,13929486054251,SC,Florianópolis,Varejo,Anúncio,2025-10-12
+288,Eduardo Ferreira,PF,68046032084,ES,Serra,Pessoa Física,Marketplace,2025-03-05
+289,Sabrina Barbosa,PF,75896348451,PA,Santarém,Pessoa Física,WhatsApp,2023-10-28
+290,Patrícia Ribeiro,PF,96354188832,BA,Salvador,Atacado,Anúncio,2024-10-28
+291,Larissa Silva,PF,07388191449,DF,Taguatinga,Varejo,Indicação,2024-05-23
+292,Otávio Barbosa,PF,68588843979,PA,Castanhal,Varejo,Orgânico,2023-12-25
+293,Rafael Santos,PF,59771577933,DF,Ceilândia,Varejo,Marketplace,2023-12-08
+294,Thiago Cardoso,PF,99139171176,SC,Itajaí,Pessoa Física,Marketplace,2023-03-25
+295,Igor Pereira,PJ,58356736458369,MS,Corumbá,Varejo,Orgânico,2025-12-04
+296,Ana Pereira,PF,79529623280,AM,Itacoatiara,Varejo,Orgânico,2025-10-11
+297,Diego Carvalho,PF,75067753103,GO,Aparecida de Goiânia,Varejo,Anúncio,2025-08-12
+298,Larissa Pereira,PF,60952919234,PA,Castanhal,Pessoa Física,Orgânico,2023-12-12
+299,Carla Gomes,PF,92932663135,BA,Vitória da Conquista,Pessoa Física,Marketplace,2025-12-28
+300,Helena Santos,PF,00904734076,BA,Feira de Santana,Pessoa Física,Orgânico,2023-10-29
+301,Vanessa Lima,PJ,88303151962974,SC,Itajaí,Pessoa Física,WhatsApp,2025-06-22
+302,Carla Teixeira,PF,13572722414,MT,Rondonópolis,Pessoa Física,WhatsApp,2023-04-21
+303,Juliana Ribeiro,PJ,32736762822836,RS,Santa Maria,Corporativo,WhatsApp,2023-12-07
+304,Bruno Cardoso,PF,06875823067,MT,Tangará da Serra,Pessoa Física,Indicação,2024-09-24
+305,Eduardo Ribeiro,PF,77167249475,SP,Sorocaba,Pessoa Física,Orgânico,2025-11-26
+306,Patrícia Oliveira,PF,66679296534,GO,Goiânia,Varejo,Marketplace,2023-10-19
+307,Larissa Gomes,PF,63284600817,PR,Maringá,Pessoa Física,Indicação,2024-04-18
+308,Carla Martins,PF,94849243708,AM,Manaus,Pessoa Física,WhatsApp,2025-07-12
+309,Patrícia Cardoso,PF,03514980550,MG,Uberlândia,Pessoa Física,Anúncio,2024-06-01
+310,Guilherme Cardoso,PF,65622771258,ES,Vitória,Varejo,Orgânico,2025-01-18
+311,Sabrina Almeida,PJ,22869791220760,ES,Vitória,Corporativo,WhatsApp,2024-04-03
+312,Juliana Santos,PF,11442925438,AM,Tefé,Pessoa Física,Marketplace,2023-01-05
+313,Juliana Silva,PF,90414643323,PE,Jaboatão,Varejo,Orgânico,2023-11-07
+314,Rafael Ferreira,PF,36005622637,GO,Luziânia,Varejo,Indicação,2024-09-11
+315,Diego Ribeiro,PF,11537531172,DF,Samambaia,Atacado,Orgânico,2023-01-22
+316,Otávio Ribeiro,PJ,58821763517724,MG,Uberlândia,Corporativo,Indicação,2023-09-12
+317,Thiago Carvalho,PF,30194103939,DF,Samambaia,Pessoa Física,Anúncio,2025-11-10
+318,Carla Costa,PF,47700991699,DF,Taguatinga,Pessoa Física,Anúncio,2023-01-17
+319,Natália Martins,PF,28691603048,PE,Olinda,Pessoa Física,Orgânico,2023-09-29
+320,Larissa Martins,PF,63437205842,RS,Pelotas,Corporativo,Orgânico,2024-11-09
+321,Natália Santos,PF,09710138180,ES,Vila Velha,Corporativo,Anúncio,2024-09-09
+322,Rafael Teixeira,PF,72942284375,MS,Campo Grande,Varejo,Orgânico,2023-08-13
+323,Kaique Teixeira,PF,64000557819,PE,Jaboatão,Varejo,Anúncio,2023-03-07
+324,Helena Gomes,PF,96511064110,DF,Ceilândia,Pessoa Física,Indicação,2025-09-13
+325,Ana Pereira,PF,66610177203,MG,Contagem,Varejo,Indicação,2024-08-26
+326,Ana Barbosa,PF,81741956036,MS,Ponta Porã,Varejo,Indicação,2024-09-20
+327,Ana Gomes,PJ,60697296019204,SC,Florianópolis,Pessoa Física,Orgânico,2023-03-05
+328,Helena Gomes,PF,55697000339,MG,Betim,Pessoa Física,Orgânico,2023-08-18
+329,Fernanda Gomes,PF,30829788164,ES,Linhares,Varejo,Marketplace,2023-03-21
+330,Guilherme Souza,PF,67539682834,GO,Luziânia,Pessoa Física,Marketplace,2025-12-09
+331,Fernanda Carvalho,PF,83299332052,CE,Maracanaú,Pessoa Física,WhatsApp,2025-04-23
+332,Sabrina Silva,PJ,81656146385301,RS,,Pessoa Física,WhatsApp,2024-08-21
+333,Diego Teixeira,PF,44871541650,RS,Caxias do Sul,Pessoa Física,Indicação,2025-01-16
+334,Diego Ferreira,PF,47331296141,BA,Vitória da Conquista,Varejo,Marketplace,2023-07-01
+335,Patrícia Silva,PF,41656422244,MT,Tangará da Serra,Varejo,Anúncio,2025-12-19
+336,Marcos Barbosa,PF,60289931119,AM,Tefé,Atacado,Marketplace,2024-07-20
+337,Guilherme Gomes,PF,88734885834,RJ,Niterói,Pessoa Física,WhatsApp,2024-07-20
+338,Rafael Santos,PF,83742264370,SC,Florianópolis,Pessoa Física,Marketplace,2025-11-17
+339,Fernanda Martins,PF,09650545055,MT,Cuiabá,Pessoa Física,Anúncio,2023-04-16
+340,Igor Lima,PF,20976761482,ES,Vila Velha,Pessoa Física,Anúncio,2024-04-09
+341,Sabrina Costa,PF,90336126288,MS,Três Lagoas,Atacado,Orgânico,2023-04-07
+342,Larissa Gomes,PF,35336212923,SP,Santos,Varejo,Anúncio,2024-04-11
+343,Natália Teixeira,PF,61219972668,PE,Recife,Varejo,Marketplace,2023-10-20
+344,Natália Lima,PF,17158018065,RS,Pelotas,Corporativo,Indicação,2024-05-20
+345,Juliana Ribeiro,PF,38830119562,RS,Canoas,Pessoa Física,Orgânico,2025-02-08
+346,Thiago Cardoso,PF,87746535397,CE,Juazeiro do Norte,Pessoa Física,Indicação,2023-11-03
+347,Helena Ferreira,PF,77492502549,PA,Ananindeua,Varejo,Anúncio,2023-02-26
+348,Natália Ribeiro,PF,64467255095,PR,Londrina,Pessoa Física,Indicação,2023-06-27
+349,Carla Ribeiro,PF,26690415549,CE,Maracanaú,Varejo,Anúncio,2025-02-23
+350,Eduardo Oliveira,PF,54028495545,DF,Samambaia,Pessoa Física,Anúncio,2024-09-26
+351,Kaique Santos,PF,00455427604,PR,Cascavel,Varejo,Indicação,2025-12-08
+352,Sabrina Almeida,PJ,77296468214089,GO,Aparecida de Goiânia,Pessoa Física,Indicação,2025-09-07
+353,Larissa Oliveira,PF,69064235616,GO,Aparecida de Goiânia,Varejo,Marketplace,2023-06-26
+354,Patrícia Oliveira,PF,90863767006,CE,Maracanaú,Varejo,Anúncio,2025-03-17
+355,Igor Lima,PF,32471941081,RS,Santa Maria,Pessoa Física,Indicação,2023-04-09
+356,Sabrina Santos,PF,46521740151,SP,Ribeirão Preto,Corporativo,Orgânico,2023-04-16
+357,Larissa Gomes,PF,31767032682,ES,Cariacica,Corporativo,Anúncio,2025-05-19
+358,Diego Oliveira,PF,75809421981,RJ,Duque de Caxias,Atacado,Indicação,2024-03-15
+359,Fernanda Carvalho,PF,47513329279,MG,Juiz de Fora,Pessoa Física,Indicação,2025-12-29
+360,Guilherme Lima,PF,77117774502,BA,Ilhéus,Atacado,WhatsApp,2023-01-06
+361,Igor Costa,PF,51102969258,SP,Santos,Pessoa Física,Orgânico,2024-07-04
+362,Fernanda Silva,PF,36689658636,SC,Itajaí,Pessoa Física,Marketplace,2023-12-04
+363,Guilherme Oliveira,PJ,52569519527338,AM,Parintins,Pessoa Física,Orgânico,2025-12-16
+364,Otávio Ferreira,PF,85381758480,MT,Várzea Grande,Atacado,Indicação,2025-01-03
+365,Eduardo Costa,PF,70619718250,AM,Tefé,Pessoa Física,Marketplace,2025-04-25
+366,Helena Cardoso,PF,12558170211,RJ,Niterói,Varejo,Indicação,2023-11-15
+367,Carla Barbosa,PF,59685038008,DF,Taguatinga,Pessoa Física,Marketplace,2025-09-07
+368,Otávio Teixeira,PF,09765048948,PA,,Corporativo,Marketplace,2025-07-10
+369,Guilherme Oliveira,PF,70665785399,PR,Cascavel,Pessoa Física,Orgânico,2025-05-09
+370,Igor Silva,PF,66141582910,AM,Manacapuru,Pessoa Física,WhatsApp,2024-06-07
+371,Eduardo Gomes,PJ,91773030689878,PE,Olinda,Varejo,WhatsApp,2025-10-07
+372,Kaique Teixeira,PF,76934932125,AM,Tefé,Varejo,Anúncio,2025-01-03
+373,Ana Santos,PF,81678714996,RS,Porto Alegre,Corporativo,Orgânico,2023-03-14
+374,Helena Teixeira,PF,96091327068,MG,Uberlândia,Pessoa Física,Orgânico,2025-08-26
+375,Patrícia Gomes,PF,73836500199,RJ,Nova Iguaçu,Corporativo,Marketplace,2023-01-23
+376,Marcos Ribeiro,PF,49092073273,RJ,Niterói,Pessoa Física,WhatsApp,2025-01-18
+377,Vanessa Ferreira,PF,71036217442,SP,Sorocaba,Pessoa Física,Marketplace,2023-10-01
+378,Marcos Teixeira,PF,00602937398,CE,Sobral,Pessoa Física,Anúncio,2025-09-10
+379,Ana Silva,PF,46493866387,SC,Itajaí,Corporativo,Orgânico,2025-03-10
+380,Rafael Costa,PF,88188295323,DF,Guará,Varejo,Anúncio,2025-06-04
+381,Sabrina Barbosa,PF,06765378039,CE,Sobral,Atacado,Anúncio,2025-02-06
+382,Otávio Lima,PJ,89141852078898,BA,Juazeiro,Pessoa Física,Orgânico,2024-09-13
+383,Diego Oliveira,PF,78947816311,RJ,Petrópolis,Atacado,Orgânico,2025-08-04
+384,Marcos Costa,PF,18716656956,PR,Maringá,Atacado,Orgânico,2023-11-22
+385,Helena Ferreira,PJ,53847667756537,SP,Ribeirão Preto,Atacado,Orgânico,2024-08-02
+386,Carla Martins,PJ,87783037857066,BA,Salvador,Pessoa Física,Marketplace,2023-11-23
+387,Rafael Souza,PF,57456723423,PE,Caruaru,Pessoa Física,Anúncio,2023-05-05
+388,Marcos Silva,PF,33456384711,MS,Campo Grande,Corporativo,Anúncio,2025-08-17
+389,Eduardo Ribeiro,PF,43414672355,CE,Sobral,Varejo,Indicação,2024-06-28
+390,Juliana Almeida,PF,73682833665,PR,Cascavel,Corporativo,WhatsApp,2023-03-01
+391,Helena Gomes,PF,20988584012,ES,Vila Velha,Corporativo,Marketplace,2025-06-23
+392,Juliana Lima,PF,39362651418,SP,Campinas,Pessoa Física,Indicação,2025-10-28
+393,Thiago Souza,PF,79827197698,GO,Anápolis,Corporativo,Indicação,2024-12-26
+394,Larissa Gomes,PJ,81092406885654,GO,Goiânia,Pessoa Física,Indicação,2023-12-25
+395,Rafael Lima,PF,59246502667,RJ,Nova Iguaçu,Pessoa Física,Indicação,2025-07-30
+396,Otávio Silva,PF,96533847112,BA,Feira de Santana,Pessoa Física,Anúncio,2025-03-20
+397,Kaique Pereira,PF,16652514101,DF,Brasília,Varejo,Indicação,2023-11-09
+398,Otávio Gomes,PJ,14564107922322,MS,Dourados,Pessoa Física,Anúncio,2023-12-28
+399,Diego Souza,PJ,47793430324178,MT,Cuiabá,Corporativo,Anúncio,2025-12-18
+400,Eduardo Oliveira,PF,90198535585,CE,Sobral,Corporativo,Orgânico,2025-11-10
+401,Otávio Costa,PF,06721184590,PE,Petrolina,Pessoa Física,Anúncio,2025-01-11
+402,Natália Lima,PF,28507177842,MG,Belo Horizonte,Atacado,Anúncio,2023-02-09
+403,Igor Pereira,PF,85616527179,MG,Uberlândia,Corporativo,Indicação,2023-09-09
+404,Vanessa Lima,PF,51555262556,PR,Londrina,Varejo,Anúncio,2024-01-23
+405,Eduardo Ribeiro,PF,78778225470,ES,Vitória,Varejo,Orgânico,2024-08-10
+406,Guilherme Lima,PF,17833541587,RS,Porto Alegre,Pessoa Física,Orgânico,2025-08-08
+407,Sabrina Ferreira,PF,86820196283,PR,Cascavel,Pessoa Física,Anúncio,2025-07-18
+408,Helena Santos,PF,52022502536,SP,Santos,Pessoa Física,Indicação,2023-10-28
+409,Carla Cardoso,PF,69826657138,SC,Florianópolis,Atacado,Orgânico,2023-04-30
+410,Larissa Lima,PF,80421056537,RS,Santa Maria,Varejo,Orgânico,2023-10-30
+411,Thiago Lima,PF,69324548054,RS,Canoas,Corporativo,Orgânico,2023-09-15
+412,Marcos Carvalho,PF,26850046338,RS,Porto Alegre,Pessoa Física,Anúncio,2025-09-12
+413,Thiago Teixeira,PF,00194139622,DF,Taguatinga,Pessoa Física,Orgânico,2023-01-16
+414,Rafael Carvalho,PF,07123667233,MT,Tangará da Serra,Pessoa Física,Anúncio,2025-06-29
+415,Guilherme Carvalho,PF,07549196267,AM,Tefé,Pessoa Física,Indicação,2024-12-20
+416,Bruno Lima,PJ,33810695152863,SP,Campinas,Pessoa Física,WhatsApp,2023-04-26
+417,Rafael Santos,PF,66635043599,PR,Maringá,Corporativo,Indicação,2025-01-20
+418,Natália Martins,PJ,46146694995037,MT,Tangará da Serra,Pessoa Física,Orgânico,2024-09-27
+419,Natália Souza,PJ,59808385401555,PA,Ananindeua,Pessoa Física,Anúncio,2023-01-05
+420,Kaique Silva,PF,15014669837,AM,Manaus,Pessoa Física,Marketplace,2023-09-02
+421,Sabrina Ferreira,PF,08379790165,CE,Maracanaú,Corporativo,Orgânico,2024-01-17
+422,Thiago Souza,PF,17091485779,SP,Sorocaba,Pessoa Física,WhatsApp,2023-08-24
+423,Igor Ribeiro,PF,49587168181,RJ,Nova Iguaçu,Corporativo,Anúncio,2024-09-26
+424,Juliana Ribeiro,PF,87171592143,GO,Goiânia,Pessoa Física,Orgânico,2024-11-05
+425,Eduardo Cardoso,PF,04212099384,RJ,Petrópolis,Pessoa Física,Orgânico,2023-07-05
+426,Diego Oliveira,PJ,91272844470778,PA,Marabá,Pessoa Física,WhatsApp,2023-05-16
+427,Juliana Barbosa,PF,97543835032,MS,Dourados,Varejo,WhatsApp,2024-12-19
+428,Larissa Barbosa,PF,45741508722,PE,Caruaru,Varejo,Marketplace,2024-05-29
+429,Helena Ferreira,PF,03091652818,PR,Curitiba,Pessoa Física,Orgânico,2023-10-18
+430,Carla Gomes,PF,76842194839,AM,Parintins,Pessoa Física,Marketplace,2023-10-08
+431,Patrícia Souza,PF,83472025139,DF,Guará,Pessoa Física,Orgânico,2023-02-12
+432,Igor Carvalho,PF,00400118157,AM,Itacoatiara,Atacado,Anúncio,2025-07-24
+433,Marcos Costa,PF,66380180110,RS,Pelotas,Pessoa Física,Indicação,2025-07-11
+434,Ana Teixeira,PF,15609068541,RJ,Niterói,Pessoa Física,WhatsApp,2024-08-30
+435,Helena Ferreira,PF,28307600106,RJ,Nova Iguaçu,Varejo,Anúncio,2024-01-18
+436,Otávio Almeida,PF,16197340050,MT,Várzea Grande,Varejo,Anúncio,2023-08-24
+437,Kaique Costa,PF,63155715828,RS,Canoas,Pessoa Física,Orgânico,2023-12-03
+438,Vanessa Souza,PJ,74892901039660,PE,Petrolina,Varejo,Anúncio,2025-10-12
+439,Fernanda Pereira,PF,53422954074,GO,Aparecida de Goiânia,Pessoa Física,Orgânico,2023-04-08
+440,Sabrina Santos,PF,36158402053,PE,Jaboatão,Pessoa Física,Marketplace,2025-06-20
+441,Eduardo Barbosa,PF,16139023529,AM,Manacapuru,Corporativo,Orgânico,2023-11-30
+442,Thiago Cardoso,PF,09501123637,RJ,Niterói,Atacado,Indicação,2023-10-18
+443,Juliana Gomes,PF,22238229618,DF,Ceilândia,Pessoa Física,Orgânico,2025-06-06
+444,Marcos Teixeira,PF,11461717046,RJ,Duque de Caxias,Pessoa Física,Anúncio,2025-11-19
+445,Sabrina Almeida,PJ,26663773798778,ES,Cariacica,Pessoa Física,Orgânico,2025-12-22
+446,Fernanda Ferreira,PF,27139284205,PA,Ananindeua,Pessoa Física,Anúncio,2023-10-21
+447,Fernanda Souza,PF,45020391605,RJ,Rio de Janeiro,Pessoa Física,Anúncio,2024-10-09
+448,Larissa Gomes,PF,93152886667,ES,Cariacica,Pessoa Física,Indicação,2023-11-17
+449,Diego Gomes,PF,49306693453,AM,Tefé,Pessoa Física,WhatsApp,2023-08-01
+450,Juliana Lima,PF,74742957539,SC,Blumenau,Pessoa Física,Orgânico,2024-02-28
+451,Juliana Ribeiro,PF,39400953866,RJ,Rio de Janeiro,Atacado,Indicação,2023-03-10
+452,Fernanda Silva,PF,61070712767,MG,Betim,Atacado,WhatsApp,2023-06-30
+453,Ana Ribeiro,PF,60821815470,RS,Santa Maria,Pessoa Física,Orgânico,2024-10-14
+454,Guilherme Pereira,PF,14476194990,PE,Caruaru,Atacado,Marketplace,2025-01-22
+455,Larissa Barbosa,PF,54435412186,BA,Vitória da Conquista,Pessoa Física,WhatsApp,2023-10-24
+456,Natália Oliveira,PF,33029018504,ES,Vitória,Pessoa Física,Marketplace,2024-09-02
+457,Vanessa Souza,PF,73365922165,PE,Petrolina,Corporativo,Indicação,2025-04-17
+458,Rafael Silva,PF,36315444922,AM,Manaus,Varejo,Indicação,2025-09-07
+459,Carla Martins,PF,50155618413,SP,Ribeirão Preto,Pessoa Física,Anúncio,2024-09-15
+460,Kaique Souza,PF,24444994988,PA,Santarém,Varejo,Indicação,2023-09-21
+461,Helena Ferreira,PJ,24300648608459,SC,Blumenau,Pessoa Física,WhatsApp,2025-02-20
+462,Kaique Carvalho,PF,60140171150,GO,Aparecida de Goiânia,Pessoa Física,Orgânico,2023-07-06
+463,Bruno Carvalho,PF,29693623181,GO,Goiânia,Corporativo,Marketplace,2023-06-02
+464,Fernanda Barbosa,PF,24433295996,DF,Ceilândia,Pessoa Física,Anúncio,2024-01-29
+465,Sabrina Barbosa,PF,81947208416,AM,Manacapuru,Pessoa Física,Orgânico,2023-12-27
+466,Igor Ribeiro,PF,04774381018,SP,Santos,Atacado,Indicação,2023-06-10
+467,Bruno Ferreira,PF,40108402658,SP,Santos,Atacado,Marketplace,2023-02-27
+468,Marcos Gomes,PF,00037626617,SC,Joinville,Corporativo,Indicação,2025-11-02
+469,Igor Ferreira,PF,40376273409,MS,Dourados,Pessoa Física,Marketplace,2025-01-12
+470,Natália Gomes,PF,81575292338,MT,Sinop,Varejo,Anúncio,2025-02-25
+471,Carla Costa,PJ,57998999611738,RJ,Rio de Janeiro,Atacado,WhatsApp,2023-03-14
+472,Eduardo Oliveira,PF,96724982948,DF,Guará,Varejo,Indicação,2025-05-22
+473,Vanessa Barbosa,PF,56137800648,PA,Ananindeua,Corporativo,Marketplace,2024-02-04
+474,Marcos Souza,PF,03078138098,DF,Samambaia,Varejo,Orgânico,2025-03-30
+475,Rafael Costa,PF,11605053784,ES,Cariacica,Pessoa Física,Anúncio,2024-06-21
+476,Igor Martins,PF,66922378216,PA,Santarém,Varejo,WhatsApp,2023-09-24
+477,Fernanda Almeida,PF,53188752402,MS,Campo Grande,Pessoa Física,Orgânico,2023-10-15
+478,Patrícia Cardoso,PF,44092544878,DF,Ceilândia,Atacado,Anúncio,2023-06-04
+479,Natália Santos,PF,32453415758,MG,Contagem,Corporativo,Marketplace,2025-06-28
+480,Rafael Souza,PF,99083442869,DF,Brasília,Varejo,Indicação,2024-04-15
+481,Igor Carvalho,PF,94754769769,MS,Dourados,Pessoa Física,Marketplace,2025-05-04
+482,Thiago Costa,PF,17347284334,AM,Parintins,Pessoa Física,Indicação,2025-06-27
+483,Ana Pereira,PJ,91584531695419,ES,Serra,Varejo,WhatsApp,2023-07-03
+484,Bruno Oliveira,PF,89364223517,RS,Pelotas,Pessoa Física,Anúncio,2023-12-29
+485,Marcos Ferreira,PF,48203937826,MS,Dourados,Atacado,Indicação,2023-05-17
+486,Juliana Oliveira,PF,23268228457,RS,Pelotas,Pessoa Física,Marketplace,2023-01-11
+487,Patrícia Cardoso,PJ,18364761185211,PE,Petrolina,Pessoa Física,Indicação,2025-12-17
+488,Larissa Cardoso,PF,99324156931,BA,Juazeiro,Varejo,Orgânico,2024-12-24
+489,Helena Silva,PF,13607474105,PE,Jaboatão,Corporativo,Anúncio,2024-05-10
+490,Bruno Souza,PJ,58813210051117,MG,Belo Horizonte,Varejo,Indicação,2023-08-08
+491,Fernanda Costa,PJ,69124612403754,BA,Feira de Santana,Pessoa Física,Marketplace,2024-10-09
+492,Ana Lima,PF,49559104321,SP,Campinas,Corporativo,Anúncio,2024-08-17
+493,Igor Silva,PF,86613656647,PE,Caruaru,Pessoa Física,Marketplace,2023-09-02
+494,Marcos Barbosa,PF,20902123149,RJ,Niterói,Atacado,Marketplace,2023-01-17
+495,Fernanda Gomes,PF,19454315955,ES,Vila Velha,Pessoa Física,Orgânico,2024-05-29
+496,Fernanda Pereira,PF,63158388257,SP,Ribeirão Preto,Varejo,Indicação,2024-07-11
+497,Diego Lima,PF,46968888201,BA,Feira de Santana,Pessoa Física,Indicação,2025-05-24
+498,Otávio Souza,PF,26540637120,AM,Parintins,Atacado,Orgânico,2024-03-07
+499,Guilherme Barbosa,PF,29442269774,SC,Blumenau,Varejo,Anúncio,2023-04-17
+500,Juliana Pereira,PF,07850792173,SC,Chapecó,Varejo,Anúncio,2025-08-22
+501,Igor Cardoso,PF,77205483287,PR,Cascavel,Pessoa Física,Marketplace,2024-03-29
+502,Ana Lima,PJ,69787406796551,GO,Aparecida de Goiânia,Varejo,Anúncio,2025-03-02
+503,Eduardo Oliveira,PF,00972442436,RJ,Petrópolis,Pessoa Física,Orgânico,2023-02-17
+504,Natália Martins,PF,70498770978,DF,Samambaia,Pessoa Física,Anúncio,2023-02-09
+505,Diego Costa,PF,92064029326,ES,Cariacica,Atacado,Marketplace,2023-01-26
+506,Bruno Ferreira,PF,63851380064,SC,Blumenau,Varejo,Indicação,2025-05-15
+507,Natália Santos,PF,24132569032,MT,Rondonópolis,Varejo,Orgânico,2023-09-21
+508,Thiago Almeida,PF,55897108920,MT,Tangará da Serra,Varejo,WhatsApp,2025-05-17
+509,Fernanda Cardoso,PJ,65857701712721,GO,Anápolis,Corporativo,Orgânico,2025-11-01
+510,Sabrina Barbosa,PF,04679672330,PA,Castanhal,Pessoa Física,Orgânico,2024-12-28
+511,Kaique Carvalho,PJ,92430921319132,PA,Castanhal,Atacado,Anúncio,2025-12-16
+512,Ana Ferreira,PJ,00520224937705,SC,Joinville,Varejo,Indicação,2025-10-15
+513,Carla Lima,PJ,45141950597281,SP,Santos,Pessoa Física,Marketplace,2025-03-03
+514,Rafael Martins,PF,21975620890,CE,Maracanaú,Atacado,Orgânico,2025-05-30
+515,Guilherme Costa,PJ,05079228320890,SC,Florianópolis,Pessoa Física,Marketplace,2024-10-23
+516,Bruno Lima,PF,81134861586,AM,Parintins,Pessoa Física,Indicação,2023-08-28
+517,Carla Carvalho,PF,21443115954,MG,Belo Horizonte,Atacado,Marketplace,2023-04-23
+518,Natália Santos,PF,96757566782,MG,Contagem,Pessoa Física,WhatsApp,2024-02-23
+519,Eduardo Ferreira,PF,60586263426,PR,Londrina,Pessoa Física,Marketplace,2024-06-04
+520,Juliana Santos,PF,14974909389,PR,Londrina,Pessoa Física,Orgânico,2024-01-19
+521,Ana Gomes,PF,66721347250,RS,Canoas,Pessoa Física,Orgânico,2023-04-22
+522,Guilherme Cardoso,PF,09883562764,PA,Castanhal,Pessoa Física,WhatsApp,2024-07-07
+523,Vanessa Barbosa,PF,43899737282,AM,Manacapuru,Pessoa Física,Indicação,2024-06-30
+524,Thiago Ferreira,PJ,40035081923187,BA,Vitória da Conquista,Pessoa Física,Anúncio,2025-11-11
+525,Rafael Cardoso,PF,01681251304,MT,Cuiabá,Pessoa Física,WhatsApp,2025-11-11
+526,Guilherme Lima,PF,74245111971,BA,Ilhéus,Pessoa Física,Marketplace,2024-11-05
+527,Natália Barbosa,PF,34189202583,RJ,Duque de Caxias,Pessoa Física,Indicação,2025-07-21
+528,Patrícia Ribeiro,PF,22004602996,MS,Ponta Porã,Corporativo,Marketplace,2023-12-09
+529,Kaique Almeida,PF,55323666606,RS,Caxias do Sul,Pessoa Física,Orgânico,2025-11-28
+530,Kaique Santos,PF,86527424197,BA,Ilhéus,Varejo,Marketplace,2025-10-28
+531,Otávio Gomes,PF,37036078527,PA,Santarém,Varejo,WhatsApp,2023-05-18
+532,Guilherme Ferreira,PF,37600002099,AM,Itacoatiara,Atacado,Orgânico,2025-02-06
+533,Ana Martins,PF,13765966552,RS,Canoas,Atacado,Orgânico,2024-05-16
+534,Fernanda Cardoso,PF,59315795724,MS,Corumbá,Pessoa Física,Marketplace,2023-10-19
+535,Sabrina Carvalho,PJ,43783188927778,PE,Olinda,Varejo,Anúncio,2024-03-27
+536,Diego Gomes,PF,94018803236,GO,Rio Verde,Pessoa Física,Orgânico,2025-09-20
+537,Carla Teixeira,PJ,54466013498601,MS,Ponta Porã,Pessoa Física,Orgânico,2025-10-09
+538,Rafael Barbosa,PF,45618450852,DF,Samambaia,Varejo,Orgânico,2024-01-13
+539,Vanessa Martins,PF,33098835445,MT,Sinop,Atacado,Orgânico,2024-05-21
+540,Fernanda Ferreira,PF,47018883402,AM,Itacoatiara,Pessoa Física,Marketplace,2024-07-19
+541,Patrícia Ferreira,PF,73414755922,DF,Taguatinga,Pessoa Física,Indicação,2025-03-14
+542,Juliana Souza,PJ,64901348441455,PA,Marabá,Corporativo,Indicação,2024-06-09
+543,Ana Teixeira,PF,64111688306,RJ,Petrópolis,Varejo,Orgânico,2024-03-09
+544,Sabrina Ribeiro,PF,06386748563,GO,Goiânia,Atacado,Anúncio,2025-10-09
+545,Kaique Martins,PF,48303340134,PA,Castanhal,Varejo,Orgânico,2024-02-13
+546,Sabrina Lima,PF,03302217056,PR,Ponta Grossa,Varejo,Marketplace,2023-10-19
+547,Sabrina Teixeira,PJ,85578274069109,MT,Rondonópolis,Pessoa Física,WhatsApp,2023-12-25
+548,Guilherme Carvalho,PF,52733251330,MS,Campo Grande,Varejo,Anúncio,2024-01-01
+549,Marcos Silva,PF,70903036057,DF,Ceilândia,Varejo,WhatsApp,2024-08-31
+550,Marcos Silva,PF,41610420759,MG,Contagem,Pessoa Física,Orgânico,2024-12-24
+551,Otávio Gomes,PF,44803728248,GO,Goiânia,Pessoa Física,Orgânico,2023-05-28
+552,Bruno Ferreira,PF,29025599663,SP,Ribeirão Preto,Corporativo,Marketplace,2025-08-29
+553,Natália Almeida,PF,86083448230,MT,Sinop,Pessoa Física,Anúncio,2023-10-05
+554,Sabrina Almeida,PF,30584990553,CE,Juazeiro do Norte,Pessoa Física,WhatsApp,2023-05-06
+555,Diego Silva,PF,83052357230,SC,Itajaí,Varejo,Orgânico,2025-01-02
+556,Juliana Souza,PF,35620560504,SC,Joinville,Varejo,Marketplace,2023-08-19
+557,Helena Souza,PF,67772833730,PR,Ponta Grossa,Pessoa Física,Orgânico,2025-04-02
+558,Patrícia Almeida,PJ,76516155791159,SC,Joinville,Pessoa Física,Orgânico,2025-11-05
+559,Diego Silva,PF,14436248308,BA,Juazeiro,Pessoa Física,Anúncio,2025-01-29
+560,Fernanda Gomes,PF,27750964877,MG,Juiz de Fora,Atacado,WhatsApp,2025-05-01
+561,Vanessa Cardoso,PF,16203117531,SC,Joinville,Pessoa Física,Indicação,2024-06-26
+562,Ana Almeida,PF,76511109369,MT,Sinop,Atacado,Indicação,2024-01-15
+563,Rafael Almeida,PF,93440753570,CE,Maracanaú,Pessoa Física,Orgânico,2024-11-03
+564,Juliana Souza,PF,68760774561,GO,Rio Verde,Pessoa Física,Orgânico,2024-01-27
+565,Thiago Lima,PF,27924912026,CE,Caucaia,Varejo,Orgânico,2025-08-18
+566,Ana Pereira,PF,39887759071,MT,Rondonópolis,Varejo,Marketplace,2024-05-29
+567,Patrícia Gomes,PF,32670620452,BA,,Pessoa Física,Orgânico,2024-06-30
+568,Ana Carvalho,PF,39398357443,GO,Rio Verde,Pessoa Física,Orgânico,2025-01-08
+569,Vanessa Carvalho,PF,10372135221,BA,Feira de Santana,Varejo,Indicação,2023-07-27
+570,Larissa Oliveira,PF,32893003453,SP,Ribeirão Preto,Pessoa Física,Indicação,2024-09-06
+571,Natália Ribeiro,PF,32560466556,MS,Campo Grande,Atacado,Anúncio,2025-04-06
+572,Ana Ferreira,PF,35341312459,GO,Aparecida de Goiânia,Corporativo,Orgânico,2025-04-30
+573,Marcos Almeida,PF,08376919086,SC,Blumenau,Atacado,Anúncio,2023-09-04
+574,Natália Oliveira,PF,43087979847,GO,Aparecida de Goiânia,Pessoa Física,Indicação,2023-03-01
+575,Helena Costa,PF,27646264390,CE,Juazeiro do Norte,Varejo,Orgânico,2023-08-01
+576,Thiago Santos,PF,72211189508,CE,Caucaia,Pessoa Física,Indicação,2025-06-16
+577,Otávio Teixeira,PF,65943757683,BA,Vitória da Conquista,Varejo,Orgânico,2023-10-18
+578,Vanessa Santos,PF,04682788896,SP,Sorocaba,Pessoa Física,WhatsApp,2023-03-05
+579,Patrícia Teixeira,PF,34726564707,CE,Sobral,Pessoa Física,WhatsApp,2024-10-16
+580,Larissa Ferreira,PF,88930602756,MG,Contagem,Varejo,Orgânico,2025-08-23
+581,Bruno Ribeiro,PF,71754455321,SP,Campinas,Atacado,Anúncio,2023-09-04
+582,Larissa Teixeira,PJ,32591309724795,SC,Itajaí,Corporativo,Anúncio,2023-02-17
+583,Thiago Almeida,PF,26660709856,RJ,Rio de Janeiro,Corporativo,Marketplace,2023-06-03
+584,Rafael Souza,PJ,08227945525937,AM,Itacoatiara,Pessoa Física,Anúncio,2023-05-21
+585,Otávio Costa,PJ,78797978895793,GO,Luziânia,Pessoa Física,Indicação,2023-08-13
+586,Vanessa Santos,PJ,18647042295132,PR,Cascavel,Corporativo,Orgânico,2023-07-17
+587,Bruno Souza,PF,92331754360,ES,Vila Velha,Pessoa Física,Orgânico,2024-11-29
+588,Ana Pereira,PF,95258155857,GO,Luziânia,Corporativo,Indicação,2023-09-02
+589,Rafael Carvalho,PF,78372892580,GO,Anápolis,Varejo,Indicação,2024-08-23
+590,Otávio Oliveira,PF,78817707690,MT,Tangará da Serra,Varejo,Marketplace,2024-03-16
+591,Sabrina Oliveira,PJ,95237939615800,MG,Belo Horizonte,Atacado,Marketplace,2024-12-18
+592,Fernanda Santos,PF,05091027925,ES,Vila Velha,Pessoa Física,Indicação,2024-12-19
+593,Igor Silva,PF,77188753885,SP,Sorocaba,Varejo,Anúncio,2024-10-11
+594,Bruno Carvalho,PF,73709551508,RJ,Duque de Caxias,Pessoa Física,WhatsApp,2025-09-05
+595,Thiago Teixeira,PF,74881020555,PA,Belém,Atacado,Marketplace,2023-08-04
+596,Thiago Oliveira,PF,09950377289,PA,Belém,Pessoa Física,Marketplace,2024-07-28
+597,Sabrina Oliveira,PF,53505005595,ES,Linhares,Varejo,WhatsApp,2024-03-08
+598,Juliana Martins,PJ,98394512525026,SC,Itajaí,Corporativo,Anúncio,2024-08-06
+599,Eduardo Oliveira,PF,69880622241,MT,Várzea Grande,Varejo,Indicação,2023-06-03
+600,Patrícia Oliveira,PF,51561187282,BA,Juazeiro,Atacado,Indicação,2023-12-16
+601,Helena Lima,PF,91601404209,SC,Florianópolis,Varejo,Orgânico,2025-10-28
+602,Thiago Carvalho,PJ,99133345429932,RJ,Rio de Janeiro,Corporativo,Indicação,2025-05-27
+603,Sabrina Costa,PF,53940103388,AM,Parintins,Pessoa Física,Anúncio,2024-04-11
+604,Fernanda Costa,PF,19534418002,DF,Taguatinga,Varejo,Anúncio,2023-05-02
+605,Rafael Pereira,PF,10331887593,GO,Luziânia,Pessoa Física,Orgânico,2024-12-11
+606,Helena Cardoso,PJ,40706726335273,SC,Blumenau,Pessoa Física,Indicação,2023-11-27
+607,Thiago Souza,PF,48249312978,PR,Ponta Grossa,Pessoa Física,Indicação,2023-12-28
+608,Sabrina Martins,PF,28378296771,AM,Itacoatiara,Pessoa Física,Anúncio,2023-04-17
+609,Igor Gomes,PJ,72211933475584,PA,Belém,Atacado,Orgânico,2023-11-13
+610,Kaique Pereira,PF,79602642302,CE,Maracanaú,Pessoa Física,Indicação,2023-08-23
+611,Sabrina Cardoso,PF,70838285807,PR,Maringá,Pessoa Física,Orgânico,2023-02-07
+612,Bruno Almeida,PF,23096951341,PE,Recife,Pessoa Física,Orgânico,2024-10-04
+613,Thiago Santos,PF,99557605785,CE,Caucaia,Atacado,Anúncio,2025-11-28
+614,Patrícia Silva,PF,85346822673,GO,Anápolis,Pessoa Física,Marketplace,2023-05-19
+615,Ana Lima,PF,60295822998,SC,Joinville,Varejo,Anúncio,2023-02-27
+616,Fernanda Teixeira,PF,38488439446,CE,Caucaia,Corporativo,Indicação,2023-04-21
+617,Ana Carvalho,PF,91940346514,PE,Olinda,Varejo,Marketplace,2024-08-21
+618,Thiago Souza,PF,22781643727,RJ,Petrópolis,Varejo,Anúncio,2025-06-24
+619,Rafael Gomes,PF,40785713373,RJ,Petrópolis,Pessoa Física,Marketplace,2023-12-06
+620,Sabrina Souza,PF,73625070985,PE,Caruaru,Pessoa Física,Orgânico,2023-05-10
+621,Helena Barbosa,PJ,98173889411195,DF,Ceilândia,Varejo,Anúncio,2023-04-16
+622,Larissa Gomes,PF,34154709043,GO,Luziânia,Pessoa Física,Orgânico,2024-10-28
+623,Igor Pereira,PF,76145401525,RS,Santa Maria,Pessoa Física,Indicação,2024-01-26
+624,Larissa Lima,PF,17168310318,SC,Florianópolis,Pessoa Física,WhatsApp,2024-01-21
+625,Juliana Santos,PF,99953428436,MS,Dourados,Pessoa Física,Indicação,2023-09-19
+626,Kaique Martins,PF,33200492633,RJ,Nova Iguaçu,Varejo,Indicação,2025-09-09
+627,Fernanda Costa,PF,15635426504,MT,Cuiabá,Varejo,Orgânico,2024-02-15
+628,Ana Souza,PF,37396148277,PA,Santarém,Pessoa Física,WhatsApp,2025-02-14
+629,Juliana Gomes,PF,60333805986,GO,Goiânia,Varejo,Anúncio,2025-03-24
+630,Natália Souza,PF,94650081365,SC,Itajaí,Pessoa Física,Orgânico,2023-03-07
+631,Vanessa Ferreira,PF,59796965880,MG,Contagem,Pessoa Física,WhatsApp,2023-09-30
+632,Kaique Souza,PF,96879211224,PA,Belém,Pessoa Física,Anúncio,2025-09-08
+633,Otávio Ferreira,PF,11571567170,SP,Campinas,Atacado,Anúncio,2025-08-25
+634,Ana Silva,PF,23817993027,MS,Campo Grande,Pessoa Física,Orgânico,2024-03-29
+635,Natália Barbosa,PF,16376579356,MS,Dourados,Pessoa Física,Orgânico,2023-06-21
+636,Helena Ribeiro,PF,84389512476,MG,Belo Horizonte,Varejo,Marketplace,2023-11-23
+637,Diego Carvalho,PF,80479180187,DF,Brasília,Atacado,Anúncio,2025-11-06
+638,Rafael Almeida,PF,96655528366,MG,Contagem,Varejo,WhatsApp,2025-01-07
+639,Vanessa Silva,PF,56034398730,ES,Serra,Corporativo,Orgânico,2023-03-24
+640,Otávio Ferreira,PF,78489520751,ES,,Pessoa Física,Indicação,2025-02-25
+641,Marcos Ribeiro,PF,09336396328,PR,Londrina,Pessoa Física,Indicação,2023-06-11
+642,Diego Ribeiro,PF,59308287270,SC,Chapecó,Atacado,Indicação,2023-11-29
+643,Eduardo Almeida,PF,33656471700,GO,Aparecida de Goiânia,Pessoa Física,Anúncio,2024-06-11
+644,Helena Barbosa,PF,71711919379,PE,Recife,Varejo,Indicação,2024-01-21
+645,Helena Oliveira,PF,13581132218,MS,Três Lagoas,Atacado,Indicação,2025-02-04
+646,Carla Martins,PJ,71566966006936,PR,Londrina,Varejo,Marketplace,2023-06-21
+647,Vanessa Barbosa,PF,24761894358,RS,Porto Alegre,Pessoa Física,Orgânico,2025-08-19
+648,Guilherme Souza,PJ,40087711323521,BA,Salvador,Pessoa Física,Anúncio,2024-10-12
+649,Kaique Carvalho,PF,47633518809,AM,Manaus,Pessoa Física,Indicação,2023-12-01
+650,Igor Ferreira,PF,04632070439,DF,,Pessoa Física,Orgânico,2025-11-14
+651,Eduardo Barbosa,PF,98753193412,PA,Castanhal,Varejo,Orgânico,2024-06-08
+652,Larissa Martins,PF,64520843265,RJ,Nova Iguaçu,Pessoa Física,WhatsApp,2024-04-01
+653,Helena Barbosa,PJ,39916940169154,SP,Sorocaba,Varejo,Orgânico,2023-01-24
+654,Ana Ribeiro,PF,26820337503,MS,Campo Grande,Corporativo,Orgânico,2025-12-27
+655,Otávio Martins,PF,74523100615,MG,Contagem,Pessoa Física,Indicação,2025-07-16
+656,Fernanda Silva,PF,96514838721,MS,Campo Grande,Varejo,Orgânico,2023-07-13
+657,Otávio Souza,PJ,02365477783841,RJ,Rio de Janeiro,Varejo,Orgânico,2025-11-04
+658,Guilherme Cardoso,PF,10918749994,BA,Salvador,Atacado,Orgânico,2025-05-22
+659,Fernanda Lima,PF,20885082561,SC,Blumenau,Varejo,Orgânico,2024-04-06
+660,Otávio Teixeira,PF,00994443536,MG,Contagem,Pessoa Física,Anúncio,2025-10-14
+661,Natália Carvalho,PJ,36920512745714,MS,Corumbá,Atacado,Marketplace,2024-09-04
+662,Diego Almeida,PF,04292201227,MT,Cuiabá,Pessoa Física,Orgânico,2025-01-24
+663,Bruno Gomes,PF,88984363691,PR,Londrina,Pessoa Física,Anúncio,2023-07-20
+664,Carla Pereira,PJ,79532137525800,GO,Anápolis,Pessoa Física,Indicação,2023-04-30
+665,Thiago Almeida,PF,97595528727,PA,Santarém,Corporativo,Orgânico,2024-08-01
+666,Sabrina Silva,PF,70156638421,MT,Tangará da Serra,Pessoa Física,Anúncio,2023-12-24
+667,Juliana Santos,PF,87420115112,MT,Tangará da Serra,Varejo,Anúncio,2025-12-11
+668,Marcos Gomes,PF,64174169513,BA,Ilhéus,Varejo,Orgânico,2023-04-04
+669,Natália Almeida,PF,59998567761,PR,Maringá,Pessoa Física,Anúncio,2025-04-16
+670,Carla Cardoso,PF,80449043024,ES,Linhares,Corporativo,Orgânico,2024-10-21
+671,Thiago Santos,PF,93878877170,CE,Caucaia,Pessoa Física,Marketplace,2025-08-21
+672,Ana Oliveira,PF,76763354345,CE,Maracanaú,Varejo,WhatsApp,2025-12-29
+673,Rafael Gomes,PF,26324167925,PR,Ponta Grossa,Pessoa Física,Marketplace,2025-08-12
+674,Natália Teixeira,PF,57688136541,MT,Várzea Grande,Pessoa Física,Orgânico,2024-02-15
+675,Larissa Santos,PF,57059593062,CE,Maracanaú,Pessoa Física,Marketplace,2025-02-01
+676,Juliana Souza,PF,01972531983,PA,Belém,Varejo,Indicação,2023-06-28
+677,Rafael Silva,PF,38433450442,CE,Fortaleza,Varejo,Orgânico,2024-06-16
+678,Bruno Almeida,PF,34395529051,BA,Salvador,Pessoa Física,WhatsApp,2023-10-22
+679,Patrícia Ribeiro,PF,73207328041,MS,Ponta Porã,Pessoa Física,Marketplace,2023-10-02
+680,Carla Carvalho,PJ,10194927010867,RJ,Niterói,Varejo,Orgânico,2024-09-17
+681,Otávio Teixeira,PF,93755640055,RJ,Petrópolis,Varejo,WhatsApp,2023-05-20
+682,Eduardo Barbosa,PF,75134956739,RS,Pelotas,Pessoa Física,Orgânico,2024-09-15
+683,Natália Ribeiro,PF,68760516753,PR,Curitiba,Pessoa Física,Anúncio,2024-03-15
+684,Otávio Teixeira,PF,06647750846,PE,Jaboatão,Pessoa Física,Orgânico,2023-09-09
+685,Otávio Silva,PJ,93608053049121,MG,Betim,Pessoa Física,Orgânico,2024-09-08
+686,Otávio Santos,PF,12576773916,RS,Caxias do Sul,Varejo,WhatsApp,2025-04-02
+687,Natália Gomes,PF,17023602379,PE,Recife,Varejo,Indicação,2024-10-30
+688,Larissa Oliveira,PF,65381122496,PE,Jaboatão,Pessoa Física,Orgânico,2023-04-07
+689,Kaique Santos,PF,32629459345,MT,Várzea Grande,Pessoa Física,Marketplace,2024-09-08
+690,Ana Carvalho,PF,20216038566,DF,Brasília,Atacado,Marketplace,2024-11-13
+691,Thiago Carvalho,PF,26266890253,SC,Itajaí,Pessoa Física,WhatsApp,2025-01-19
+692,Vanessa Pereira,PJ,68288902110402,RS,Santa Maria,Varejo,WhatsApp,2024-04-11
+693,Juliana Gomes,PF,98906619491,MT,Cuiabá,Varejo,WhatsApp,2023-04-15
+694,Natália Barbosa,PF,61960230099,GO,Goiânia,Pessoa Física,Indicação,2023-05-20
+695,Ana Ribeiro,PF,59607083126,SC,Joinville,Varejo,Orgânico,2023-12-30
+696,Marcos Lima,PF,85197459301,MT,Rondonópolis,Varejo,WhatsApp,2024-11-26
+697,Diego Carvalho,PF,69763403699,PE,Recife,Pessoa Física,Orgânico,2025-03-20
+698,Marcos Almeida,PF,80826986257,SP,Santos,Corporativo,Orgânico,2025-01-07
+699,Ana Cardoso,PF,54450919054,RS,Pelotas,Corporativo,Anúncio,2023-12-09
+700,Larissa Teixeira,PF,54809671033,GO,Anápolis,Pessoa Física,Orgânico,2024-04-27
+701,Rafael Carvalho,PF,78470706342,RS,Canoas,Varejo,Indicação,2023-02-21
+702,Natália Silva,PF,48832561798,PR,Ponta Grossa,Pessoa Física,WhatsApp,2025-05-24
+703,Bruno Oliveira,PJ,53374161943019,BA,Feira de Santana,Atacado,Anúncio,2024-01-23
+704,Eduardo Ferreira,PF,59903845579,ES,Linhares,Varejo,Indicação,2024-07-12
+705,Natália Barbosa,PF,86531706479,MS,Corumbá,Pessoa Física,Anúncio,2024-05-07
+706,Thiago Silva,PF,55430079036,PE,Caruaru,Atacado,Indicação,2023-11-10
+707,Rafael Martins,PF,77602403393,PA,Belém,Pessoa Física,Orgânico,2023-07-04
+708,Fernanda Silva,PF,97688245904,CE,Sobral,Pessoa Física,Orgânico,2025-11-11
+709,Natália Gomes,PF,22727971145,PE,Petrolina,Pessoa Física,Indicação,2023-05-11
+710,Thiago Gomes,PF,74199669416,RS,Canoas,Atacado,Anúncio,2025-10-31
+711,Igor Silva,PJ,47743466559217,MG,,Varejo,Anúncio,2023-05-05
+712,Juliana Martins,PF,96434052259,SP,Campinas,Pessoa Física,Orgânico,2023-04-15
+713,Eduardo Cardoso,PF,29593966545,PE,Caruaru,Corporativo,Orgânico,2025-09-16
+714,Igor Almeida,PF,87068743663,PE,Olinda,Pessoa Física,Indicação,2025-11-02
+715,Igor Lima,PJ,43000454923225,GO,Anápolis,Pessoa Física,Anúncio,2025-09-08
+716,Guilherme Souza,PJ,33682125910595,SP,Campinas,Atacado,Anúncio,2025-04-29
+717,Thiago Lima,PF,96047511645,PR,Curitiba,Varejo,Marketplace,2024-06-23
+718,Thiago Teixeira,PF,33604377422,ES,Vitória,Pessoa Física,Indicação,2023-04-27
+719,Larissa Oliveira,PF,22700528774,AM,Manacapuru,Pessoa Física,Orgânico,2024-10-10
+720,Otávio Gomes,PF,44158205378,CE,Juazeiro do Norte,Atacado,Indicação,2024-07-23
+721,Patrícia Lima,PF,93913296317,RJ,Rio de Janeiro,Pessoa Física,Orgânico,2025-03-17
+722,Otávio Martins,PF,68413620853,BA,Salvador,Pessoa Física,Orgânico,2023-02-08
+723,Rafael Barbosa,PF,57042004557,CE,Caucaia,Corporativo,Indicação,2023-03-26
+724,Eduardo Pereira,PF,45869276505,MG,Juiz de Fora,Varejo,Orgânico,2024-10-07
+725,Larissa Cardoso,PF,86025848721,MS,Ponta Porã,Pessoa Física,Orgânico,2025-07-26
+726,Marcos Teixeira,PF,95894095150,RJ,Niterói,Pessoa Física,Marketplace,2025-10-19
+727,Diego Carvalho,PF,23458379726,MG,Uberlândia,Pessoa Física,Indicação,2024-09-15
+728,Guilherme Santos,PF,24620871329,SP,São Paulo,Varejo,WhatsApp,2024-02-08
+729,Juliana Lima,PF,96402070693,RS,Pelotas,Pessoa Física,Marketplace,2024-06-01
+730,Larissa Ribeiro,PF,68442486257,GO,Rio Verde,Pessoa Física,Orgânico,2024-07-11
+731,Kaique Souza,PF,07224592238,SC,Chapecó,Pessoa Física,Indicação,2024-11-09
+732,Fernanda Costa,PF,94698659237,MG,Juiz de Fora,Atacado,Anúncio,2023-09-07
+733,Otávio Santos,PF,05818486170,PE,Olinda,Varejo,Indicação,2024-03-02
+734,Juliana Costa,PF,28803029168,SP,Sorocaba,Pessoa Física,Orgânico,2024-08-15
+735,Otávio Martins,PF,83641276576,BA,Salvador,Atacado,Orgânico,2025-07-21
+736,Otávio Costa,PF,32990718567,RJ,Duque de Caxias,Atacado,Orgânico,2025-05-29
+737,Rafael Teixeira,PF,62855305363,PR,Cascavel,Pessoa Física,Marketplace,2025-04-06
+738,Helena Santos,PF,96476659342,SP,Sorocaba,Varejo,Orgânico,2023-08-24
+739,Otávio Souza,PF,59629741485,RS,Porto Alegre,Pessoa Física,Indicação,2024-03-21
+740,Otávio Ribeiro,PF,11946304636,PR,Maringá,Pessoa Física,Marketplace,2024-08-29
+741,Juliana Gomes,PF,43222737339,RS,Canoas,Pessoa Física,Indicação,2025-11-26
+742,Helena Costa,PF,84270456102,MS,Campo Grande,Atacado,Anúncio,2024-01-24
+743,Diego Silva,PF,15924207256,PR,,Pessoa Física,Orgânico,2025-10-03
+744,Otávio Barbosa,PF,81594027731,BA,Juazeiro,Pessoa Física,WhatsApp,2025-03-30
+745,Patrícia Carvalho,PF,22780776806,DF,Ceilândia,Pessoa Física,Indicação,2024-11-25
+746,Otávio Carvalho,PF,18407743091,MG,Juiz de Fora,Varejo,Anúncio,2025-02-08
+747,Carla Martins,PJ,85668090928045,CE,Fortaleza,Varejo,WhatsApp,2025-05-19
+748,Diego Silva,PF,91060709591,ES,Cariacica,Pessoa Física,Orgânico,2025-02-04
+749,Vanessa Silva,PF,24013770063,ES,Cariacica,Varejo,Anúncio,2025-01-07
+750,Vanessa Teixeira,PF,72322746054,BA,Feira de Santana,Pessoa Física,Orgânico,2024-02-19
+751,Marcos Oliveira,PF,94161937645,SC,Florianópolis,Varejo,Orgânico,2024-04-13
+752,Rafael Cardoso,PF,10798333767,PA,Ananindeua,Varejo,Anúncio,2024-10-18
+753,Larissa Martins,PF,93659313698,BA,Juazeiro,Pessoa Física,Indicação,2025-07-13
+754,Fernanda Costa,PF,05139911644,SC,Joinville,Pessoa Física,Orgânico,2024-12-14
+755,Rafael Oliveira,PF,89979785089,PE,Petrolina,Pessoa Física,Indicação,2025-12-18
+756,Natália Lima,PF,34566388950,RJ,Petrópolis,Corporativo,Marketplace,2025-01-16
+757,Rafael Teixeira,PF,80121742026,MT,Cuiabá,Pessoa Física,Marketplace,2024-03-22
+758,Sabrina Silva,PF,72057071260,GO,Anápolis,Pessoa Física,Orgânico,2024-09-22
+759,Fernanda Cardoso,PF,31272020691,MT,Rondonópolis,Atacado,Marketplace,2024-11-14
+760,Vanessa Almeida,PJ,73062555127904,BA,Ilhéus,Atacado,Orgânico,2025-08-08
+761,Patrícia Martins,PF,82499666280,RS,Santa Maria,Atacado,Indicação,2023-10-08
+762,Sabrina Ferreira,PF,06886334241,RJ,Duque de Caxias,Pessoa Física,Anúncio,2023-09-30
+763,Carla Almeida,PF,39712226874,CE,Juazeiro do Norte,Atacado,Indicação,2023-08-10
+764,Helena Ribeiro,PF,11865588030,PE,Caruaru,Pessoa Física,Orgânico,2023-03-03
+765,Juliana Almeida,PF,36214570276,SC,Florianópolis,Corporativo,Indicação,2025-01-09
+766,Igor Oliveira,PF,88859493463,RS,Pelotas,Pessoa Física,Orgânico,2025-11-20
+767,Diego Ribeiro,PF,18493967728,AM,Itacoatiara,Pessoa Física,Orgânico,2024-11-03
+768,Rafael Oliveira,PF,96986481589,GO,Rio Verde,Pessoa Física,Indicação,2023-03-08
+769,Sabrina Barbosa,PF,20385013314,CE,Caucaia,Corporativo,Orgânico,2024-02-04
+770,Marcos Souza,PF,41269950892,CE,Fortaleza,Atacado,Indicação,2025-09-16
+771,Kaique Silva,PF,40870745284,SP,Ribeirão Preto,Pessoa Física,Indicação,2023-02-26
+772,Eduardo Ferreira,PF,81539570613,PR,Ponta Grossa,Atacado,Indicação,2024-11-02
+773,Kaique Oliveira,PF,20525717235,AM,Parintins,Pessoa Física,Indicação,2024-04-27
+774,Helena Santos,PF,66152291442,BA,Vitória da Conquista,Corporativo,Marketplace,2025-10-03
+775,Eduardo Teixeira,PF,74738739850,DF,Samambaia,Varejo,WhatsApp,2024-07-16
+776,Eduardo Gomes,PF,56315834078,PE,Recife,Varejo,Orgânico,2024-09-11
+777,Bruno Silva,PF,74049028510,CE,Caucaia,Pessoa Física,Indicação,2025-03-02
+778,Otávio Ferreira,PF,45884497267,PE,Jaboatão,Pessoa Física,Indicação,2025-06-18
+779,Marcos Pereira,PJ,29254693379977,PR,Cascavel,Atacado,Orgânico,2024-07-19
+780,Natália Teixeira,PF,79050533875,SP,Sorocaba,Atacado,Orgânico,2025-03-01
+781,Igor Martins,PF,80612156749,PA,Castanhal,Corporativo,Orgânico,2025-06-01
+782,Fernanda Cardoso,PF,31014481290,MT,Rondonópolis,Pessoa Física,Indicação,2024-07-29
+783,Diego Silva,PJ,41592347904708,ES,Linhares,Pessoa Física,Anúncio,2025-02-23
+784,Vanessa Carvalho,PF,25969626630,GO,Goiânia,Varejo,Indicação,2024-02-03
+785,Natália Santos,PF,65715889215,SP,Ribeirão Preto,Pessoa Física,Indicação,2024-01-25
+786,Guilherme Teixeira,PJ,42113701289400,SP,Campinas,Pessoa Física,Indicação,2023-01-04
+787,Eduardo Teixeira,PF,84085342971,GO,Rio Verde,Pessoa Física,Orgânico,2025-01-03
+788,Otávio Ribeiro,PJ,71470726407298,BA,Juazeiro,Corporativo,Marketplace,2023-10-02
+789,Thiago Almeida,PF,16365262991,PE,Petrolina,Pessoa Física,Indicação,2025-06-11
+790,Helena Barbosa,PF,79179257323,GO,Anápolis,Pessoa Física,Orgânico,2025-11-09
+791,Igor Silva,PF,37339597819,SP,Sorocaba,Varejo,Orgânico,2025-08-17
+792,Diego Costa,PF,90344762694,RS,Santa Maria,Varejo,Orgânico,2023-10-29
+793,Sabrina Pereira,PJ,96990818820435,MT,Várzea Grande,Corporativo,WhatsApp,2024-12-15
+794,Ana Silva,PF,00473312223,AM,Itacoatiara,Varejo,Orgânico,2025-04-04
+795,Ana Gomes,PJ,26376659292188,ES,Serra,Corporativo,Orgânico,2024-07-08
+796,Marcos Costa,PF,05525655826,BA,Salvador,Pessoa Física,Orgânico,2024-07-11
+797,Igor Silva,PF,39286272236,MS,Campo Grande,Pessoa Física,Orgânico,2024-04-24
+798,Thiago Teixeira,PJ,35512329346765,MG,Uberlândia,Varejo,Anúncio,2023-12-05
+799,Igor Teixeira,PF,98213897625,DF,Ceilândia,Varejo,Marketplace,2024-09-20
+800,Helena Almeida,PJ,15109866257523,RS,Caxias do Sul,Pessoa Física,Anúncio,2025-12-22
+801,Larissa Ribeiro,PF,82978520531,PE,Petrolina,Corporativo,Marketplace,2023-08-28
+802,Larissa Gomes,PF,99364464816,ES,Serra,Varejo,Orgânico,2023-02-21
+803,Otávio Souza,PF,98016989157,AM,Manaus,Pessoa Física,Anúncio,2023-03-03
+804,Ana Martins,PF,67244923019,MG,Betim,Varejo,Marketplace,2024-09-29
+805,Ana Oliveira,PF,82759393736,GO,Luziânia,Varejo,Indicação,2023-10-23
+806,Eduardo Carvalho,PF,38629741976,MT,Tangará da Serra,Pessoa Física,Marketplace,2024-05-20
+807,Thiago Santos,PF,86220078151,SP,Sorocaba,Pessoa Física,Orgânico,2025-11-07
+808,Fernanda Teixeira,PF,47893973319,PE,Petrolina,Corporativo,Anúncio,2023-03-25
+809,Natália Costa,PF,22418611094,CE,Caucaia,Pessoa Física,Indicação,2023-07-11
+810,Vanessa Ferreira,PF,61252693698,PR,Curitiba,Pessoa Física,Orgânico,2023-08-23
+811,Natália Ribeiro,PF,01993556738,GO,Rio Verde,Varejo,Marketplace,2024-05-15
+812,Thiago Oliveira,PJ,00919230931417,GO,Goiânia,Pessoa Física,Orgânico,2025-01-30
+813,Sabrina Souza,PF,04300531187,BA,Vitória da Conquista,Varejo,Orgânico,2023-07-20
+814,Guilherme Almeida,PF,68067257626,PA,Ananindeua,Corporativo,Marketplace,2023-04-29
+815,Igor Gomes,PF,70553007849,DF,Ceilândia,Corporativo,Indicação,2023-04-05
+816,Diego Costa,PF,96596991678,GO,Rio Verde,Corporativo,Marketplace,2025-05-27
+817,Kaique Silva,PF,38431397782,MT,Tangará da Serra,Varejo,Marketplace,2023-02-02
+818,Patrícia Pereira,PF,63848779735,PR,Cascavel,Pessoa Física,Orgânico,2024-11-16
+819,Marcos Souza,PF,40543155161,PA,Belém,Corporativo,Indicação,2024-09-25
+820,Eduardo Gomes,PF,14390372979,MT,Sinop,Pessoa Física,WhatsApp,2023-04-21
+821,Juliana Almeida,PF,91470467486,PR,Cascavel,Corporativo,Orgânico,2024-08-28
+822,Guilherme Souza,PF,02901397139,RS,,Pessoa Física,Anúncio,2023-11-11
+823,Igor Gomes,PF,25477814646,MT,Cuiabá,Pessoa Física,WhatsApp,2024-07-18
+824,Igor Martins,PF,63198823301,SP,Sorocaba,Corporativo,Orgânico,2023-05-31
+825,Otávio Gomes,PJ,39255390873749,DF,Taguatinga,Pessoa Física,WhatsApp,2025-01-01
+826,Helena Teixeira,PF,00590794872,MG,Belo Horizonte,Pessoa Física,Anúncio,2025-05-24
+827,Fernanda Gomes,PF,86056874210,PE,Olinda,Corporativo,Marketplace,2023-01-04
+828,Ana Almeida,PF,69075122628,SC,Blumenau,Corporativo,Indicação,2024-08-07
+829,Natália Barbosa,PF,31044741253,ES,Vila Velha,Pessoa Física,Indicação,2024-12-10
+830,Sabrina Oliveira,PF,69358253671,SP,Ribeirão Preto,Pessoa Física,Marketplace,2023-01-04
+831,Rafael Teixeira,PF,10007948787,MG,Contagem,Corporativo,Orgânico,2025-03-04
+832,Vanessa Teixeira,PJ,15567168148018,BA,Vitória da Conquista,Pessoa Física,Indicação,2024-08-18
+833,Ana Martins,PF,17944433589,MT,Rondonópolis,Corporativo,WhatsApp,2023-12-02
+834,Marcos Ferreira,PF,81375331344,RJ,Nova Iguaçu,Corporativo,WhatsApp,2024-06-13
+835,Kaique Ferreira,PF,52284265527,ES,Cariacica,Pessoa Física,WhatsApp,2025-01-17
+836,Eduardo Ribeiro,PF,18443464152,BA,Feira de Santana,Pessoa Física,Indicação,2024-12-05
+837,Carla Gomes,PF,18351331935,GO,Aparecida de Goiânia,Atacado,Indicação,2025-05-01
+838,Eduardo Ferreira,PF,54550614340,PA,Belém,Varejo,Indicação,2023-02-08
+839,Larissa Barbosa,PF,74005657789,MG,Juiz de Fora,Varejo,Indicação,2025-05-12
+840,Diego Souza,PJ,87456165586998,PE,Jaboatão,Pessoa Física,Indicação,2023-02-08
+841,Marcos Lima,PJ,21278866961536,DF,Brasília,Corporativo,Orgânico,2024-12-13
+842,Helena Gomes,PF,62202869981,MG,Uberlândia,Corporativo,Orgânico,2024-01-18
+843,Natália Silva,PF,30022085669,DF,Taguatinga,Varejo,Indicação,2023-03-11
+844,Eduardo Almeida,PF,13355752595,DF,Guará,Pessoa Física,Orgânico,2025-01-24
+845,Natália Barbosa,PJ,51020484687672,AM,Parintins,Corporativo,Orgânico,2024-08-28
+846,Igor Ribeiro,PF,43749117763,ES,Serra,Pessoa Física,Orgânico,2024-12-31
+847,Larissa Gomes,PF,03449870146,DF,Taguatinga,Varejo,Marketplace,2024-02-17
+848,Vanessa Carvalho,PF,62137995091,MG,Uberlândia,Varejo,WhatsApp,2023-11-01
+849,Sabrina Oliveira,PF,29515039285,MG,Betim,Varejo,Indicação,2024-11-15
+850,Larissa Pereira,PF,67509465638,ES,Vila Velha,Corporativo,WhatsApp,2023-08-25
+851,Vanessa Lima,PJ,26550305657334,MT,Rondonópolis,Corporativo,Marketplace,2025-06-09
+852,Marcos Silva,PF,28847012325,PA,Marabá,Varejo,Orgânico,2025-01-18
+853,Guilherme Santos,PJ,74402881081587,SP,Sorocaba,Atacado,Orgânico,2025-12-31
+854,Fernanda Martins,PF,53768597027,MG,Contagem,Varejo,Orgânico,2023-01-30
+855,Vanessa Oliveira,PF,17325984088,PR,Londrina,Corporativo,Orgânico,2024-10-03
+856,Thiago Martins,PF,66501190530,SC,Chapecó,Varejo,Indicação,2024-09-02
+857,Igor Souza,PF,90877185463,SP,Campinas,Varejo,Orgânico,2025-07-28
+858,Vanessa Lima,PF,22562295832,SC,Joinville,Varejo,WhatsApp,2024-04-09
+859,Thiago Teixeira,PF,25752953056,AM,Tefé,Pessoa Física,Indicação,2025-10-23
+860,Thiago Teixeira,PF,92195014623,DF,Guará,Pessoa Física,Anúncio,2023-09-20
+861,Sabrina Cardoso,PF,79443108082,ES,Linhares,Pessoa Física,WhatsApp,2025-07-25
+862,Otávio Gomes,PF,69772564091,MT,Várzea Grande,Varejo,WhatsApp,2024-07-24
+863,Fernanda Gomes,PF,99076281297,RJ,Petrópolis,Pessoa Física,Marketplace,2025-10-31
+864,Igor Costa,PF,11201502399,AM,Itacoatiara,Pessoa Física,Marketplace,2023-08-27
+865,Otávio Santos,PJ,83558795977636,RS,Porto Alegre,Corporativo,WhatsApp,2023-10-13
+866,Diego Carvalho,PF,36275727813,MS,Dourados,Varejo,Indicação,2024-09-10
+867,Otávio Silva,PF,68742988342,AM,Parintins,Pessoa Física,Marketplace,2024-08-27
+868,Ana Teixeira,PF,98125443689,RS,Santa Maria,Pessoa Física,Orgânico,2023-06-13
+869,Larissa Cardoso,PF,48617367998,AM,Parintins,Pessoa Física,Indicação,2024-12-14
+870,Rafael Souza,PF,54492560622,ES,Serra,Pessoa Física,Anúncio,2024-03-20
+871,Larissa Barbosa,PJ,60145133530585,BA,Feira de Santana,Pessoa Física,Orgânico,2023-06-15
+872,Juliana Oliveira,PF,34124549605,ES,Linhares,Pessoa Física,Orgânico,2024-07-13
+873,Thiago Ribeiro,PF,50383420379,PA,Belém,Varejo,Orgânico,2025-02-03
+874,Marcos Almeida,PF,68664048570,PE,Jaboatão,Varejo,Orgânico,2023-02-04
+875,Ana Almeida,PF,22394664920,SP,Ribeirão Preto,Pessoa Física,Orgânico,2025-10-05
+876,Kaique Oliveira,PF,76281211776,PA,Santarém,Varejo,Anúncio,2024-10-31
+877,Larissa Lima,PF,80619675368,BA,Vitória da Conquista,Corporativo,Marketplace,2023-10-13
+878,Otávio Souza,PF,18709161166,PA,Belém,Atacado,Indicação,2025-04-02
+879,Bruno Santos,PF,63808369248,MT,Tangará da Serra,Varejo,Indicação,2025-07-13
+880,Carla Souza,PF,82535309641,DF,Samambaia,Varejo,Orgânico,2025-11-13
+881,Fernanda Ferreira,PF,04627305101,RS,Porto Alegre,Pessoa Física,Marketplace,2025-05-16
+882,Igor Costa,PF,25920132393,SP,Santos,Corporativo,Orgânico,2023-08-11
+883,Otávio Oliveira,PF,66124406336,SP,Ribeirão Preto,Pessoa Física,Orgânico,2023-06-29
+884,Juliana Barbosa,PF,98941233211,SC,Joinville,Atacado,Anúncio,2023-08-17
+885,Rafael Oliveira,PF,64058432329,RS,Caxias do Sul,Pessoa Física,WhatsApp,2025-08-17
+886,Patrícia Lima,PF,93980464446,ES,Vila Velha,Pessoa Física,WhatsApp,2023-12-01
+887,Fernanda Carvalho,PF,25280003694,RJ,Rio de Janeiro,Pessoa Física,Marketplace,2023-12-29
+888,Vanessa Martins,PF,13147072687,MT,Várzea Grande,Corporativo,Indicação,2025-09-03
+889,Carla Ribeiro,PF,66113667384,CE,Sobral,Varejo,Anúncio,2023-08-12
+890,Marcos Cardoso,PJ,27147721008755,BA,Salvador,Pessoa Física,Indicação,2024-03-21
+891,Rafael Teixeira,PF,31060175421,MS,Dourados,Pessoa Física,Orgânico,2023-11-21
+892,Vanessa Cardoso,PF,43512142254,RJ,Nova Iguaçu,Varejo,Orgânico,2023-11-27
+893,Patrícia Ferreira,PF,26334145150,SC,Blumenau,Pessoa Física,WhatsApp,2024-10-14
+894,Diego Teixeira,PF,60136741370,RS,Pelotas,Pessoa Física,WhatsApp,2025-03-23
+895,Sabrina Santos,PF,73060315005,DF,Brasília,Varejo,Orgânico,2023-10-18
+896,Fernanda Ribeiro,PF,90482487276,SP,Sorocaba,Pessoa Física,Orgânico,2023-02-11
+897,Marcos Oliveira,PF,54989631193,RS,Caxias do Sul,Varejo,Orgânico,2024-12-01
+898,Igor Lima,PF,12055374970,PA,Ananindeua,Varejo,Anúncio,2024-08-24
+899,Kaique Carvalho,PF,27573077640,RS,Santa Maria,Pessoa Física,Orgânico,2024-12-23
+900,Diego Silva,PF,76617785746,CE,Maracanaú,Corporativo,Indicação,2024-05-08
+901,Fernanda Gomes,PF,67807755744,SP,Santos,Pessoa Física,Orgânico,2025-05-01
+902,Juliana Pereira,PF,87283182224,RS,Porto Alegre,Pessoa Física,Orgânico,2024-11-15
+903,Guilherme Cardoso,PJ,11321950182168,PA,Santarém,Pessoa Física,Orgânico,2025-04-10
+904,Thiago Silva,PF,37417991560,AM,Manaus,Corporativo,Marketplace,2025-03-12
+905,Bruno Carvalho,PF,91295647060,MS,Ponta Porã,Corporativo,Orgânico,2024-06-28
+906,Igor Barbosa,PF,15417380225,SC,Joinville,Atacado,Anúncio,2023-12-23
+907,Kaique Lima,PF,41591247122,MT,Rondonópolis,Pessoa Física,Indicação,2024-09-30
+908,Eduardo Barbosa,PJ,60643888828135,PA,Marabá,Corporativo,Marketplace,2024-11-28
+909,Guilherme Almeida,PF,75535445631,RJ,Nova Iguaçu,Pessoa Física,Orgânico,2024-09-18
+910,Vanessa Barbosa,PF,24119271923,MT,Cuiabá,Corporativo,Indicação,2024-07-28
+911,Ana Carvalho,PF,72570072998,CE,Caucaia,Varejo,Orgânico,2024-01-11
+912,Guilherme Martins,PF,98393509593,PE,Jaboatão,Pessoa Física,Indicação,2023-05-27
+913,Carla Costa,PF,35857277803,DF,Samambaia,Pessoa Física,Anúncio,2024-04-13
+914,Eduardo Barbosa,PF,04767798580,AM,Tefé,Corporativo,WhatsApp,2025-08-24
+915,Bruno Oliveira,PF,75951790065,CE,Juazeiro do Norte,Pessoa Física,WhatsApp,2025-02-24
+916,Sabrina Oliveira,PF,50558330562,MG,Betim,Corporativo,Marketplace,2025-04-07
+917,Kaique Cardoso,PF,79156013131,RJ,Niterói,Pessoa Física,WhatsApp,2025-03-18
+918,Helena Santos,PF,85370568257,CE,Juazeiro do Norte,Corporativo,Orgânico,2025-10-07
+919,Igor Martins,PF,71923112175,RJ,Duque de Caxias,Pessoa Física,Indicação,2023-09-05
+920,Sabrina Silva,PF,35612809923,PE,Recife,Varejo,Orgânico,2025-02-28
+921,Fernanda Barbosa,PF,25273984500,PA,Belém,Varejo,Orgânico,2023-03-18
+922,Helena Pereira,PF,54308444467,SC,Itajaí,Pessoa Física,Anúncio,2023-09-26
+923,Otávio Souza,PF,51820073083,DF,Ceilândia,Corporativo,Indicação,2023-02-02
+924,Sabrina Carvalho,PF,98066134172,RS,Porto Alegre,Varejo,Indicação,2024-04-16
+925,Fernanda Pereira,PF,98610147170,CE,Maracanaú,Varejo,Marketplace,2023-06-04
+926,Carla Barbosa,PJ,25875027077722,GO,Anápolis,Corporativo,Indicação,2024-02-29
+927,Otávio Oliveira,PF,13515253938,PR,Ponta Grossa,Pessoa Física,WhatsApp,2023-05-28
+928,Larissa Costa,PF,10149176339,SC,Chapecó,Corporativo,Marketplace,2023-02-09
+929,Sabrina Teixeira,PF,72940884728,SP,São Paulo,Pessoa Física,Marketplace,2024-06-07
+930,Sabrina Ferreira,PF,32526747492,RJ,Rio de Janeiro,Pessoa Física,Orgânico,2024-03-25
+931,Ana Costa,PF,75921897446,GO,Rio Verde,Atacado,Anúncio,2024-04-02
+932,Vanessa Almeida,PF,72003646427,GO,Rio Verde,Pessoa Física,Indicação,2024-01-14
+933,Patrícia Gomes,PJ,79837386820159,PR,Curitiba,Varejo,WhatsApp,2024-03-24
+934,Carla Silva,PF,68499280543,PR,Londrina,Corporativo,Orgânico,2023-01-05
+935,Eduardo Santos,PF,96111302787,RS,Caxias do Sul,Varejo,Orgânico,2024-06-07
+936,Patrícia Souza,PF,46909734412,PR,Curitiba,Varejo,Orgânico,2025-07-17
+937,Rafael Barbosa,PJ,20543196473267,CE,Juazeiro do Norte,Varejo,Orgânico,2023-06-02
+938,Igor Ribeiro,PF,65066429327,SP,Campinas,Varejo,Marketplace,2023-06-07
+939,Sabrina Silva,PF,45631195437,SP,Sorocaba,Pessoa Física,Orgânico,2025-05-04
+940,Thiago Carvalho,PJ,97548839880127,SP,Sorocaba,Pessoa Física,Anúncio,2024-07-03
+941,Bruno Costa,PF,00019772675,MS,Corumbá,Pessoa Física,Indicação,2023-10-09
+942,Bruno Barbosa,PJ,85369845975299,RS,Porto Alegre,Pessoa Física,Anúncio,2025-05-10
+943,Juliana Santos,PF,00131891817,AM,Parintins,Pessoa Física,Orgânico,2023-12-23
+944,Juliana Costa,PF,30489182419,ES,Vila Velha,Varejo,Indicação,2024-10-24
+945,Otávio Ribeiro,PF,76781204406,SP,Sorocaba,Pessoa Física,Anúncio,2024-09-01
+946,Guilherme Lima,PF,07781858660,BA,Vitória da Conquista,Corporativo,WhatsApp,2023-07-05
+947,Otávio Souza,PF,64860802291,MT,Sinop,Pessoa Física,Indicação,2025-04-07
+948,Vanessa Cardoso,PF,82603678853,RS,Canoas,Pessoa Física,WhatsApp,2024-11-08
+949,Sabrina Santos,PF,29694487252,BA,Feira de Santana,Varejo,Orgânico,2023-08-17
+950,Carla Silva,PF,70890603359,RJ,,Pessoa Física,Marketplace,2025-04-10
+951,Patrícia Martins,PF,43083402593,BA,Juazeiro,Pessoa Física,Indicação,2024-11-11
+952,Diego Lima,PF,58320912173,PA,Marabá,Pessoa Física,Indicação,2025-07-25
+953,Rafael Martins,PF,76030042044,RJ,Petrópolis,Varejo,Anúncio,2025-06-17
+954,Juliana Ribeiro,PF,96340350957,GO,Aparecida de Goiânia,Pessoa Física,Orgânico,2023-12-16
+955,Fernanda Carvalho,PJ,28395629104898,RJ,Niterói,Pessoa Física,Orgânico,2025-10-23
+956,Thiago Barbosa,PF,59441731362,GO,Aparecida de Goiânia,Atacado,Marketplace,2023-02-07
+957,Bruno Gomes,PF,33576136203,MG,Juiz de Fora,Pessoa Física,Marketplace,2024-01-02
+958,Juliana Cardoso,PF,66161751384,MT,Várzea Grande,Varejo,Orgânico,2024-10-28
+959,Carla Oliveira,PF,67093745381,RS,Porto Alegre,Pessoa Física,Indicação,2024-08-09
+960,Eduardo Costa,PF,82800052580,PE,Recife,Varejo,Indicação,2023-09-05
+961,Kaique Gomes,PF,57496053192,ES,Linhares,Varejo,Indicação,2023-08-07
+962,Rafael Barbosa,PF,02858413152,MG,Contagem,Atacado,Orgânico,2025-05-05
+963,Natália Lima,PJ,93395142757973,AM,Itacoatiara,Pessoa Física,Marketplace,2025-08-18
+964,Fernanda Martins,PF,25438936903,SC,Florianópolis,Pessoa Física,Indicação,2025-01-15
+965,Patrícia Ribeiro,PF,74740448111,SP,Sorocaba,Varejo,Indicação,2024-08-04
+966,Juliana Cardoso,PJ,59688662978931,SP,São Paulo,Varejo,Indicação,2025-04-27
+967,Sabrina Silva,PJ,84962363226000,GO,Aparecida de Goiânia,Pessoa Física,Indicação,2023-09-21
+968,Guilherme Barbosa,PF,70415004614,DF,Guará,Corporativo,Orgânico,2025-11-26
+969,Igor Almeida,PF,86739164097,CE,Maracanaú,Varejo,WhatsApp,2023-05-17
+970,Bruno Cardoso,PF,20650974224,RJ,Rio de Janeiro,Pessoa Física,Orgânico,2024-10-02
+971,Thiago Ribeiro,PF,03211333651,DF,Taguatinga,Varejo,Marketplace,2024-01-09
+972,Larissa Carvalho,PF,97409741122,MT,Sinop,Pessoa Física,Marketplace,2025-09-18
+973,Igor Ferreira,PF,24038806953,MT,Tangará da Serra,Varejo,Indicação,2023-09-26
+974,Vanessa Teixeira,PF,42396419173,CE,Maracanaú,Pessoa Física,Indicação,2024-12-04
+975,Carla Souza,PF,21364021499,SC,Joinville,Pessoa Física,Orgânico,2023-06-21
+976,Larissa Souza,PF,91404573044,ES,Cariacica,Corporativo,Anúncio,2023-07-19
+977,Juliana Ferreira,PF,60647927194,DF,Samambaia,Pessoa Física,Indicação,2024-04-01
+978,Eduardo Cardoso,PF,77637466412,GO,Aparecida de Goiânia,Pessoa Física,Orgânico,2025-05-26
+979,Vanessa Teixeira,PF,95627421352,DF,Guará,Pessoa Física,Orgânico,2023-11-01
+980,Guilherme Teixeira,PF,22274415974,ES,Vila Velha,Corporativo,WhatsApp,2025-01-30
+981,Vanessa Cardoso,PJ,33007896942227,DF,Brasília,Corporativo,Orgânico,2024-09-18
+982,Larissa Teixeira,PJ,09737141107789,PA,Belém,Pessoa Física,Orgânico,2025-12-07
+983,Diego Cardoso,PJ,99077119830306,RJ,Rio de Janeiro,Varejo,Orgânico,2023-11-26
+984,Bruno Almeida,PF,30989907772,RS,Santa Maria,Varejo,Indicação,2023-09-24
+985,Guilherme Pereira,PJ,39067757971233,DF,Brasília,Varejo,Anúncio,2025-09-16
+986,Vanessa Teixeira,PF,32617690284,ES,Serra,Pessoa Física,Marketplace,2024-01-01
+987,Fernanda Ferreira,PF,50729315449,ES,Cariacica,Varejo,Anúncio,2023-08-24
+988,Rafael Barbosa,PF,33618220357,PE,Recife,Atacado,Orgânico,2025-06-19
+989,Marcos Oliveira,PF,87381235292,RJ,Niterói,Pessoa Física,Anúncio,2025-06-09
+990,Kaique Almeida,PF,36449417728,PE,Petrolina,Varejo,Orgânico,2023-03-10
+991,Rafael Cardoso,PF,31172478493,DF,Samambaia,Atacado,Marketplace,2025-07-27
+992,Juliana Ribeiro,PJ,82077991676006,PA,Castanhal,Corporativo,Orgânico,2024-11-24
+993,Patrícia Martins,PF,81043995929,DF,Samambaia,Varejo,Orgânico,2023-11-02
+994,Guilherme Souza,PJ,44011411680594,MT,Rondonópolis,Pessoa Física,Anúncio,2024-08-09
+995,Eduardo Oliveira,PF,10941887002,BA,Juazeiro,Varejo,Orgânico,2023-09-19
+996,Larissa Silva,PF,15371791650,PA,Marabá,Pessoa Física,Anúncio,2023-07-05
+997,Juliana Teixeira,PF,27831285407,BA,Ilhéus,Corporativo,Anúncio,2023-05-26
+998,Larissa Costa,PF,45859539672,MG,Contagem,Varejo,WhatsApp,2023-06-30
+999,Juliana Gomes,PF,65129571294,SP,Ribeirão Preto,Varejo,Orgânico,2024-09-30
+1000,Helena Souza,PF,88397101712,PE,Jaboatão,Pessoa Física,Indicação,2025-06-06
+1001,Eduardo Souza,PJ,41369475459050,AM,Manacapuru,Corporativo,Indicação,2024-06-17
+1002,Fernanda Barbosa,PF,86064093063,BA,Juazeiro,Varejo,Orgânico,2023-01-17
+1003,Kaique Gomes,PF,61844850563,AM,Manaus,Pessoa Física,Indicação,2024-04-14
+1004,Helena Ribeiro,PF,10805832760,CE,Juazeiro do Norte,Corporativo,Marketplace,2025-03-29
+1005,Otávio Ferreira,PF,50338967007,BA,Feira de Santana,Pessoa Física,Marketplace,2025-07-04
+1006,Bruno Silva,PF,45636726137,SC,Florianópolis,Varejo,WhatsApp,2025-03-14
+1007,Helena Teixeira,PF,90656707214,MT,Tangará da Serra,Varejo,Indicação,2024-02-09
+1008,Igor Oliveira,PF,06550702374,PR,Curitiba,Pessoa Física,Anúncio,2024-12-13
+1009,Guilherme Barbosa,PF,89707289006,SP,Ribeirão Preto,Atacado,WhatsApp,2023-03-16
+1010,Carla Santos,PF,19558259011,PR,Maringá,Varejo,Orgânico,2024-03-24
+1011,Patrícia Ribeiro,PF,31184349449,SC,Chapecó,Varejo,Indicação,2024-08-11
+1012,Rafael Martins,PF,04758838229,DF,Ceilândia,Varejo,Marketplace,2023-02-01
+1013,Otávio Souza,PF,03648251217,MG,Betim,Pessoa Física,Marketplace,2023-01-16
+1014,Diego Costa,PF,26358807961,MT,Cuiabá,Atacado,WhatsApp,2025-05-28
+1015,Natália Carvalho,PF,66645647736,BA,Juazeiro,Pessoa Física,Orgânico,2023-08-30
+1016,Natália Carvalho,PF,74713786637,RJ,Petrópolis,Varejo,Indicação,2023-05-18
+1017,Eduardo Martins,PF,30269487584,PE,Recife,Corporativo,Orgânico,2024-10-10
+1018,Eduardo Costa,PF,47654900403,RJ,Petrópolis,Corporativo,Marketplace,2023-11-04
+1019,Otávio Martins,PF,54226975124,MT,,Pessoa Física,Indicação,2025-12-09
+1020,Patrícia Cardoso,PF,26382472756,PR,Londrina,Pessoa Física,Orgânico,2025-11-03
+1021,Guilherme Oliveira,PJ,49715925725511,RJ,Rio de Janeiro,Pessoa Física,Marketplace,2025-06-22
+1022,Natália Ribeiro,PF,51957324732,AM,Itacoatiara,Varejo,Anúncio,2023-11-27
+1023,Igor Cardoso,PJ,15652233293268,SP,Santos,Corporativo,Anúncio,2025-08-17
+1024,Sabrina Pereira,PF,46050152017,AM,Tefé,Pessoa Física,WhatsApp,2023-10-07
+1025,Eduardo Martins,PF,53938301211,RS,Porto Alegre,Varejo,Indicação,2023-09-20
+1026,Ana Pereira,PF,39229286955,ES,Serra,Pessoa Física,Indicação,2025-12-02
+1027,Helena Pereira,PF,25690107093,MS,Campo Grande,Atacado,Orgânico,2025-01-08
+1028,Sabrina Pereira,PF,29758763979,DF,Taguatinga,Corporativo,Orgânico,2023-04-05
+1029,Natália Almeida,PF,95399166792,RS,Canoas,Corporativo,Orgânico,2025-08-29
+1030,Vanessa Santos,PF,96051979634,MT,Várzea Grande,Corporativo,Orgânico,2023-06-26
+1031,Larissa Almeida,PF,91845601170,DF,Samambaia,Pessoa Física,Orgânico,2025-01-16
+1032,Guilherme Costa,PF,61794246765,PE,Recife,Pessoa Física,Anúncio,2024-04-25
+1033,Larissa Ferreira,PF,62295864561,MS,Três Lagoas,Pessoa Física,Indicação,2023-01-20
+1034,Patrícia Silva,PJ,47001524120841,PR,Cascavel,Pessoa Física,Orgânico,2025-05-13
+1035,Guilherme Pereira,PF,59884333918,MG,Uberlândia,Corporativo,Indicação,2025-01-22
+1036,Natália Ferreira,PF,98680859095,PR,Curitiba,Corporativo,WhatsApp,2025-08-27
+1037,Juliana Ribeiro,PF,15005812350,MT,Várzea Grande,Corporativo,Orgânico,2024-11-01
+1038,Eduardo Santos,PF,64934098348,PA,Marabá,Pessoa Física,Indicação,2025-04-08
+1039,Thiago Teixeira,PF,22272019892,DF,Samambaia,Varejo,Orgânico,2025-09-20
+1040,Otávio Silva,PF,44505022686,GO,Anápolis,Pessoa Física,Anúncio,2025-12-05
+1041,Kaique Ferreira,PF,45519921160,RJ,Niterói,Pessoa Física,Indicação,2024-09-06
+1042,Kaique Gomes,PF,16100732615,MS,Ponta Porã,Pessoa Física,Orgânico,2023-01-19
+1043,Diego Ferreira,PF,46662150468,DF,Guará,Pessoa Física,Orgânico,2024-01-15
+1044,Guilherme Pereira,PF,69542683006,SP,Ribeirão Preto,Pessoa Física,Marketplace,2024-11-09
+1045,Eduardo Martins,PF,61063427700,BA,Vitória da Conquista,Pessoa Física,Orgânico,2023-05-01
+1046,Kaique Souza,PF,56116416027,SP,Campinas,Pessoa Física,Indicação,2023-05-08
+1047,Rafael Pereira,PF,20925898380,PA,Belém,Varejo,Indicação,2024-03-08
+1048,Vanessa Martins,PF,31587917740,PR,Cascavel,Pessoa Física,Orgânico,2025-09-24
+1049,Patrícia Souza,PF,19269424218,RS,Caxias do Sul,Corporativo,Indicação,2023-12-19
+1050,Vanessa Ribeiro,PJ,36755157126938,PA,Castanhal,Pessoa Física,Anúncio,2025-10-22
+1051,Marcos Souza,PF,15945155923,PA,Belém,Pessoa Física,Orgânico,2025-05-30
+1052,Igor Cardoso,PJ,69268642201410,ES,Vitória,Varejo,WhatsApp,2023-11-29
+1053,Carla Oliveira,PJ,60159701773987,SC,Florianópolis,Pessoa Física,Anúncio,2023-09-11
+1054,Otávio Almeida,PF,77179203294,MS,Ponta Porã,Corporativo,Indicação,2025-06-26
+1055,Igor Gomes,PF,69779627336,CE,Caucaia,Pessoa Física,Orgânico,2025-04-08
+1056,Rafael Santos,PF,30956866728,SC,Blumenau,Pessoa Física,Orgânico,2024-11-21
+1057,Larissa Silva,PF,71188918874,RS,Pelotas,Pessoa Física,Indicação,2025-12-08
+1058,Guilherme Almeida,PF,54052204088,GO,Anápolis,Pessoa Física,Indicação,2023-04-21
+1059,Ana Cardoso,PF,83156084804,GO,Luziânia,Varejo,Orgânico,2024-02-27
+1060,Otávio Teixeira,PF,40795363375,MS,Dourados,Varejo,Indicação,2024-10-22
+1061,Igor Pereira,PF,24850872999,PE,Olinda,Pessoa Física,Anúncio,2023-03-20
+1062,Bruno Carvalho,PJ,39885229595504,ES,Vila Velha,Varejo,Orgânico,2025-12-05
+1063,Fernanda Ribeiro,PF,51152744145,BA,Ilhéus,Varejo,Marketplace,2024-09-18
+1064,Sabrina Souza,PF,52099926190,MT,Várzea Grande,Varejo,Indicação,2023-12-04
+1065,Vanessa Carvalho,PJ,48784001040147,PR,Londrina,Atacado,Anúncio,2023-09-20
+1066,Vanessa Pereira,PF,60953384240,MS,Corumbá,Pessoa Física,Marketplace,2023-01-02
+1067,Otávio Teixeira,PF,13230612902,PE,Recife,Varejo,Anúncio,2024-10-11
+1068,Igor Ribeiro,PJ,53314759674658,DF,Brasília,Atacado,WhatsApp,2025-12-06
+1069,Rafael Lima,PF,54084760642,SP,Ribeirão Preto,Pessoa Física,Marketplace,2023-02-09
+1070,Marcos Ribeiro,PF,26068000789,SP,Sorocaba,Pessoa Física,Anúncio,2024-03-29
+1071,Sabrina Souza,PF,04033698022,MG,Belo Horizonte,Varejo,Anúncio,2024-12-26
+1072,Carla Ribeiro,PJ,23679721379310,AM,Manaus,Pessoa Física,WhatsApp,2024-04-17
+1073,Fernanda Almeida,PF,06560413626,MT,Rondonópolis,Varejo,Marketplace,2024-12-14
+1074,Juliana Souza,PF,25431596780,MS,Três Lagoas,Pessoa Física,Orgânico,2025-02-20
+1075,Fernanda Santos,PF,72698486129,MT,Sinop,Varejo,Orgânico,2025-11-24
+1076,Guilherme Gomes,PF,98338086649,AM,Manaus,Corporativo,Anúncio,2024-10-24
+1077,Juliana Martins,PF,70580725840,PE,Caruaru,Varejo,Marketplace,2025-02-16
+1078,Larissa Martins,PF,07929405929,MT,Várzea Grande,Pessoa Física,WhatsApp,2023-11-27
+1079,Thiago Gomes,PJ,63640835707354,BA,Feira de Santana,Varejo,Marketplace,2023-06-15
+1080,Diego Pereira,PF,71141268638,MS,Ponta Porã,Corporativo,Orgânico,2023-04-20
+1081,Vanessa Gomes,PF,41753672150,RJ,Niterói,Pessoa Física,Marketplace,2023-04-30
+1082,Helena Silva,PF,64253326962,MG,Belo Horizonte,Varejo,Orgânico,2025-06-25
+1083,Otávio Souza,PF,81208051268,PR,Londrina,Pessoa Física,Anúncio,2023-02-14
+1084,Marcos Oliveira,PF,01290143056,MS,Dourados,Corporativo,Anúncio,2024-06-13
+1085,Bruno Oliveira,PF,16072218562,SC,Florianópolis,Varejo,Anúncio,2024-11-03
+1086,Marcos Cardoso,PF,00437734366,AM,Tefé,Varejo,Indicação,2025-01-07
+1087,Rafael Gomes,PF,60393110705,MG,Uberlândia,Atacado,Orgânico,2023-03-14
+1088,Carla Lima,PF,30878997564,RS,Santa Maria,Varejo,Orgânico,2025-08-01
+1089,Patrícia Gomes,PF,13408944846,PA,Santarém,Pessoa Física,Marketplace,2024-04-24
+1090,Larissa Ferreira,PF,52712679708,MS,Campo Grande,Pessoa Física,Orgânico,2023-01-20
+1091,Diego Oliveira,PJ,40514408594582,SC,Blumenau,Corporativo,Anúncio,2023-05-26
+1092,Eduardo Pereira,PF,91965255984,RS,Canoas,Corporativo,Orgânico,2025-07-30
+1093,Natália Costa,PJ,33300724663714,RJ,Niterói,Pessoa Física,Orgânico,2025-10-30
+1094,Carla Oliveira,PJ,15096263515115,SP,Ribeirão Preto,Atacado,Orgânico,2025-04-03
+1095,Igor Martins,PF,52049709450,AM,Manacapuru,Pessoa Física,Indicação,2024-01-01
+1096,Natália Souza,PJ,37310980983622,ES,Vila Velha,Pessoa Física,Anúncio,2025-11-03
+1097,Igor Carvalho,PF,72331868512,MS,Ponta Porã,Varejo,Orgânico,2023-10-30
+1098,Otávio Santos,PF,39261964332,MS,Ponta Porã,Pessoa Física,Marketplace,2023-09-14
+1099,Igor Almeida,PF,58275770091,MS,Corumbá,Pessoa Física,Orgânico,2025-04-18
+1100,Diego Silva,PF,57500683598,PA,Marabá,Pessoa Física,Marketplace,2023-12-20
+1101,Guilherme Barbosa,PF,56974639023,PR,Maringá,Pessoa Física,Orgânico,2024-07-23
+1102,Marcos Carvalho,PF,25785650705,GO,Goiânia,Atacado,WhatsApp,2024-12-25
+1103,Larissa Oliveira,PF,97538831569,PA,Castanhal,Pessoa Física,Orgânico,2023-07-02
+1104,Ana Costa,PF,82293433524,AM,Tefé,Atacado,Indicação,2025-10-11
+1105,Fernanda Barbosa,PF,31784265557,SC,Chapecó,Varejo,Indicação,2023-07-02
+1106,Marcos Lima,PF,00019766027,RS,Canoas,Pessoa Física,Indicação,2025-12-23
+1107,Thiago Santos,PF,45707644022,PE,Caruaru,Varejo,Marketplace,2023-11-01
+1108,Thiago Silva,PF,81212027737,PE,Jaboatão,Pessoa Física,Orgânico,2024-04-01
+1109,Otávio Gomes,PF,69825735431,MT,Várzea Grande,Pessoa Física,Anúncio,2023-10-05
+1110,Larissa Santos,PF,07862061590,MS,Três Lagoas,Pessoa Física,Marketplace,2024-08-13
+1111,Natália Lima,PF,59388436641,MS,Corumbá,Pessoa Física,Marketplace,2023-01-01
+1112,Guilherme Souza,PF,72104132474,RJ,Nova Iguaçu,Pessoa Física,Anúncio,2023-07-06
+1113,Thiago Gomes,PF,51196050036,SP,Sorocaba,Pessoa Física,Indicação,2024-07-23
+1114,Diego Oliveira,PF,67115876089,MT,Tangará da Serra,Pessoa Física,Marketplace,2025-01-30
+1115,Eduardo Barbosa,PF,53669157380,SC,Florianópolis,Pessoa Física,Marketplace,2025-11-21
+1116,Otávio Ferreira,PF,17142603935,ES,Serra,Pessoa Física,Marketplace,2025-07-06
+1117,Marcos Martins,PF,96796858635,DF,Brasília,Varejo,Marketplace,2025-10-07
+1118,Guilherme Pereira,PF,33243634133,MT,Sinop,Varejo,Anúncio,2025-05-25
+1119,Thiago Ferreira,PF,94037113340,RS,Santa Maria,Atacado,Indicação,2025-05-01
+1120,Rafael Ribeiro,PF,72752407331,RS,Canoas,Corporativo,Anúncio,2024-01-15
+1121,Vanessa Pereira,PF,33292153470,RS,Porto Alegre,Varejo,Orgânico,2025-09-18
+1122,Carla Ribeiro,PF,50001399196,MS,Campo Grande,Pessoa Física,Marketplace,2025-11-21
+1123,Rafael Almeida,PF,57425761928,GO,Goiânia,Pessoa Física,Indicação,2024-07-16
+1124,Kaique Lima,PF,30952011911,PA,Castanhal,Pessoa Física,Orgânico,2023-05-12
+1125,Kaique Lima,PF,88265537879,MG,Belo Horizonte,Pessoa Física,Indicação,2023-02-16
+1126,Vanessa Costa,PF,16959389675,MG,Contagem,Pessoa Física,Orgânico,2024-06-25
+1127,Ana Santos,PF,35902436361,AM,Manaus,Pessoa Física,Orgânico,2024-11-26
+1128,Carla Martins,PJ,36476349907406,RS,Canoas,Pessoa Física,Indicação,2024-08-30
+1129,Larissa Costa,PF,03684884160,RS,Santa Maria,Varejo,Indicação,2025-09-09
+1130,Rafael Martins,PF,83774978049,PA,Ananindeua,Pessoa Física,Anúncio,2024-08-11
+1131,Rafael Oliveira,PF,84025690329,MS,Corumbá,Varejo,Orgânico,2024-12-25
+1132,Sabrina Pereira,PJ,12216559433851,RS,Porto Alegre,Varejo,Indicação,2025-04-10
+1133,Bruno Santos,PF,67255107673,MG,Juiz de Fora,Atacado,Orgânico,2025-09-07
+1134,Larissa Barbosa,PJ,59261091658568,MS,Dourados,Pessoa Física,WhatsApp,2024-10-30
+1135,Natália Gomes,PF,87114667111,RS,Canoas,Pessoa Física,Orgânico,2024-09-03
+1136,Larissa Almeida,PF,56183670899,SC,Chapecó,Varejo,Marketplace,2023-03-26
+1137,Vanessa Martins,PF,13249774998,BA,Feira de Santana,Pessoa Física,Orgânico,2024-12-05
+1138,Rafael Ferreira,PF,86027319482,BA,Salvador,Varejo,Orgânico,2023-07-17
+1139,Eduardo Silva,PF,33342834840,PE,Olinda,Atacado,Anúncio,2024-02-09
+1140,Carla Pereira,PJ,04691524430052,ES,Linhares,Atacado,Marketplace,2024-08-06
+1141,Guilherme Almeida,PF,30013123201,PE,Olinda,Atacado,WhatsApp,2023-04-01
+1142,Guilherme Ribeiro,PJ,96123987144683,BA,Ilhéus,Pessoa Física,Anúncio,2025-01-31
+1143,Marcos Oliveira,PF,52237466390,MS,Corumbá,Varejo,Anúncio,2023-11-04
+1144,Fernanda Oliveira,PF,80386381652,RJ,Duque de Caxias,Varejo,Orgânico,2024-07-17
+1145,Marcos Carvalho,PF,97000447604,SP,Santos,Varejo,Indicação,2024-01-19
+1146,Marcos Souza,PF,78201343032,ES,Serra,Pessoa Física,Anúncio,2024-01-25
+1147,Bruno Santos,PF,40743971105,MS,Três Lagoas,Pessoa Física,WhatsApp,2024-03-07
+1148,Eduardo Costa,PF,33550179894,AM,Manaus,Pessoa Física,Anúncio,2023-02-26
+1149,Marcos Ribeiro,PF,88811459388,GO,Goiânia,Pessoa Física,Marketplace,2023-08-03
+1150,Larissa Barbosa,PF,91227640574,MT,Rondonópolis,Pessoa Física,Marketplace,2025-05-11
+1151,Fernanda Santos,PF,25658368220,RS,Canoas,Atacado,Orgânico,2023-05-14
+1152,Bruno Lima,PF,30706593325,RJ,Nova Iguaçu,Varejo,Anúncio,2024-06-28
+1153,Ana Ribeiro,PF,21961631470,CE,Caucaia,Pessoa Física,Marketplace,2023-06-03
+1154,Diego Barbosa,PF,39304696087,RS,Porto Alegre,Atacado,Anúncio,2024-08-13
+1155,Eduardo Ribeiro,PF,68724546715,PE,Jaboatão,Corporativo,Indicação,2024-12-06
+1156,Helena Almeida,PF,05429203704,RJ,Petrópolis,Corporativo,Marketplace,2024-05-28
+1157,Guilherme Ribeiro,PF,48005172506,GO,Rio Verde,Atacado,Orgânico,2025-04-25
+1158,Thiago Almeida,PF,50200648276,SP,Sorocaba,Corporativo,Marketplace,2023-10-18
+1159,Marcos Martins,PF,68777478760,CE,Sobral,Corporativo,Anúncio,2024-09-03
+1160,Rafael Souza,PJ,40134597437287,PE,Olinda,Varejo,Indicação,2023-10-30
+1161,Helena Lima,PF,62680153749,PA,Castanhal,Pessoa Física,Orgânico,2024-07-11
+1162,Kaique Lima,PJ,23022732357908,MG,Belo Horizonte,Pessoa Física,Anúncio,2023-03-11
+1163,Bruno Gomes,PF,38069071979,MT,Sinop,Varejo,Orgânico,2023-10-22
+1164,Natália Martins,PF,83461308244,PR,Curitiba,Varejo,Orgânico,2025-02-14
+1165,Helena Cardoso,PF,37958191002,PR,Cascavel,Varejo,Anúncio,2025-05-02
+1166,Carla Gomes,PF,83741422575,SP,Campinas,Varejo,Orgânico,2023-10-25
+1167,Kaique Almeida,PF,27628862341,RJ,Niterói,Varejo,Indicação,2023-10-10
+1168,Larissa Cardoso,PF,31171440896,MS,Ponta Porã,Varejo,Orgânico,2023-11-24
+1169,Vanessa Santos,PF,62874796131,CE,Fortaleza,Pessoa Física,Orgânico,2023-11-03
+1170,Thiago Cardoso,PF,38182451130,RJ,Niterói,Pessoa Física,Orgânico,2025-12-24
+1171,Bruno Almeida,PF,75883804647,GO,Rio Verde,Pessoa Física,Anúncio,2024-12-14
+1172,Natália Souza,PF,84258982254,SP,São Paulo,Pessoa Física,Orgânico,2024-02-27
+1173,Larissa Oliveira,PF,69538461541,MT,Várzea Grande,Pessoa Física,Orgânico,2024-05-21
+1174,Natália Oliveira,PF,27110044655,RS,Porto Alegre,Pessoa Física,Indicação,2024-07-13
+1175,Juliana Teixeira,PF,92708331539,SP,Ribeirão Preto,Pessoa Física,Indicação,2024-08-29
+1176,Igor Martins,PF,14987582853,MT,Tangará da Serra,Pessoa Física,Indicação,2024-02-28
+1177,Kaique Ferreira,PF,25072314318,PE,Caruaru,Pessoa Física,Orgânico,2025-12-03
+1178,Carla Barbosa,PF,73086560416,SC,Chapecó,Pessoa Física,Marketplace,2023-11-15
+1179,Ana Silva,PF,95669032747,RS,Canoas,Pessoa Física,Indicação,2024-04-13
+1180,Larissa Ribeiro,PF,49709903984,PA,Santarém,Varejo,Indicação,2023-01-07
+1181,Thiago Souza,PF,50563384234,SC,Chapecó,Varejo,Orgânico,2024-06-22
+1182,Marcos Almeida,PF,25872456743,BA,Salvador,Corporativo,Orgânico,2025-07-25
+1183,Sabrina Almeida,PF,61687485581,ES,Cariacica,Varejo,Anúncio,2025-12-29
+1184,Natália Costa,PF,76507287340,MG,Belo Horizonte,Varejo,Orgânico,2024-06-02
+1185,Fernanda Oliveira,PF,40962805102,BA,Feira de Santana,Varejo,Indicação,2023-06-02
+1186,Fernanda Pereira,PF,27877532955,GO,Rio Verde,Atacado,Orgânico,2025-02-27
+1187,Rafael Souza,PJ,04646809847031,MT,Cuiabá,Pessoa Física,Orgânico,2024-12-03
+1188,Diego Santos,PF,68671915689,BA,Feira de Santana,Corporativo,Orgânico,2025-11-16
+1189,Juliana Cardoso,PF,55456654104,PE,Olinda,Varejo,Orgânico,2024-07-07
+1190,Diego Ribeiro,PF,36978599165,DF,Brasília,Corporativo,Anúncio,2023-01-04
+1191,Sabrina Almeida,PF,95021207469,MS,Corumbá,Atacado,Orgânico,2025-09-14
+1192,Helena Silva,PJ,64275701165336,CE,Caucaia,Pessoa Física,Anúncio,2025-01-09
+1193,Kaique Gomes,PF,99460903791,PA,Belém,Pessoa Física,Orgânico,2025-05-26
+1194,Helena Costa,PF,61045296444,SP,Ribeirão Preto,Varejo,Indicação,2023-05-11
+1195,Juliana Santos,PJ,16744962086621,CE,Sobral,Pessoa Física,WhatsApp,2024-05-16
+1196,Juliana Ferreira,PF,47259222959,SC,Joinville,Varejo,Marketplace,2024-05-16
+1197,Vanessa Cardoso,PF,94035309369,MS,Campo Grande,Pessoa Física,Indicação,2023-10-21
+1198,Marcos Santos,PF,56068902092,GO,Rio Verde,Pessoa Física,Anúncio,2025-07-17
+1199,Juliana Martins,PF,54683721135,GO,Aparecida de Goiânia,Pessoa Física,Indicação,2023-07-26
+1200,Eduardo Lima,PF,78541937699,PA,Marabá,Varejo,WhatsApp,2023-03-20
+1201,Eduardo Costa,PF,76105772580,SP,São Paulo,Pessoa Física,Anúncio,2023-09-14
+1202,Thiago Santos,PJ,39134627235076,PA,Ananindeua,Pessoa Física,Orgânico,2025-12-20
+1203,Carla Souza,PJ,82380444471881,PE,Caruaru,Pessoa Física,Marketplace,2023-05-05
+1204,Otávio Teixeira,PF,92037868286,PE,Jaboatão,Atacado,Orgânico,2024-09-28
+1205,Ana Lima,PF,11202926926,BA,Vitória da Conquista,Corporativo,Marketplace,2023-07-20
+1206,Marcos Lima,PF,42964897833,RJ,Niterói,Varejo,Orgânico,2024-03-08
+1207,Otávio Silva,PF,26865713709,PE,Recife,Varejo,Orgânico,2024-08-27
+1208,Patrícia Teixeira,PF,17687573590,DF,Ceilândia,Pessoa Física,Marketplace,2023-01-22
+1209,Rafael Teixeira,PF,30570547210,PR,Cascavel,Corporativo,Indicação,2023-09-22
+1210,Fernanda Ferreira,PF,44941603625,MG,Contagem,Varejo,Indicação,2024-10-05
+1211,Thiago Pereira,PF,49296710743,DF,Samambaia,Pessoa Física,Marketplace,2023-01-16
+1212,Ana Almeida,PF,83479861165,DF,Taguatinga,Corporativo,Marketplace,2024-06-26
+1213,Patrícia Cardoso,PF,16908337219,GO,Anápolis,Pessoa Física,Anúncio,2024-10-23
+1214,Sabrina Ferreira,PF,31627054959,CE,Sobral,Pessoa Física,WhatsApp,2023-08-24
+1215,Marcos Souza,PF,24819762882,ES,Vila Velha,Pessoa Física,Anúncio,2023-06-27
+1216,Sabrina Carvalho,PF,50315556912,DF,Guará,Pessoa Física,Orgânico,2024-06-21
+1217,Thiago Souza,PF,29001759235,PR,Ponta Grossa,Varejo,Marketplace,2025-02-26
+1218,Thiago Gomes,PF,09818439528,MT,Cuiabá,Varejo,Anúncio,2023-01-15
+1219,Helena Ribeiro,PF,71662481789,MT,Tangará da Serra,Pessoa Física,Marketplace,2024-01-06
+1220,Vanessa Costa,PF,32945556434,SC,Chapecó,Varejo,Orgânico,2025-12-31
+1221,Guilherme Teixeira,PF,68564734027,CE,Sobral,Corporativo,Orgânico,2024-01-03
+1222,Eduardo Ribeiro,PJ,02784457414261,GO,Aparecida de Goiânia,Pessoa Física,Orgânico,2023-12-30
+1223,Juliana Santos,PF,61961956018,SC,Chapecó,Varejo,Indicação,2025-03-19
+1224,Igor Pereira,PF,46943804823,MG,Juiz de Fora,Varejo,Marketplace,2024-06-10
+1225,Juliana Costa,PF,40028274738,GO,Aparecida de Goiânia,Corporativo,Anúncio,2024-03-04
+1226,Sabrina Pereira,PF,37846143997,PA,Ananindeua,Corporativo,Orgânico,2025-05-10
+1227,Helena Pereira,PF,99752811811,MS,Campo Grande,Pessoa Física,Anúncio,2023-02-03
+1228,Sabrina Carvalho,PF,55032316490,AM,Tefé,Varejo,Orgânico,2025-02-20
+1229,Thiago Souza,PJ,79464595594166,GO,Anápolis,Corporativo,Indicação,2024-02-22
+1230,Sabrina Lima,PF,27038666192,RS,Santa Maria,Varejo,Indicação,2025-08-31
+1231,Guilherme Carvalho,PF,79260640690,RJ,Niterói,Pessoa Física,Orgânico,2025-03-05
+1232,Kaique Lima,PF,88593765887,PE,Caruaru,Varejo,Anúncio,2025-10-28
+1233,Kaique Almeida,PF,59561394583,MS,Ponta Porã,Varejo,Indicação,2023-05-22
+1234,Natália Almeida,PF,20257342851,AM,Manaus,Pessoa Física,Orgânico,2023-07-27
+1235,Vanessa Pereira,PF,63828617741,PE,Jaboatão,Varejo,Anúncio,2025-09-16
+1236,Marcos Gomes,PF,46137592742,DF,Guará,Pessoa Física,Indicação,2024-03-03
+1237,Guilherme Cardoso,PF,96528011617,RJ,Rio de Janeiro,Atacado,Anúncio,2025-06-12
+1238,Helena Martins,PF,16782074915,MG,Belo Horizonte,Varejo,Orgânico,2025-01-22
+1239,Larissa Lima,PF,14076044644,PR,Curitiba,Atacado,Orgânico,2024-07-01
+1240,Igor Teixeira,PF,85888965528,PE,Petrolina,Pessoa Física,Marketplace,2023-02-19
+1241,Carla Lima,PF,68742978550,MS,Campo Grande,Corporativo,Orgânico,2023-03-22
+1242,Sabrina Pereira,PF,07207614406,CE,Fortaleza,Varejo,Marketplace,2025-02-24
+1243,Eduardo Silva,PF,38180774213,SC,Itajaí,Pessoa Física,Anúncio,2023-04-17
+1244,Ana Gomes,PF,67105597556,ES,Serra,Corporativo,Anúncio,2023-01-06
+1245,Juliana Gomes,PF,46188444813,PA,Ananindeua,Pessoa Física,Marketplace,2023-08-29
+1246,Ana Cardoso,PF,66215670035,PE,Jaboatão,Pessoa Física,Anúncio,2025-09-28
+1247,Larissa Souza,PF,01427081496,BA,Ilhéus,Pessoa Física,Orgânico,2024-11-17
+1248,Diego Silva,PF,90706371845,MG,Belo Horizonte,Corporativo,Orgânico,2025-02-26
+1249,Ana Souza,PF,50379952443,PR,Curitiba,Atacado,Indicação,2024-12-15
+1250,Patrícia Martins,PF,38307636997,MS,Três Lagoas,Pessoa Física,Anúncio,2024-09-11
+1251,Patrícia Gomes,PF,50588795143,CE,Maracanaú,Corporativo,Marketplace,2023-10-08
+1252,Helena Gomes,PF,87431032296,MG,Contagem,Varejo,Anúncio,2024-04-15
+1253,Patrícia Cardoso,PF,51865458746,SP,Sorocaba,Pessoa Física,Anúncio,2024-08-20
+1254,Ana Ferreira,PF,93961963298,SP,Santos,Pessoa Física,Orgânico,2025-12-18
+1255,Kaique Carvalho,PF,06125254581,BA,Vitória da Conquista,Corporativo,Orgânico,2025-09-12
+1256,Otávio Martins,PF,72043148571,SC,Itajaí,Atacado,Marketplace,2025-03-18
+1257,Juliana Carvalho,PF,03781437248,PE,Recife,Pessoa Física,Orgânico,2025-06-10
+1258,Patrícia Lima,PF,47652929958,BA,Juazeiro,Pessoa Física,WhatsApp,2025-06-03
+1259,Larissa Ferreira,PF,77010081092,CE,Sobral,Corporativo,Orgânico,2025-01-01
+1260,Guilherme Santos,PF,89599113571,PA,Belém,Atacado,Anúncio,2025-06-23
+1261,Ana Oliveira,PF,13293801820,AM,Manaus,Atacado,Orgânico,2023-03-22
+1262,Juliana Ferreira,PJ,51045550232526,DF,Brasília,Atacado,Marketplace,2023-01-24
+1263,Juliana Lima,PF,96345730761,PA,Ananindeua,Varejo,Orgânico,2024-05-01
+1264,Otávio Barbosa,PF,60670712739,MT,Várzea Grande,Pessoa Física,Indicação,2023-03-01
+1265,Juliana Carvalho,PF,99111547216,MT,Cuiabá,Varejo,WhatsApp,2024-01-07
+1266,Bruno Almeida,PF,66359694074,ES,Vila Velha,Corporativo,Indicação,2023-08-06
+1267,Rafael Cardoso,PF,01316630093,PR,Cascavel,Pessoa Física,Orgânico,2025-11-15
+1268,Patrícia Teixeira,PF,17819727461,RS,Caxias do Sul,Corporativo,Marketplace,2024-12-19
+1269,Thiago Cardoso,PJ,27802696730774,AM,Itacoatiara,Atacado,Anúncio,2023-02-15
+1270,Guilherme Oliveira,PF,52424162758,BA,Vitória da Conquista,Pessoa Física,Orgânico,2024-11-14
+1271,Rafael Santos,PJ,22261686145347,CE,Sobral,Varejo,Anúncio,2025-03-13
+1272,Patrícia Lima,PF,83324572200,RJ,Nova Iguaçu,Pessoa Física,Marketplace,2023-12-23
+1273,Natália Santos,PJ,02679548168526,MS,Dourados,Varejo,Anúncio,2025-08-25
+1274,Eduardo Pereira,PJ,92502741317912,BA,Ilhéus,Corporativo,Marketplace,2025-12-02
+1275,Bruno Santos,PF,88778388205,CE,Maracanaú,Pessoa Física,Indicação,2025-12-10
+1276,Rafael Oliveira,PF,78137072027,ES,Serra,Corporativo,Anúncio,2023-04-13
+1277,Marcos Cardoso,PF,80426793237,RJ,Niterói,Pessoa Física,Orgânico,2024-05-07
+1278,Larissa Oliveira,PF,40919153643,DF,Taguatinga,Varejo,Indicação,2025-05-01
+1279,Otávio Almeida,PJ,49220766078992,DF,Brasília,Pessoa Física,Anúncio,2024-04-30
+1280,Ana Lima,PF,74536969919,RS,Porto Alegre,Varejo,Orgânico,2024-06-11
+1281,Vanessa Barbosa,PF,84667810258,PE,Caruaru,Pessoa Física,Orgânico,2023-12-26
+1282,Fernanda Oliveira,PF,61743726135,PA,Castanhal,Pessoa Física,Marketplace,2024-04-04
+1283,Sabrina Pereira,PF,69288312676,DF,Brasília,Corporativo,Orgânico,2025-01-31
+1284,Vanessa Pereira,PJ,71583819766931,DF,Samambaia,Varejo,Orgânico,2023-01-29
+1285,Otávio Silva,PF,91629945449,AM,Manaus,Corporativo,Orgânico,2025-05-26
+1286,Rafael Cardoso,PF,29696844220,RS,Canoas,Pessoa Física,Orgânico,2025-03-08
+1287,Igor Silva,PJ,39963570989096,BA,Ilhéus,Atacado,WhatsApp,2023-06-01
+1288,Vanessa Barbosa,PF,51439329199,CE,Fortaleza,Pessoa Física,Anúncio,2025-04-25
+1289,Bruno Pereira,PF,36756155598,ES,Cariacica,Varejo,Indicação,2024-07-25
+1290,Carla Martins,PF,64405287994,RJ,Duque de Caxias,Varejo,Marketplace,2023-12-16
+1291,Larissa Cardoso,PF,46427492459,PA,Castanhal,Pessoa Física,Anúncio,2024-05-14
+1292,Rafael Carvalho,PF,50382317137,SP,São Paulo,Varejo,Marketplace,2024-07-20
+1293,Igor Almeida,PF,82314932385,MS,Corumbá,Varejo,WhatsApp,2023-08-19
+1294,Eduardo Ribeiro,PF,67755514808,RS,Canoas,Pessoa Física,Indicação,2024-10-26
+1295,Kaique Lima,PJ,53170519185078,MS,Três Lagoas,Pessoa Física,Indicação,2024-11-20
+1296,Diego Teixeira,PJ,29773148567308,ES,Linhares,Varejo,Anúncio,2024-02-07
+1297,Marcos Souza,PF,65587672792,BA,Juazeiro,Varejo,Marketplace,2024-05-19
+1298,Otávio Oliveira,PF,56594218654,SP,Santos,Corporativo,Orgânico,2024-11-05
+1299,Bruno Lima,PF,49698752675,RS,Caxias do Sul,Pessoa Física,Indicação,2024-07-05
+1300,Carla Silva,PF,09834192342,MG,,Corporativo,Anúncio,2024-04-20
+1301,Diego Ferreira,PF,69851829354,BA,Vitória da Conquista,Pessoa Física,Indicação,2025-11-13
+1302,Diego Ferreira,PF,41548492307,ES,Vila Velha,Pessoa Física,Marketplace,2025-08-20
+1303,Eduardo Ferreira,PF,02965878641,CE,Juazeiro do Norte,Pessoa Física,Indicação,2024-02-21
+1304,Rafael Barbosa,PF,37261032834,RJ,Duque de Caxias,Atacado,Orgânico,2025-02-26
+1305,Eduardo Oliveira,PF,43971202694,PA,Ananindeua,Varejo,Indicação,2025-06-06
+1306,Vanessa Barbosa,PF,00425125232,SP,Sorocaba,Atacado,WhatsApp,2023-05-02
+1307,Eduardo Gomes,PF,03388424637,SC,Blumenau,Varejo,Indicação,2024-10-10
+1308,Guilherme Silva,PF,94118436943,PR,Curitiba,Corporativo,Marketplace,2025-05-26
+1309,Patrícia Lima,PF,80850267169,AM,Parintins,Pessoa Física,Marketplace,2023-03-04
+1310,Thiago Teixeira,PF,67167138917,SP,Campinas,Atacado,Marketplace,2024-01-05
+1311,Natália Carvalho,PF,55584565829,AM,Itacoatiara,Varejo,Orgânico,2025-05-24
+1312,Thiago Ribeiro,PJ,69340982066519,ES,Serra,Pessoa Física,Anúncio,2025-10-22
+1313,Marcos Ribeiro,PF,47850868698,SC,Chapecó,Pessoa Física,Marketplace,2025-12-23
+1314,Kaique Ribeiro,PF,21172474030,ES,Serra,Varejo,WhatsApp,2024-10-23
+1315,Diego Pereira,PF,37561742614,AM,Itacoatiara,Pessoa Física,Orgânico,2023-02-16
+1316,Patrícia Almeida,PF,41930496690,DF,Ceilândia,Pessoa Física,Orgânico,2023-01-31
+1317,Otávio Silva,PF,53680194313,PE,Jaboatão,Corporativo,Orgânico,2025-06-08
+1318,Rafael Teixeira,PF,02109792225,RS,Canoas,Pessoa Física,Marketplace,2025-03-15
+1319,Ana Oliveira,PJ,12937296859340,SC,Chapecó,Corporativo,Marketplace,2023-08-01
+1320,Kaique Carvalho,PJ,17312370071465,RS,Caxias do Sul,Atacado,Indicação,2023-05-24
+1321,Vanessa Barbosa,PF,17021566131,PE,Olinda,Corporativo,Orgânico,2023-06-09
+1322,Guilherme Silva,PF,32778200892,ES,Vitória,Varejo,Orgânico,2025-08-19
+1323,Thiago Costa,PF,85132711732,SC,Blumenau,Pessoa Física,Marketplace,2025-04-18
+1324,Sabrina Carvalho,PJ,89588580081747,RS,Pelotas,Pessoa Física,Orgânico,2025-11-05
+1325,Ana Barbosa,PF,60379889853,AM,Tefé,Atacado,Orgânico,2023-05-05
+1326,Natália Martins,PF,57487298512,GO,Goiânia,Pessoa Física,Orgânico,2025-02-01
+1327,Kaique Ribeiro,PF,80462850332,SP,Ribeirão Preto,Varejo,Marketplace,2025-10-09
+1328,Patrícia Santos,PF,93552530451,DF,Samambaia,Varejo,Anúncio,2024-08-07
+1329,Eduardo Barbosa,PF,76353616002,MG,Contagem,Pessoa Física,Orgânico,2025-04-28
+1330,Otávio Ribeiro,PF,14120872186,MG,Belo Horizonte,Varejo,Orgânico,2024-10-21
+1331,Sabrina Oliveira,PF,81314105967,RJ,Rio de Janeiro,Pessoa Física,WhatsApp,2023-01-08
+1332,Sabrina Oliveira,PF,89126877330,PA,Castanhal,Atacado,Anúncio,2024-04-15
+1333,Sabrina Pereira,PF,31903893458,PA,Ananindeua,Pessoa Física,Anúncio,2023-10-14
+1334,Kaique Barbosa,PF,75336807410,MT,Várzea Grande,Corporativo,Orgânico,2023-04-02
+1335,Kaique Ferreira,PF,32128726472,SP,Sorocaba,Corporativo,Orgânico,2024-10-14
+1336,Natália Ribeiro,PJ,03950985715940,MG,Belo Horizonte,Pessoa Física,Marketplace,2025-10-15
+1337,Kaique Souza,PF,77761178055,ES,Serra,Pessoa Física,Marketplace,2023-03-01
+1338,Diego Ferreira,PF,36981492845,PE,Caruaru,Varejo,Anúncio,2023-12-27
+1339,Patrícia Oliveira,PF,29554073271,MS,Três Lagoas,Pessoa Física,Marketplace,2025-01-03
+1340,Bruno Lima,PF,64707283040,DF,Samambaia,Atacado,Anúncio,2023-12-09
+1341,Rafael Lima,PF,27578450270,RS,Porto Alegre,Varejo,Marketplace,2023-05-08
+1342,Marcos Lima,PF,31856620313,PE,Jaboatão,Corporativo,Orgânico,2023-07-29
+1343,Diego Pereira,PF,37319023083,SC,Blumenau,Pessoa Física,Orgânico,2023-01-28
+1344,Guilherme Pereira,PF,71512483702,MT,Cuiabá,Pessoa Física,Marketplace,2025-12-23
+1345,Thiago Cardoso,PF,64560687239,BA,Feira de Santana,Pessoa Física,WhatsApp,2024-06-22
+1346,Helena Oliveira,PJ,79941228238165,BA,Feira de Santana,Pessoa Física,Marketplace,2025-10-30
+1347,Kaique Barbosa,PF,94589768972,AM,Manacapuru,Varejo,Indicação,2025-01-21
+1348,Carla Oliveira,PJ,62549598817254,PE,Caruaru,Atacado,Marketplace,2024-01-18
+1349,Eduardo Cardoso,PJ,29850129405954,GO,Aparecida de Goiânia,Varejo,Indicação,2025-10-29
+1350,Diego Teixeira,PF,18192130016,MS,Campo Grande,Pessoa Física,Orgânico,2023-10-12
+1351,Patrícia Santos,PF,82634385586,MT,Tangará da Serra,Varejo,Anúncio,2023-07-17
+1352,Patrícia Pereira,PF,11306404899,MS,Corumbá,Pessoa Física,Indicação,2025-06-01
+1353,Fernanda Souza,PF,96996494115,DF,Brasília,Pessoa Física,Indicação,2024-08-29
+1354,Igor Silva,PF,01254559246,CE,Caucaia,Pessoa Física,Marketplace,2024-04-08
+1355,Helena Carvalho,PF,21032126850,PR,Cascavel,Varejo,Anúncio,2024-10-06
+1356,Vanessa Costa,PF,71054390054,GO,Goiânia,Varejo,Orgânico,2025-11-26
+1357,Fernanda Almeida,PF,80410471854,MS,Campo Grande,Pessoa Física,Orgânico,2023-11-04
+1358,Helena Teixeira,PF,93271889468,PA,Ananindeua,Pessoa Física,Marketplace,2025-09-14
+1359,Diego Lima,PF,13466941184,CE,Fortaleza,Corporativo,Orgânico,2025-09-25
+1360,Marcos Almeida,PF,65821748129,RJ,Niterói,Pessoa Física,Marketplace,2025-04-12
+1361,Fernanda Teixeira,PJ,80801813150236,RJ,Petrópolis,Pessoa Física,Orgânico,2023-06-22
+1362,Igor Pereira,PF,41443533723,CE,Sobral,Atacado,Anúncio,2023-04-09
+1363,Fernanda Ribeiro,PF,16761427344,AM,Tefé,Pessoa Física,Marketplace,2023-05-12
+1364,Sabrina Silva,PF,77848856982,PR,Ponta Grossa,Varejo,Anúncio,2025-02-08
+1365,Diego Ribeiro,PF,74139979571,DF,Ceilândia,Pessoa Física,Marketplace,2024-03-14
+1366,Marcos Cardoso,PF,21969446533,PR,Ponta Grossa,Varejo,Orgânico,2025-12-18
+1367,Natália Souza,PF,50101100815,ES,Cariacica,Atacado,Anúncio,2023-01-07
+1368,Natália Pereira,PF,09276765783,SC,Joinville,Varejo,Indicação,2024-02-14
+1369,Sabrina Santos,PJ,99791569180362,MT,Sinop,Pessoa Física,Marketplace,2023-10-17
+1370,Thiago Almeida,PJ,89120786110471,PE,Caruaru,Pessoa Física,Orgânico,2025-08-24
+1371,Natália Ribeiro,PF,82565434227,GO,Aparecida de Goiânia,Atacado,Orgânico,2023-05-13
+1372,Ana Silva,PF,88330252704,ES,Linhares,Atacado,Indicação,2024-03-23
+1373,Sabrina Ribeiro,PF,24047824645,GO,Aparecida de Goiânia,Atacado,WhatsApp,2025-08-07
+1374,Guilherme Pereira,PF,38697330673,RS,Santa Maria,Varejo,Marketplace,2025-11-30
+1375,Igor Martins,PF,08250086014,MT,Sinop,Pessoa Física,Marketplace,2025-10-01
+1376,Ana Ferreira,PF,64866268078,RJ,Rio de Janeiro,Varejo,Anúncio,2024-12-17
+1377,Eduardo Almeida,PF,47318373363,BA,Salvador,Pessoa Física,Indicação,2023-06-28
+1378,Diego Cardoso,PF,80002030719,AM,Itacoatiara,Pessoa Física,Marketplace,2023-04-16
+1379,Thiago Gomes,PF,86778564631,SP,São Paulo,Varejo,Marketplace,2024-03-26
+1380,Marcos Costa,PF,96727509984,SP,São Paulo,Pessoa Física,Marketplace,2024-06-09
+1381,Helena Teixeira,PF,20781607091,MT,Cuiabá,Pessoa Física,Marketplace,2024-07-17
+1382,Larissa Souza,PF,46839049254,DF,Samambaia,Pessoa Física,Marketplace,2023-02-24
+1383,Ana Silva,PF,37575947688,BA,Juazeiro,Pessoa Física,Orgânico,2025-01-10
+1384,Patrícia Lima,PF,23344088638,CE,Sobral,Varejo,Orgânico,2024-03-09
+1385,Eduardo Oliveira,PF,23995119263,PE,Olinda,Varejo,WhatsApp,2023-04-30
+1386,Thiago Oliveira,PF,49544255046,SP,Campinas,Pessoa Física,Anúncio,2025-09-30
+1387,Larissa Lima,PF,09860580780,ES,Cariacica,Corporativo,Orgânico,2024-01-27
+1388,Carla Carvalho,PF,27975655702,BA,Juazeiro,Pessoa Física,Anúncio,2023-09-12
+1389,Rafael Souza,PF,07701225431,AM,Manaus,Pessoa Física,Indicação,2024-06-23
+1390,Igor Pereira,PF,67689860347,ES,Serra,Corporativo,Marketplace,2025-11-07
+1391,Eduardo Gomes,PF,86376756332,SC,Chapecó,Varejo,Marketplace,2025-06-22
+1392,Igor Martins,PF,26310845919,MT,Tangará da Serra,Corporativo,Orgânico,2023-04-20
+1393,Guilherme Costa,PF,76472392795,RS,Porto Alegre,Pessoa Física,Anúncio,2025-01-22
+1394,Igor Oliveira,PF,28851441416,RS,Caxias do Sul,Atacado,Orgânico,2024-12-29
+1395,Guilherme Barbosa,PF,47477147528,ES,Vitória,Varejo,Marketplace,2025-08-29
+1396,Patrícia Cardoso,PF,19731958806,PR,Londrina,Pessoa Física,Orgânico,2025-11-24
+1397,Kaique Teixeira,PF,39206552497,AM,,Pessoa Física,Indicação,2025-03-28
+1398,Eduardo Teixeira,PF,93839819675,BA,Salvador,Pessoa Física,Indicação,2024-12-17
+1399,Eduardo Martins,PF,29182742239,MS,Três Lagoas,Pessoa Física,Indicação,2024-01-23
+1400,Guilherme Silva,PF,76649293347,MT,Rondonópolis,Corporativo,Indicação,2025-09-12
+1401,Diego Martins,PF,77018919299,DF,Ceilândia,Pessoa Física,Indicação,2025-10-30
+1402,Marcos Gomes,PJ,61713603703060,PE,Jaboatão,Pessoa Física,Indicação,2025-12-22
+1403,Eduardo Carvalho,PF,25228708419,SC,Itajaí,Atacado,Orgânico,2025-11-12
+1404,Thiago Cardoso,PJ,33182528753649,DF,Samambaia,Corporativo,Anúncio,2024-12-04
+1405,Ana Lima,PJ,60813429913365,MS,Corumbá,Atacado,Anúncio,2025-11-14
+1406,Sabrina Costa,PJ,60522710475173,ES,Cariacica,Pessoa Física,Orgânico,2025-05-07
+1407,Sabrina Martins,PF,72929375004,GO,Goiânia,Pessoa Física,Marketplace,2023-09-21
+1408,Otávio Ribeiro,PF,16152135333,RS,Santa Maria,Pessoa Física,Orgânico,2023-02-05
+1409,Larissa Barbosa,PF,34854759525,PE,Recife,Pessoa Física,Marketplace,2025-12-10
+1410,Eduardo Silva,PF,72258356613,CE,Maracanaú,Corporativo,Orgânico,2024-04-13
+1411,Guilherme Teixeira,PF,98704038317,MG,Contagem,Pessoa Física,Marketplace,2025-08-15
+1412,Fernanda Teixeira,PF,76876834564,AM,Manaus,Pessoa Física,Orgânico,2023-11-12
+1413,Rafael Silva,PJ,41614474052321,MG,Uberlândia,Pessoa Física,Anúncio,2024-01-31
+1414,Marcos Carvalho,PF,92583949408,GO,Aparecida de Goiânia,Varejo,Orgânico,2025-06-22
+1415,Fernanda Pereira,PF,89183891323,GO,Rio Verde,Pessoa Física,Indicação,2024-07-29
+1416,Igor Ferreira,PF,54662071162,DF,Samambaia,Pessoa Física,Orgânico,2025-01-12
+1417,Juliana Carvalho,PF,13589785483,RJ,Nova Iguaçu,Varejo,Marketplace,2023-12-17
+1418,Kaique Ferreira,PF,89367729501,PE,Recife,Pessoa Física,Indicação,2024-11-04
+1419,Patrícia Teixeira,PF,74155034760,MT,Tangará da Serra,Corporativo,WhatsApp,2024-06-17
+1420,Igor Ribeiro,PF,69090637888,DF,Brasília,Atacado,Indicação,2025-10-17
+1421,Carla Souza,PF,83471559000,PR,Cascavel,Pessoa Física,Indicação,2024-06-23
+1422,Carla Lima,PF,55523407064,PE,Petrolina,Atacado,Marketplace,2023-04-08
+1423,Guilherme Lima,PF,96471148832,PR,Ponta Grossa,Pessoa Física,Orgânico,2025-03-18
+1424,Igor Santos,PF,95128890818,MT,Tangará da Serra,Pessoa Física,Indicação,2025-11-11
+1425,Igor Costa,PF,83170534894,PR,Curitiba,Varejo,Anúncio,2025-08-25
+1426,Thiago Pereira,PF,28419921153,SC,Chapecó,Corporativo,Indicação,2023-04-21
+1427,Juliana Costa,PF,67080176954,BA,Salvador,Varejo,Orgânico,2025-12-30
+1428,Natália Teixeira,PF,67639332225,GO,Rio Verde,Varejo,Anúncio,2024-01-16
+1429,Otávio Silva,PF,74944091195,PA,Ananindeua,Pessoa Física,Indicação,2025-07-03
+1430,Thiago Barbosa,PF,04507606273,ES,Vitória,Varejo,Anúncio,2024-11-21
+1431,Patrícia Souza,PF,25438642508,PR,Maringá,Pessoa Física,Orgânico,2025-12-02
+1432,Juliana Gomes,PJ,06373097005950,PE,Recife,Corporativo,Anúncio,2024-01-10
+1433,Larissa Gomes,PF,64630066307,SC,,Atacado,Marketplace,2024-10-28
+1434,Natália Oliveira,PJ,11479696810697,GO,Anápolis,Pessoa Física,Orgânico,2025-01-18
+1435,Rafael Costa,PF,34136142478,ES,Cariacica,Corporativo,Anúncio,2023-06-19
+1436,Otávio Souza,PF,48797563676,BA,Salvador,Pessoa Física,WhatsApp,2025-04-29
+1437,Marcos Cardoso,PF,15717859848,RS,Porto Alegre,Pessoa Física,WhatsApp,2023-06-07
+1438,Larissa Martins,PF,91904972622,ES,Vila Velha,Pessoa Física,Orgânico,2025-06-27
+1439,Fernanda Teixeira,PJ,90940703273606,GO,Goiânia,Varejo,Anúncio,2023-05-19
+1440,Bruno Costa,PF,72846192600,RS,Porto Alegre,Varejo,Orgânico,2023-07-16
+1441,Igor Souza,PF,19285044268,PA,Belém,Pessoa Física,WhatsApp,2024-06-26
+1442,Otávio Gomes,PJ,85890670692896,PE,Caruaru,Varejo,Anúncio,2023-07-19
+1443,Diego Costa,PF,65445487352,RS,Pelotas,Pessoa Física,Anúncio,2023-03-26
+1444,Bruno Silva,PF,13081322378,PE,Olinda,Pessoa Física,Orgânico,2023-02-27
+1445,Marcos Gomes,PF,12437245367,PA,Marabá,Pessoa Física,Indicação,2023-11-10
+1446,Juliana Almeida,PF,54999088873,BA,Ilhéus,Pessoa Física,Orgânico,2024-06-21
+1447,Ana Oliveira,PF,75837781829,MS,Três Lagoas,Pessoa Física,Marketplace,2023-02-18
+1448,Rafael Ferreira,PF,02656406553,RJ,Duque de Caxias,Varejo,Anúncio,2023-05-31
+1449,Natália Pereira,PJ,87101076458845,BA,Juazeiro,Pessoa Física,Indicação,2024-11-01
+1450,Eduardo Barbosa,PF,59738379812,RJ,Niterói,Pessoa Física,Marketplace,2023-12-16
+1451,Sabrina Pereira,PF,71024113557,RJ,Duque de Caxias,Atacado,Orgânico,2025-04-10
+1452,Natália Martins,PF,90613372838,RJ,Niterói,Pessoa Física,Orgânico,2025-07-10
+1453,Carla Lima,PF,95174342292,AM,Manacapuru,Corporativo,Anúncio,2023-02-03
+1454,Diego Teixeira,PJ,47268804063818,SC,Chapecó,Varejo,Marketplace,2025-11-05
+1455,Sabrina Martins,PF,39123978576,MS,Dourados,Pessoa Física,Orgânico,2025-01-19
+1456,Guilherme Barbosa,PJ,68954679697978,PA,Marabá,Pessoa Física,Marketplace,2025-06-19
+1457,Guilherme Gomes,PF,19373475708,BA,Vitória da Conquista,Varejo,Anúncio,2024-06-07
+1458,Otávio Cardoso,PJ,47255146883618,DF,Samambaia,Pessoa Física,Indicação,2023-01-01
+1459,Rafael Carvalho,PF,89437725643,DF,Taguatinga,Varejo,Indicação,2025-08-28
+1460,Natália Carvalho,PF,24231363184,AM,Itacoatiara,Varejo,Orgânico,2024-09-14
+1461,Guilherme Teixeira,PF,55547894304,PE,Jaboatão,Atacado,Orgânico,2023-02-10
+1462,Vanessa Pereira,PF,92876570117,MG,Belo Horizonte,Pessoa Física,Marketplace,2023-07-02
+1463,Helena Cardoso,PF,42043107724,SP,Santos,Varejo,Anúncio,2023-08-14
+1464,Helena Ribeiro,PF,24197928513,PA,Belém,Varejo,Indicação,2024-02-16
+1465,Igor Gomes,PF,87726903019,BA,Juazeiro,Pessoa Física,WhatsApp,2024-04-29
+1466,Otávio Almeida,PF,21094726865,MT,Tangará da Serra,Corporativo,Orgânico,2024-04-13
+1467,Eduardo Costa,PF,22540141532,SP,Ribeirão Preto,Varejo,Anúncio,2025-08-09
+1468,Carla Gomes,PF,15169968962,PE,Recife,Varejo,Anúncio,2025-10-30
+1469,Igor Silva,PF,58631138509,RS,Santa Maria,Pessoa Física,Orgânico,2025-01-13
+1470,Carla Souza,PF,43836956380,GO,Rio Verde,Pessoa Física,WhatsApp,2024-11-25
+1471,Bruno Almeida,PF,29414252390,GO,Rio Verde,Pessoa Física,WhatsApp,2025-08-04
+1472,Fernanda Martins,PF,70469207850,MS,Corumbá,Varejo,Orgânico,2023-10-21
+1473,Marcos Ribeiro,PF,53403909559,PA,Santarém,Corporativo,WhatsApp,2024-09-03
+1474,Larissa Santos,PF,29234637066,ES,Vila Velha,Pessoa Física,Orgânico,2024-12-05
+1475,Sabrina Lima,PF,56792453955,PR,Londrina,Atacado,WhatsApp,2023-11-09
+1476,Natália Lima,PJ,14647113388452,RS,Porto Alegre,Varejo,Marketplace,2025-11-09
+1477,Guilherme Cardoso,PF,57795306859,CE,Sobral,Corporativo,Orgânico,2023-09-16
+1478,Thiago Martins,PF,30610746736,BA,Juazeiro,Atacado,Indicação,2023-03-06
+1479,Rafael Gomes,PF,55735512014,ES,Vila Velha,Varejo,Marketplace,2023-12-21
+1480,Kaique Gomes,PF,99752379934,DF,Taguatinga,Pessoa Física,Orgânico,2025-06-13
+1481,Fernanda Barbosa,PF,50107273713,BA,Ilhéus,Corporativo,Anúncio,2024-02-15
+1482,Larissa Costa,PF,24516900969,GO,Goiânia,Pessoa Física,Indicação,2023-08-26
+1483,Sabrina Pereira,PF,77153800599,MG,Uberlândia,Varejo,Orgânico,2025-08-13
+1484,Thiago Lima,PF,54291153492,CE,Caucaia,Pessoa Física,Orgânico,2023-06-17
+1485,Patrícia Ferreira,PF,82306881716,DF,Brasília,Pessoa Física,Orgânico,2023-06-24
+1486,Juliana Gomes,PF,71107615726,SP,São Paulo,Pessoa Física,Indicação,2025-09-12
+1487,Otávio Santos,PJ,22334236361184,GO,Aparecida de Goiânia,Corporativo,Anúncio,2023-12-19
+1488,Kaique Santos,PJ,67194844616960,BA,Juazeiro,Pessoa Física,Anúncio,2023-01-03
+1489,Guilherme Martins,PJ,60123007414672,PA,Santarém,Atacado,Orgânico,2024-04-20
+1490,Otávio Ribeiro,PJ,19693133770536,SP,Sorocaba,Pessoa Física,Orgânico,2025-03-23
+1491,Vanessa Gomes,PF,35721794918,PA,Castanhal,Pessoa Física,Indicação,2025-04-09
+1492,Rafael Souza,PF,92168068050,AM,Manacapuru,Pessoa Física,Orgânico,2023-04-06
+1493,Vanessa Lima,PF,14308281574,PA,Santarém,Pessoa Física,Indicação,2023-11-05
+1494,Sabrina Santos,PF,47086743569,RJ,Duque de Caxias,Pessoa Física,Anúncio,2024-11-08
+1495,Fernanda Cardoso,PF,80193501477,AM,Itacoatiara,Pessoa Física,Indicação,2024-12-24
+1496,Ana Pereira,PJ,81255048184567,MS,Três Lagoas,Varejo,Anúncio,2024-11-11
+1497,Guilherme Pereira,PF,61280751190,PA,Castanhal,Varejo,Marketplace,2024-01-06
+1498,Rafael Gomes,PF,00691772040,RS,Santa Maria,Pessoa Física,Orgânico,2025-08-03
+1499,Natália Santos,PF,14896236157,RS,Pelotas,Pessoa Física,Marketplace,2023-03-27
+1500,Juliana Martins,PF,80225199344,ES,Vila Velha,Corporativo,Orgânico,2025-06-20
