@@ -29,8 +29,15 @@ base = (itens
 print("\n✅ Base consolidada:", base.shape)
 print(base.head())
 
+# ==========================================
+# 3) AJUSTE AUTOMÁTICO (produto x descricao)
+# ==========================================
+# (caso seu produtos.csv seja do dataset Fiscal)
+if "produto" not in base.columns and "descricao" in base.columns:
+    base.rename(columns={"descricao": "produto"}, inplace=True)
+
 # =========================
-# 3) KPI PRINCIPAIS
+# 4) KPI PRINCIPAIS
 # =========================
 base["faturamento"] = base["valor_total"]
 
@@ -44,7 +51,7 @@ print(f"Qtd. vendas: {qtd_vendas}")
 print(f"Ticket médio: R$ {ticket_medio:,.2f}")
 
 # =========================
-# 4) TOP 10 PRODUTOS
+# 5) TOP 10 PRODUTOS
 # =========================
 top_prod = (base.groupby("produto")["faturamento"]
             .sum()
@@ -55,19 +62,9 @@ print("\n🏆 Top 10 Produtos por faturamento:")
 print(top_prod)
 
 # =========================
-# 5) FATURAMENTO POR CANAL
+# 6) FATURAMENTO POR CANAL
 # =========================
 fat_canal = base.groupby("canal")["faturamento"].sum().sort_values(ascending=False)
 
 print("\n🛒 Faturamento por canal:")
 print(fat_canal)
-
-# =========================
-# 6) FATURAMENTO POR MÊS
-# =========================
-fat_mes = (base.groupby(base["data"].dt.to_period("M"))["faturamento"]
-           .sum()
-           .sort_index())
-
-print("\n📅 Faturamento por mês:")
-print(fat_mes.tail(12))
