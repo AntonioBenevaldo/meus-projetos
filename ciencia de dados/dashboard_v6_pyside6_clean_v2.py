@@ -1,6 +1,4 @@
-from pathlib import Path
-
-code = r'''# dashboard_v6_pyside6_clean.py
+# dashboard_v6_pyside6_clean.py
 # Dashboard v6 (Power BI Style) - PySide6 + Matplotlib (QtAgg)
 # Compatível com Python 3.14 (Windows)
 #
@@ -713,8 +711,7 @@ class DashboardV6(QMainWindow):
             x = [str(p) for p in s.index]
             ax.plot(x, s.values, marker="o")
             ax.tick_params(axis="x", rotation=45, labelsize=8)
-            ax.yaxis.set_major_formatter(FuncFormatter(brl_axis))
-            ax.ticklabel_format(style="plain", axis="y")
+            ax.yaxis.set_major_formatter(FuncFormatter(brl_axis)) 
         else:
             ax.text(0.5, 0.5, "Sem dados", ha="center", va="center")
         self.fig_line.tight_layout()
@@ -729,8 +726,7 @@ class DashboardV6(QMainWindow):
             if len(top):
                 top = top.sort_values()
                 ax2.barh(top.index.astype(str), top.values)
-                ax2.xaxis.set_major_formatter(FuncFormatter(brl_axis))
-                ax2.ticklabel_format(style="plain", axis="x")
+                ax2.xaxis.set_major_formatter(FuncFormatter(brl_axis)) 
             else:
                 ax2.text(0.5, 0.5, "Sem top", ha="center", va="center")
         else:
@@ -746,8 +742,7 @@ class DashboardV6(QMainWindow):
             c = df.groupby("canal")["valor_total"].sum().sort_values(ascending=False)
             if len(c):
                 ax3.bar(c.index.astype(str), c.values)
-                ax3.yaxis.set_major_formatter(FuncFormatter(brl_axis))
-                ax3.ticklabel_format(style="plain", axis="y")
+                ax3.yaxis.set_major_formatter(FuncFormatter(brl_axis)) 
             else:
                 ax3.text(0.5, 0.5, "Sem canal", ha="center", va="center")
         else:
@@ -879,8 +874,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-'''
-
-outpath = Path("/mnt/data/dashboard_v6_pyside6_clean.py")
-outpath.write_text(code, encoding="utf-8")
-print(outpath)
