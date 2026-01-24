@@ -1,0 +1,654 @@
+funcionario_id,nome,departamento,cargo,senioridade,regime,modelo_trabalho,uf,cidade,escolaridade,data_admissao,ativo,data_desligamento,motivo_desligamento,salario_base
+1,Natália Costa,TI,Dev Jr,Jr,PJ,Presencial,SP,Campinas,Graduação,2023-10-06,1,,,5988.22
+2,Helena Pereira,Comercial,Inside Sales,Pl,CLT,Híbrido,GO,Rio Verde,Mestrado,2022-02-08,0,2022-10-01,Desempenho,5292.88
+3,Ana Santos,Fiscal,Especialista Fiscal,Jr,PJ,Remoto,RS,Porto Alegre,Graduação,2023-07-03,1,,,4744.18
+4,Eduardo Dias,Financeiro,Contas a Pagar,Sr,CLT,Híbrido,DF,Ceilândia,Graduação,2025-10-27,0,2025-12-30,Acordo,9770.15
+5,Eduardo Gomes,Financeiro,Contas a Pagar,Pl,CLT,Presencial,RS,Pelotas,Ensino Médio,2024-06-14,0,2025-05-05,Fim de contrato,6928.71
+6,Carla Santos,Operações,Analista Operacional,Jr,CLT,Remoto,RS,Caxias do Sul,Graduação,2021-11-20,0,2022-05-14,Desempenho,2501.56
+7,Camila Araújo,Suporte,Coordenador Suporte,Pl,CLT,Remoto,GO,Anápolis,Ensino Médio,2025-11-21,0,2026-01-16,Reestruturação,4761.6
+8,Igor Pereira,TI,Infra,Jr,CLT,Presencial,RS,Porto Alegre,Técnico,2021-10-21,0,2024-03-23,Desempenho,5603.17
+9,Caio Costa,Comercial,Inside Sales,Jr,CLT,Híbrido,RS,Caxias do Sul,Ensino Médio,2020-11-08,1,,,3513.02
+10,Larissa Almeida,Financeiro,Contas a Receber,Jr,CLT,Presencial,GO,Goiânia,Graduação,2023-12-14,0,2024-07-15,Pedido de demissão,3888.52
+11,Eduardo Cardoso,Suporte,Coordenador Suporte,Jr,CLT,Híbrido,MG,,Pós-graduação,2024-05-25,0,2026-01-18,Reestruturação,3348.04
+12,Kaique Souza,Suporte,Suporte N1,Sr,CLT,Presencial,MG,Belo Horizonte,Graduação,2025-06-03,0,2025-07-05,Fim de contrato,7882.72
+13,Lucas Martins,Comercial,Vendedor,Jr,CLT,Híbrido,DF,Taguatinga,Mestrado,2020-07-16,1,,,3121.8
+14,Beatriz Pereira,Operações,Analista Operacional,Pl,PJ,Presencial,DF,Brasília,Pós-graduação,2023-11-08,1,,,6283.75
+15,Sabrina Souza,Fiscal,Analista Fiscal Jr,Jr,CLT,Híbrido,DF,Brasília,Graduação,2025-10-13,1,,,4421.18
+16,Bruno Rocha,Operações,Analista Operacional,Pl,CLT,Híbrido,DF,Brasília,Pós-graduação,2023-05-12,1,,,3737.72
+17,Sabrina Teixeira,Fiscal,Assistente Fiscal,Sr,CLT,Remoto,SP,Campinas,Graduação,2025-03-08,1,,,10517.41
+18,Vanessa Oliveira,Financeiro,Analista Financeiro Pl,Jr,CLT,Híbrido,DF,Brasília,Ensino Médio,2020-09-21,0,2025-09-06,Reestruturação,3491.41
+19,Kaique Gomes,Dados,Eng. de Dados,Jr,CLT,Híbrido,RJ,Niterói,Pós-graduação,2020-01-27,1,,,5620.61
+20,Carla Rocha,Dados,Eng. de Dados,Pl,CLT,Presencial,GO,Goiânia,Graduação,2021-07-17,1,,,7130.73
+21,João Almeida,Fiscal,Analista Fiscal Pl,Jr,CLT,Híbrido,PE,Olinda,Pós-graduação,2025-06-20,1,,,4570.46
+22,Thiago Souza,Fiscal,Especialista Fiscal,Pl,CLT,Híbrido,RS,Caxias do Sul,Técnico,2024-10-17,0,2025-01-24,Fim de contrato,8563.27
+23,Natália Oliveira,Comercial,Inside Sales,Sr,CLT,Híbrido,SC,Blumenau,Pós-graduação,2024-05-27,1,,,7599.15
+24,Marcos Lima,TI,Infra,Pl,CLT,Híbrido,PE,Olinda,Técnico,2020-10-25,0,2022-06-28,Acordo,7140.38
+25,Patrícia Souza,Fiscal,Assistente Fiscal,Pl,CLT,Remoto,PE,Recife,Ensino Médio,2025-08-19,1,,,5371.2
+26,Pedro Dias,Financeiro,Contas a Receber,Jr,CLT,Presencial,RS,Pelotas,Graduação,2025-08-22,1,,,3677.01
+27,Kaique Souza,Dados,Analista de Dados Pl,Jr,CLT,Híbrido,SP,Campinas,Graduação,2022-04-03,0,2024-01-12,Fim de contrato,6301.47
+28,Marcos Oliveira,Comercial,Gerente Comercial,Sr,CLT,Presencial,PR,Londrina,Graduação,2025-09-07,1,,,8268.55
+29,Guilherme Melo,Fiscal,Analista Fiscal Jr,Pl,CLT,Presencial,RJ,Duque de Caxias,Graduação,2021-06-29,1,,,5277.32
+30,Natália Melo,Financeiro,Contas a Receber,Pl,CLT,Presencial,DF,Brasília,Técnico,2023-11-01,1,,,6316.87
+31,Carla Pereira,Dados,Analista de Dados Pl,Pl,PJ,Remoto,GO,Goiânia,Pós-graduação,2023-01-17,0,2023-11-09,Acordo,9927.08
+32,Ana Gomes,RH,Analista de RH Pl,Jr,CLT,Remoto,SP,,Pós-graduação,2021-10-24,0,2023-03-08,Acordo,4075.06
+33,Igor Costa,Operações,Analista Operacional,Pl,CLT,Presencial,BA,Ilhéus,Técnico,2021-03-21,1,,,4661.01
+34,Fernanda Ferreira,Comercial,Vendedor,Pl,CLT,Híbrido,MG,Contagem,Graduação,2025-07-18,1,,,5682.16
+35,Guilherme Almeida,Financeiro,Contas a Pagar,Jr,CLT,Presencial,RS,Pelotas,Pós-graduação,2025-01-28,1,,,4145.01
+36,Igor Ribeiro,Suporte,Customer Success,Jr,PJ,Híbrido,DF,Taguatinga,Graduação,2024-10-14,0,2025-03-09,Desempenho,2863.14
+37,Helena Costa,Comercial,Executivo de Contas,Pl,CLT,Híbrido,BA,Ilhéus,Graduação,2022-02-13,1,,,4739.44
+38,Carla Dias,Fiscal,Assistente Fiscal,Jr,CLT,Remoto,DF,Ceilândia,Pós-graduação,2024-06-03,1,,,4976.73
+39,Vanessa Gomes,Suporte,Coordenador Suporte,Jr,CLT,Híbrido,PR,Curitiba,Pós-graduação,2025-09-20,0,2025-11-02,Fim de contrato,3128.66
+40,Mariana Dias,Financeiro,Contas a Receber,Jr,CLT,Híbrido,PR,Maringá,Graduação,2020-11-06,0,2022-01-18,Desempenho,4293.86
+41,Renato Gomes,Comercial,Gerente Comercial,Pl,CLT,Híbrido,GO,Anápolis,Pós-graduação,2024-08-30,1,,,5410.7
+42,Guilherme Dias,Financeiro,Analista Financeiro Pl,Jr,PJ,Remoto,DF,,Técnico,2023-08-31,1,,,4044.55
+43,Vanessa Teixeira,Dados,Analista de Dados Pl,Pl,CLT,Híbrido,PE,Olinda,Pós-graduação,2022-11-15,1,,,8391.12
+44,Bruno Souza,Operações,Analista Operacional,Jr,CLT,Híbrido,CE,Juazeiro do Norte,Técnico,2024-11-26,0,2025-02-11,Fim de contrato,3364.78
+45,Thiago Ribeiro,Dados,Analista de Dados Pl,Jr,CLT,Híbrido,SC,Florianópolis,Graduação,2023-08-11,0,2024-02-24,Pedido de demissão,6095.81
+46,Carla Souza,Fiscal,Especialista Fiscal,Jr,CLT,Híbrido,CE,Juazeiro do Norte,Graduação,2021-05-23,1,,,4842.82
+47,Vanessa Barbosa,Comercial,Vendedor,Jr,CLT,Presencial,RJ,Niterói,Graduação,2024-01-24,0,2024-09-16,Desempenho,3664.92
+48,Bruno Lima,Dados,Cientista de Dados Jr,Sr,CLT,Híbrido,BA,Feira de Santana,Pós-graduação,2021-07-20,1,,,14110.85
+49,Mariana Souza,Operações,Coordenador de Operações,Pl,PJ,Presencial,CE,Fortaleza,Graduação,2022-03-13,0,2023-06-04,Pedido de demissão,5558.02
+50,Ana Costa,Comercial,Vendedor,Pl,PJ,Presencial,SC,Joinville,Pós-graduação,2022-09-07,0,2025-12-15,Fim de contrato,7631.77
+51,Bruno Costa,Comercial,Gerente Comercial,Pl,PJ,Híbrido,PR,Maringá,Técnico,2023-01-17,1,,,5764.01
+52,Fernanda Oliveira,Financeiro,Analista Financeiro Pl,Jr,CLT,Híbrido,SP,Santos,Graduação,2024-10-27,1,,,4379.2
+53,Eduardo Lima,Fiscal,Assistente Fiscal,Pl,CLT,Remoto,RS,Caxias do Sul,Técnico,2021-07-03,1,,,6474.05
+54,Fernanda Souza,Fiscal,Especialista Fiscal,Pl,CLT,Híbrido,SC,Florianópolis,Técnico,2020-07-30,1,,,7695.88
+55,Juliana Dias,Fiscal,Assistente Fiscal,Pl,CLT,Híbrido,PE,Recife,Graduação,2024-01-28,1,,,6574.61
+56,Lucas Almeida,Comercial,Gerente Comercial,Sr,CLT,Remoto,SC,Joinville,Pós-graduação,2024-03-19,0,2025-09-04,Desempenho,8981.03
+57,Carla Oliveira,Comercial,Inside Sales,Jr,CLT,Remoto,PE,Caruaru,Graduação,2020-11-02,1,,,3214.25
+58,Carla Gomes,Financeiro,Contas a Pagar,Jr,CLT,Híbrido,SP,Santos,Graduação,2023-06-17,1,,,4818.66
+59,Bruno Silva,TI,QA,Sr,PJ,Presencial,DF,Taguatinga,Mestrado,2022-11-25,1,,,16419.64
+60,Juliana Carvalho,Operações,Analista Operacional,Jr,CLT,Híbrido,SP,São Paulo,Técnico,2024-04-03,1,,,3816.41
+61,Diego Araújo,Fiscal,Analista Fiscal Jr,Sr,CLT,Remoto,PR,Curitiba,Pós-graduação,2020-06-22,1,,,9803.73
+62,Lucas Cardoso,Financeiro,Analista Financeiro Pl,Pl,CLT,Híbrido,MG,Belo Horizonte,Pós-graduação,2020-12-03,0,2024-06-10,Pedido de demissão,7257.89
+63,Kaique Cardoso,Fiscal,Assistente Fiscal,Jr,CLT,Presencial,CE,Sobral,Graduação,2020-08-10,1,,,4693.55
+64,Helena Souza,TI,Dev Sr,Pl,CLT,Híbrido,RS,Caxias do Sul,Graduação,2025-10-16,0,2025-12-19,Fim de contrato,9231.8
+65,Guilherme Dias,Suporte,Suporte N1,Pl,CLT,Híbrido,CE,Juazeiro do Norte,Pós-graduação,2024-02-09,1,,,5093.7
+66,Lucas Lima,Suporte,Coordenador Suporte,Jr,CLT,Híbrido,CE,Sobral,Mestrado,2020-12-06,0,2024-01-23,Acordo,3088.96
+67,Caio Costa,TI,Dev Sr,Jr,PJ,Híbrido,PE,Caruaru,Graduação,2020-01-12,1,,,7162.39
+68,Marcos Barbosa,Financeiro,Contas a Pagar,Jr,CLT,Remoto,BA,Ilhéus,Graduação,2024-12-11,1,,,2876.19
+69,Guilherme Dias,Operações,Coordenador de Operações,Sr,CLT,Presencial,RS,Porto Alegre,Graduação,2022-11-22,1,,,7287.31
+70,Sabrina Ferreira,Financeiro,Analista Financeiro Jr,Sr,CLT,Híbrido,RS,Pelotas,Graduação,2020-01-21,1,,,8932.86
+71,Diego Dias,Comercial,Gerente Comercial,Jr,CLT,Remoto,CE,Juazeiro do Norte,Técnico,2023-12-16,1,,,4013.43
+72,Marcos Costa,Financeiro,Contas a Pagar,Jr,CLT,Híbrido,CE,Juazeiro do Norte,Pós-graduação,2024-04-26,1,,,4141.7
+73,Lucas Gomes,Operações,Coordenador de Operações,Pl,CLT,Híbrido,RS,Pelotas,Graduação,2022-06-13,1,,,5448.84
+74,Helena Silva,Suporte,Suporte N1,Jr,CLT,Presencial,GO,Anápolis,Graduação,2021-10-29,1,,,3079.9
+75,Larissa Almeida,RH,Analista de RH Jr,Jr,CLT,Híbrido,SP,Campinas,Graduação,2020-12-03,1,,,4335.2
+76,Vanessa Souza,Comercial,Gerente Comercial,Jr,PJ,Híbrido,SC,Blumenau,Graduação,2022-04-09,1,,,4656.88
+77,Fernanda Araújo,TI,Infra,Sr,CLT,Híbrido,PE,Olinda,Graduação,2024-08-07,1,,,12343.27
+78,Patrícia Lima,Suporte,Suporte N1,Pl,CLT,Híbrido,BA,Feira de Santana,Graduação,2025-04-12,1,,,4980.23
+79,Guilherme Ferreira,TI,Infra,Jr,CLT,Híbrido,SC,Florianópolis,Ensino Médio,2021-04-09,0,2022-05-28,Pedido de demissão,5256.7
+80,Marcos Teixeira,Financeiro,Analista Financeiro Pl,Jr,CLT,Remoto,DF,Ceilândia,Graduação,2022-05-12,1,,,4016.59
+81,João Melo,Financeiro,Contas a Receber,Jr,CLT,Presencial,SP,Campinas,Pós-graduação,2022-09-28,1,,,4496.66
+82,Eduardo Martins,Comercial,Executivo de Contas,Pl,PJ,Híbrido,SP,Santos,Ensino Médio,2023-03-16,1,,,7797.01
+83,Helena Carvalho,Fiscal,Analista Fiscal Jr,Jr,CLT,Remoto,RS,Pelotas,Graduação,2022-05-17,1,,,4791.08
+84,Beatriz Souza,TI,Dev Sr,Pl,CLT,Presencial,BA,Ilhéus,Graduação,2023-09-12,1,,,7378.65
+85,Guilherme Lima,TI,Dev Jr,Sr,CLT,Híbrido,SC,Joinville,Graduação,2023-11-29,1,,,13596.82
+86,Marcos Teixeira,Comercial,Vendedor,Pl,CLT,Híbrido,CE,Juazeiro do Norte,Ensino Médio,2020-01-26,1,,,4955.61
+87,Natália Rocha,Fiscal,Analista Fiscal Pl,Jr,CLT,Presencial,PE,Olinda,Pós-graduação,2020-02-02,1,,,2790.89
+88,Ana Ferreira,Comercial,Vendedor,Jr,CLT,Híbrido,SC,Joinville,Técnico,2024-02-24,1,,,3129.16
+89,Igor Ferreira,Comercial,Vendedor,Jr,CLT,Remoto,PR,Maringá,Técnico,2024-10-31,1,,,3598.55
+90,Larissa Souza,RH,Analista de RH Pl,Pl,PJ,Híbrido,CE,Fortaleza,Ensino Médio,2025-09-10,1,,,5893.19
+91,Yasmin Silva,Suporte,Suporte N2,Jr,CLT,Híbrido,RS,Pelotas,Graduação,2023-03-08,1,,,3091.92
+92,Otávio Costa,Dados,Cientista de Dados Jr,Jr,CLT,Híbrido,GO,Goiânia,Graduação,2022-05-30,1,,,6431.18
+93,Bruno Ribeiro,Suporte,Coordenador Suporte,Pl,CLT,Presencial,MG,Uberlândia,Graduação,2021-02-15,1,,,4642.07
+94,João Oliveira,Operações,Coordenador de Operações,Pl,CLT,Presencial,CE,Fortaleza,Pós-graduação,2025-01-20,1,,,5259.51
+95,Larissa Teixeira,Comercial,Inside Sales,Pl,PJ,Remoto,PE,Recife,Graduação,2020-09-16,1,,,6337.96
+96,Fernanda Barbosa,Comercial,Gerente Comercial,Jr,CLT,Híbrido,RS,Pelotas,Ensino Médio,2021-05-17,1,,,2531.79
+97,Kaique Oliveira,Comercial,Vendedor,Jr,CLT,Híbrido,DF,Brasília,Técnico,2022-11-08,1,,,3628.6
+98,Beatriz Santos,Suporte,Suporte N2,Pl,CLT,Híbrido,PE,Recife,Técnico,2023-04-11,1,,,4263.24
+99,Carla Rocha,Dados,Eng. de Dados,Jr,CLT,Híbrido,DF,Ceilândia,Graduação,2023-05-29,0,2025-04-27,Reestruturação,5833.12
+100,Camila Araújo,Comercial,Vendedor,Jr,CLT,Remoto,PE,Recife,Pós-graduação,2021-06-21,1,,,2699.6
+101,Yasmin Lima,Operações,Assistente Operacional,Sr,CLT,Presencial,PR,Maringá,Graduação,2021-06-20,1,,,7732.21
+102,Beatriz Ribeiro,TI,Dev Sr,Sr,CLT,Híbrido,SC,Florianópolis,Técnico,2021-03-31,1,,,13090.87
+103,Pedro Carvalho,Comercial,Vendedor,Pl,CLT,Presencial,GO,Goiânia,Graduação,2021-11-05,1,,,38223.840000000004
+104,Marcos Melo,Financeiro,Contas a Receber,Sr,CLT,Remoto,SP,São Paulo,Graduação,2023-10-27,1,,,10207.44
+105,Rafael Teixeira,Operações,Assistente Operacional,Pl,CLT,Remoto,DF,Ceilândia,Técnico,2021-04-17,1,,,4211.37
+106,Rafael Oliveira,TI,Dev Sr,Jr,CLT,Híbrido,DF,Brasília,Graduação,2020-03-03,1,,,5259.79
+107,Igor Pereira,Comercial,Executivo de Contas,Sr,CLT,Presencial,GO,Anápolis,Técnico,2023-11-23,1,,,6365.13
+108,Yasmin Dias,RH,Analista de RH Jr,Pl,CLT,Híbrido,RS,Pelotas,Pós-graduação,2025-12-09,1,,,4592.54
+109,Patrícia Martins,Comercial,Gerente Comercial,Jr,PJ,Remoto,PE,Caruaru,Graduação,2024-06-21,0,2025-10-22,Desempenho,4358.84
+110,Yasmin Araújo,Financeiro,Analista Financeiro Pl,Sr,CLT,Híbrido,PR,Curitiba,Graduação,2024-03-16,1,,,10617.31
+111,Pedro Pereira,Comercial,Vendedor,Sr,CLT,Remoto,RJ,Niterói,Graduação,2022-05-25,0,2024-06-28,Desempenho,8511.69
+112,Mariana Almeida,Financeiro,Contas a Receber,Jr,CLT,Remoto,MG,Belo Horizonte,Graduação,2021-08-12,1,,,4840.32
+113,Patrícia Rocha,Comercial,Inside Sales,Jr,CLT,Presencial,GO,Goiânia,Pós-graduação,2023-12-06,1,,,3870.18
+114,Bruno Gomes,TI,Dev Jr,Jr,CLT,Híbrido,SC,Blumenau,Ensino Médio,2023-08-18,1,,,5603.88
+115,Eduardo Rocha,Dados,Cientista de Dados Jr,Pl,CLT,Presencial,PE,Olinda,Técnico,2024-07-12,1,,,7039.53
+116,Camila Dias,TI,Dev Sr,Jr,CLT,Presencial,BA,Ilhéus,Graduação,2020-04-30,1,,,4805.0
+117,Camila Carvalho,TI,Dev Sr,Jr,CLT,Presencial,DF,Brasília,Técnico,2021-06-04,1,,,5348.29
+118,Kaique Almeida,Comercial,Inside Sales,Sr,CLT,Remoto,RS,Pelotas,Graduação,2023-12-28,1,,,6860.33
+119,Helena Almeida,Dados,Eng. de Dados,Pl,CLT,Remoto,SC,Florianópolis,Ensino Médio,2025-06-21,1,,,7473.24
+120,Renato Martins,Fiscal,Analista Fiscal Pl,Sr,PJ,Remoto,SC,,Graduação,2025-01-22,1,,,9989.41
+121,Fernanda Gomes,Comercial,Gerente Comercial,Pl,CLT,Presencial,PE,Olinda,Graduação,2024-06-23,1,,,5025.06
+122,Fernanda Costa,RH,Analista de RH Jr,Jr,PJ,Presencial,SP,Campinas,Técnico,2024-11-05,1,,,4688.84
+123,Vanessa Costa,Financeiro,Contas a Pagar,Pl,CLT,Presencial,DF,Ceilândia,Técnico,2025-08-13,1,,,7489.04
+124,Mariana Silva,Financeiro,Analista Financeiro Pl,Jr,CLT,Híbrido,DF,Taguatinga,Graduação,2020-10-09,1,,,4251.05
+125,Larissa Costa,Financeiro,Analista Financeiro Jr,Sr,PJ,Remoto,RJ,Rio de Janeiro,Graduação,2024-09-14,1,,,11427.65
+126,Kaique Melo,TI,Infra,Jr,CLT,Híbrido,SP,São Paulo,Técnico,2020-11-20,1,,,4585.09
+127,Vanessa Martins,Comercial,Gerente Comercial,Jr,CLT,Híbrido,GO,Anápolis,Graduação,2022-09-06,1,,,4077.11
+128,Helena Silva,Operações,Analista Operacional,Pl,CLT,Remoto,DF,Brasília,Técnico,2023-12-13,0,2024-11-29,Fim de contrato,5146.92
+129,Vanessa Silva,Fiscal,Assistente Fiscal,Jr,CLT,Híbrido,RS,Caxias do Sul,Graduação,2022-01-22,1,,,4704.78
+130,Igor Ribeiro,Comercial,Executivo de Contas,Jr,CLT,Remoto,SP,São Paulo,Graduação,2021-09-16,1,,,3087.22
+131,Sabrina Ribeiro,Suporte,Coordenador Suporte,Jr,CLT,Remoto,RJ,Rio de Janeiro,Pós-graduação,2021-05-31,1,,,2570.01
+132,Beatriz Santos,Comercial,Inside Sales,Jr,PJ,Híbrido,RS,Pelotas,Pós-graduação,2025-07-31,0,2026-01-10,Pedido de demissão,4356.34
+133,João Oliveira,Operações,Coordenador de Operações,Pl,CLT,Híbrido,DF,Ceilândia,Graduação,2020-03-05,1,,,5060.8
+134,Larissa Gomes,RH,Recrutador,Pl,CLT,Híbrido,CE,Fortaleza,Graduação,2023-06-05,1,,,6796.01
+135,Camila Dias,Dados,Eng. de Dados,Jr,CLT,Presencial,SP,Santos,Graduação,2020-09-17,0,2021-08-08,Fim de contrato,5193.74
+136,Rafael Costa,Comercial,Vendedor,Jr,CLT,Híbrido,PE,Recife,Pós-graduação,2023-05-20,1,,,3421.44
+137,Diego Rocha,Operações,Assistente Operacional,Jr,CLT,Presencial,CE,Juazeiro do Norte,Graduação,2024-06-04,1,,,3020.83
+138,Kaique Santos,RH,Recrutador,Jr,CLT,Remoto,PE,,Graduação,2024-07-22,0,2025-07-12,Desempenho,4300.64
+139,Ana Gomes,Financeiro,Analista Financeiro Pl,Pl,CLT,Híbrido,SC,Florianópolis,Ensino Médio,2021-02-27,1,,,5922.38
+140,Yasmin Cardoso,Comercial,Gerente Comercial,Pl,CLT,Híbrido,RJ,Niterói,Graduação,2025-04-18,1,,,5968.01
+141,Vanessa Carvalho,Comercial,Executivo de Contas,Jr,CLT,Presencial,CE,Sobral,Graduação,2021-12-23,0,2024-07-24,Fim de contrato,3500.83
+142,Juliana Souza,Financeiro,Analista Financeiro Pl,Jr,CLT,Remoto,GO,Anápolis,Técnico,2022-10-09,0,2024-05-16,Fim de contrato,4508.29
+143,Otávio Oliveira,TI,Dev Pl,Pl,CLT,Híbrido,BA,Salvador,Técnico,2025-06-12,1,,,9423.25
+144,Marcos Santos,Financeiro,Contas a Receber,Pl,CLT,Presencial,PE,Olinda,Ensino Médio,2023-05-16,1,,,6951.71
+145,Larissa Araújo,Suporte,Customer Success,Pl,CLT,Híbrido,RJ,Duque de Caxias,Ensino Médio,2025-01-25,0,2025-03-13,Desempenho,5757.15
+146,Camila Cardoso,Dados,Eng. de Dados,Pl,CLT,Híbrido,DF,Taguatinga,Ensino Médio,2020-06-19,1,,,9100.64
+147,Lucas Martins,TI,Dev Pl,Jr,CLT,Híbrido,PR,Londrina,Ensino Médio,2025-01-22,1,,,4092.04
+148,Diego Gomes,Financeiro,Contas a Pagar,Jr,CLT,Híbrido,DF,Brasília,Mestrado,2025-07-19,1,,,4414.24
+149,Larissa Dias,TI,Infra,Jr,CLT,Presencial,RJ,Rio de Janeiro,Técnico,2020-10-27,1,,,5099.08
+150,Thiago Pereira,Dados,Analista de Dados Pl,Pl,CLT,Presencial,CE,Juazeiro do Norte,Graduação,2025-05-14,1,,,7824.19
+151,Sabrina Melo,Suporte,Coordenador Suporte,Jr,CLT,Presencial,CE,Juazeiro do Norte,Mestrado,2023-05-02,1,,,2943.87
+152,Camila Almeida,Financeiro,Analista Financeiro Jr,Pl,CLT,Híbrido,CE,Sobral,Graduação,2020-04-30,0,2021-01-06,Reestruturação,5854.04
+153,Eduardo Pereira,Comercial,Gerente Comercial,Pl,CLT,Híbrido,MG,Contagem,Pós-graduação,2024-05-10,1,,,5731.73
+154,Mariana Souza,Dados,Analista de Dados Pl,Jr,CLT,Presencial,DF,Ceilândia,Técnico,2022-02-09,1,,,5817.92
+155,Pedro Dias,Comercial,Vendedor,Jr,CLT,Híbrido,SC,Blumenau,Mestrado,2021-06-05,1,,,3892.02
+156,Aline Teixeira,TI,Dev Pl,Pl,CLT,Híbrido,PE,Olinda,Graduação,2025-05-11,1,,,8706.88
+157,Thiago Pereira,Operações,Assistente Operacional,Pl,PJ,Presencial,SP,São Paulo,Graduação,2021-09-21,1,,,6441.33
+158,Fernanda Oliveira,Fiscal,Analista Fiscal Jr,Pl,PJ,Híbrido,BA,Ilhéus,Graduação,2023-07-09,1,,,6705.29
+159,Igor Ferreira,Dados,Eng. de Dados,Jr,CLT,Presencial,MG,Belo Horizonte,Técnico,2021-11-01,1,,,5436.05
+160,Rafael Silva,Operações,Assistente Operacional,Pl,CLT,Híbrido,RS,Caxias do Sul,Técnico,2021-12-01,1,,,3817.78
+161,Lucas Melo,Comercial,Executivo de Contas,Jr,CLT,Híbrido,CE,Fortaleza,Técnico,2023-05-08,1,,,3765.81
+162,Igor Lima,Fiscal,Assistente Fiscal,Jr,CLT,Híbrido,RS,Porto Alegre,Graduação,2022-02-13,1,,,4314.68
+163,Bruno Carvalho,Dados,Analista de Dados Pl,Pl,PJ,Presencial,SP,Campinas,Graduação,2023-02-01,0,2023-03-26,Acordo,10796.13
+164,Guilherme Araújo,Operações,Coordenador de Operações,Pl,CLT,Remoto,PE,Caruaru,Graduação,2023-12-28,1,,,4919.22
+165,Aline Martins,Financeiro,Contas a Pagar,Pl,CLT,Híbrido,PR,Londrina,Graduação,2023-02-19,1,,,6768.78
+166,Fernanda Silva,TI,Infra,Jr,CLT,Híbrido,BA,Feira de Santana,Ensino Médio,2024-02-19,0,2025-02-15,Reestruturação,3941.75
+167,Otávio Lima,Suporte,Suporte N2,Jr,PJ,Remoto,PE,Olinda,Graduação,2024-11-28,1,,,3751.39
+168,Igor Rocha,TI,QA,Jr,CLT,Presencial,SP,Campinas,Ensino Médio,2020-11-20,1,,,6309.05
+169,Sabrina Melo,TI,Infra,Pl,CLT,Remoto,PR,Londrina,Pós-graduação,2020-09-10,1,,,8446.47
+170,Natália Melo,Fiscal,Analista Fiscal Pl,Pl,CLT,Presencial,RJ,Rio de Janeiro,Pós-graduação,2022-09-06,1,,,6321.38
+171,Aline Pereira,Dados,Analista de Dados Jr,Jr,CLT,Remoto,PE,Caruaru,Graduação,2024-04-08,0,2025-09-05,Fim de contrato,6507.01
+172,Patrícia Oliveira,Financeiro,Contas a Receber,Sr,CLT,Presencial,SC,Florianópolis,Ensino Médio,2025-01-03,0,2025-08-26,Pedido de demissão,10283.61
+173,Marcos Oliveira,Comercial,Executivo de Contas,Pl,CLT,Remoto,RJ,Rio de Janeiro,Graduação,2022-09-16,1,,,5682.37
+174,Sabrina Rocha,Suporte,Suporte N2,Sr,CLT,Presencial,PR,Londrina,Técnico,2025-01-01,1,,,8746.78
+175,Otávio Carvalho,Suporte,Coordenador Suporte,Pl,CLT,Híbrido,DF,Taguatinga,Mestrado,2021-02-17,1,,,4921.34
+176,Larissa Barbosa,TI,Infra,Jr,CLT,Híbrido,PE,Caruaru,Graduação,2024-03-11,1,,,4807.6
+177,Pedro Almeida,RH,BP RH,Pl,CLT,Presencial,SC,Florianópolis,Graduação,2024-02-03,1,,,5304.79
+178,Helena Silva,TI,Dev Sr,Sr,CLT,Presencial,DF,Taguatinga,Ensino Médio,2024-11-07,0,2025-04-11,Reestruturação,13882.72
+179,Beatriz Carvalho,Operações,Analista Operacional,Pl,CLT,Híbrido,PE,Recife,Graduação,2020-01-18,1,,,3999.34
+180,Juliana Costa,Financeiro,Contas a Receber,Jr,CLT,Híbrido,MG,Uberlândia,Técnico,2024-02-14,1,,,3951.69
+181,Ana Rocha,Operações,Assistente Operacional,Pl,CLT,Presencial,RJ,,Graduação,2023-03-05,0,2025-02-04,Acordo,4564.19
+182,Fernanda Almeida,Operações,Assistente Operacional,Pl,CLT,Presencial,CE,Sobral,Mestrado,2025-01-07,1,,,5558.69
+183,Lucas Ferreira,RH,BP RH,Jr,PJ,Híbrido,PR,Maringá,Graduação,2025-01-05,1,,,4451.47
+184,Juliana Almeida,Suporte,Suporte N1,Jr,CLT,Híbrido,SC,Florianópolis,Graduação,2022-02-18,1,,,18411.06
+185,Ana Costa,Dados,Eng. de Dados,Sr,CLT,Híbrido,MG,Uberlândia,Ensino Médio,2023-05-21,1,,,10211.46
+186,Helena Pereira,Comercial,Gerente Comercial,Pl,CLT,Presencial,PE,Caruaru,Técnico,2020-06-04,1,,,5097.57
+187,Lucas Souza,Operações,Coordenador de Operações,Pl,CLT,Híbrido,RJ,Duque de Caxias,Ensino Médio,2020-08-16,1,,,4944.86
+188,Larissa Melo,TI,Dev Pl,Jr,CLT,Híbrido,SP,São Paulo,Técnico,2020-07-27,1,,,5173.74
+189,Patrícia Souza,Comercial,Gerente Comercial,Jr,CLT,Híbrido,BA,Ilhéus,Técnico,2023-10-30,1,,,3500.69
+190,Sabrina Barbosa,Financeiro,Analista Financeiro Jr,Pl,CLT,Híbrido,BA,Ilhéus,Graduação,2023-07-25,0,2025-02-19,Pedido de demissão,6973.83
+191,Mariana Martins,TI,Dev Sr,Jr,CLT,Presencial,PE,Olinda,Graduação,2025-07-06,1,,,5356.57
+192,Aline Ferreira,Comercial,Executivo de Contas,Jr,PJ,Híbrido,RS,,Graduação,2020-01-28,1,,,4874.13
+193,Yasmin Araújo,Fiscal,Analista Fiscal Pl,Pl,CLT,Presencial,MG,Uberlândia,Graduação,2025-01-17,1,,,6246.05
+194,Caio Santos,Comercial,Vendedor,Pl,PJ,Híbrido,GO,Rio Verde,Graduação,2025-01-17,1,,,6416.27
+195,João Melo,Comercial,Gerente Comercial,Jr,CLT,Híbrido,DF,Taguatinga,Pós-graduação,2020-12-04,1,,,3313.93
+196,Pedro Oliveira,Fiscal,Analista Fiscal Jr,Jr,CLT,Presencial,RJ,Rio de Janeiro,Graduação,2021-02-20,1,,,5107.18
+197,Rafael Almeida,Suporte,Suporte N1,Pl,PJ,Presencial,PR,Curitiba,Pós-graduação,2024-12-05,0,2025-07-18,Pedido de demissão,6432.02
+198,Natália Martins,TI,Dev Pl,Pl,CLT,Presencial,RS,Pelotas,Pós-graduação,2024-11-25,1,,,6769.21
+199,Mariana Almeida,Financeiro,Contas a Pagar,Jr,CLT,Presencial,SC,Florianópolis,Graduação,2024-12-02,0,2025-06-21,Acordo,3555.07
+200,Juliana Gomes,Financeiro,Contas a Receber,Pl,CLT,Híbrido,GO,Goiânia,Graduação,2022-02-18,0,2024-10-15,Reestruturação,7220.55
+201,Helena Oliveira,Operações,Analista Operacional,Jr,CLT,Presencial,DF,Ceilândia,Pós-graduação,2024-11-05,0,2026-01-17,Fim de contrato,3595.99
+202,Mariana Ferreira,Comercial,Inside Sales,Pl,PJ,Híbrido,PE,Recife,Graduação,2020-08-21,1,,,6930.53
+203,Aline Pereira,Dados,Eng. de Dados,Sr,CLT,Remoto,SC,Florianópolis,Graduação,2025-12-30,1,,,10846.84
+204,Mariana Pereira,Operações,Coordenador de Operações,Jr,CLT,Presencial,RJ,Duque de Caxias,Ensino Médio,2022-03-21,0,2023-07-04,Desempenho,2981.22
+205,Beatriz Ribeiro,Operações,Coordenador de Operações,Pl,CLT,Presencial,CE,Sobral,Graduação,2021-01-12,1,,,4572.93
+206,Ana Teixeira,Operações,Assistente Operacional,Pl,CLT,Híbrido,GO,Anápolis,Graduação,2020-01-20,1,,,4804.73
+207,Juliana Dias,TI,Dev Sr,Sr,CLT,Presencial,DF,Brasília,Ensino Médio,2024-06-29,1,,,11951.87
+208,Otávio Melo,Dados,Analista de Dados Jr,Pl,CLT,Híbrido,MG,Belo Horizonte,Graduação,2021-03-16,1,,,6982.2
+209,Vanessa Melo,RH,Recrutador,Pl,CLT,Presencial,BA,Feira de Santana,Graduação,2020-01-16,0,2020-08-23,Acordo,5410.24
+210,Carla Araújo,RH,BP RH,Sr,CLT,Remoto,SP,Santos,Técnico,2020-11-16,1,,,8347.99
+211,Natália Barbosa,Dados,Eng. de Dados,Jr,CLT,Remoto,DF,Taguatinga,Técnico,2022-08-18,1,,,4189.87
+212,Fernanda Dias,Comercial,Gerente Comercial,Pl,CLT,Híbrido,SP,São Paulo,Graduação,2025-11-08,1,,,6519.86
+213,Pedro Gomes,Dados,Analista de Dados Pl,Pl,CLT,Híbrido,CE,Fortaleza,Ensino Médio,2023-07-13,0,2025-10-20,Acordo,10427.6
+214,Yasmin Dias,Financeiro,Contas a Pagar,Jr,CLT,Híbrido,CE,Sobral,Ensino Médio,2022-08-07,1,,,3775.15
+215,Fernanda Ferreira,TI,QA,Pl,CLT,Híbrido,RS,Porto Alegre,Pós-graduação,2023-04-04,1,,,7541.39
+216,Marcos Lima,Financeiro,Analista Financeiro Pl,Jr,CLT,Remoto,GO,Goiânia,Graduação,2023-04-18,1,,,3942.63
+217,Caio Oliveira,Dados,Analista de Dados Jr,Jr,CLT,Remoto,SP,São Paulo,Graduação,2020-12-26,1,,,5085.05
+218,Igor Barbosa,Suporte,Suporte N2,Jr,CLT,Remoto,GO,Anápolis,Pós-graduação,2020-05-02,1,,,3198.32
+219,Beatriz Rocha,Comercial,Vendedor,Jr,PJ,Híbrido,PR,Londrina,Técnico,2020-12-09,1,,,3651.05
+220,Helena Melo,TI,Dev Sr,Pl,CLT,Híbrido,CE,Sobral,Graduação,2020-05-09,1,,,8963.44
+221,Aline Ribeiro,Fiscal,Assistente Fiscal,Sr,CLT,Presencial,RJ,Duque de Caxias,Graduação,2024-05-21,1,,,10866.04
+222,Aline Cardoso,Fiscal,Analista Fiscal Pl,Jr,CLT,Remoto,GO,Rio Verde,Técnico,2023-08-11,1,,,4293.32
+223,Renato Carvalho,Comercial,Inside Sales,Sr,CLT,Híbrido,RJ,Rio de Janeiro,Técnico,2024-06-06,1,,,10158.43
+224,Vanessa Silva,Fiscal,Assistente Fiscal,Jr,CLT,Híbrido,DF,Brasília,Graduação,2022-01-10,0,2025-12-29,Pedido de demissão,4736.41
+225,Juliana Rocha,Fiscal,Analista Fiscal Pl,Jr,CLT,Presencial,PR,Curitiba,Ensino Médio,2023-01-19,1,,,4110.2
+226,Natália Silva,Financeiro,Analista Financeiro Pl,Jr,CLT,Remoto,RS,Pelotas,Graduação,2021-10-12,1,,,4100.9
+227,Kaique Cardoso,Comercial,Inside Sales,Jr,CLT,Híbrido,PE,Olinda,Pós-graduação,2023-09-30,1,,,3989.87
+228,Larissa Silva,Suporte,Customer Success,Sr,CLT,Híbrido,BA,Ilhéus,Pós-graduação,2020-12-23,1,,,6393.23
+229,Rafael Martins,Comercial,Executivo de Contas,Pl,CLT,Híbrido,BA,Ilhéus,Graduação,2020-05-30,1,,,4739.18
+230,Marcos Silva,RH,Recrutador,Jr,CLT,Presencial,DF,Ceilândia,Técnico,2024-07-20,1,,,4175.41
+231,Kaique Costa,TI,Dev Sr,Jr,CLT,Híbrido,BA,Ilhéus,Ensino Médio,2021-04-05,1,,,5664.05
+232,Sabrina Pereira,Dados,Eng. de Dados,Pl,CLT,Híbrido,RS,Caxias do Sul,Graduação,2025-08-27,1,,,7919.93
+233,Lucas Melo,RH,Analista de RH Pl,Pl,CLT,Híbrido,SP,São Paulo,Técnico,2021-09-15,1,,,7253.5
+234,Yasmin Gomes,Comercial,Vendedor,Pl,CLT,Híbrido,MG,Uberlândia,Técnico,2022-03-19,1,,,5169.11
+235,Thiago Martins,Fiscal,Especialista Fiscal,Jr,CLT,Híbrido,RS,Porto Alegre,Graduação,2024-08-08,1,,,4843.0
+236,Patrícia Teixeira,Financeiro,Analista Financeiro Pl,Pl,CLT,Presencial,DF,Taguatinga,Ensino Médio,2022-04-04,1,,,6898.63
+237,Lucas Gomes,Financeiro,Analista Financeiro Jr,Jr,CLT,Híbrido,RS,Caxias do Sul,Graduação,2021-03-26,0,2025-08-20,Pedido de demissão,3802.72
+238,Fernanda Carvalho,Comercial,Gerente Comercial,Jr,CLT,Híbrido,SP,Campinas,Graduação,2021-10-02,0,2024-10-06,Fim de contrato,3462.05
+239,Guilherme Ribeiro,Financeiro,Analista Financeiro Pl,Jr,CLT,Presencial,MG,Belo Horizonte,Ensino Médio,2024-08-29,1,,,2969.7
+240,Igor Costa,Fiscal,Especialista Fiscal,Pl,PJ,Híbrido,BA,Ilhéus,Graduação,2021-01-18,1,,,8972.82
+241,Mariana Barbosa,Operações,Analista Operacional,Pl,CLT,Remoto,RJ,Niterói,Graduação,2022-10-04,1,,,5019.06
+242,Ana Ribeiro,Suporte,Coordenador Suporte,Jr,PJ,Híbrido,DF,Taguatinga,Graduação,2021-11-20,1,,,4028.08
+243,Thiago Ferreira,Suporte,Suporte N1,Pl,PJ,Híbrido,MG,Uberlândia,Graduação,2022-05-24,1,,,5039.96
+244,Sabrina Silva,Fiscal,Especialista Fiscal,Jr,CLT,Híbrido,CE,Fortaleza,Técnico,2024-12-06,1,,,4218.6
+245,Fernanda Ribeiro,TI,Dev Pl,Pl,CLT,Remoto,CE,Fortaleza,Mestrado,2023-10-25,1,,,6751.63
+246,Thiago Cardoso,TI,Dev Jr,Pl,CLT,Remoto,BA,Feira de Santana,Graduação,2020-07-01,1,,,7373.23
+247,João Barbosa,Fiscal,Assistente Fiscal,Pl,CLT,Híbrido,BA,Salvador,Técnico,2024-03-05,1,,,7307.15
+248,Caio Barbosa,TI,QA,Jr,CLT,Híbrido,RS,Pelotas,Ensino Médio,2024-12-01,0,2025-07-27,Desempenho,5545.61
+249,Mariana Souza,TI,Dev Pl,Jr,CLT,Presencial,MG,Belo Horizonte,Técnico,2023-11-26,1,,,6054.9
+250,Fernanda Dias,Dados,Eng. de Dados,Jr,CLT,Híbrido,MG,Uberlândia,Pós-graduação,2020-04-30,1,,,6331.86
+251,Thiago Ferreira,Suporte,Suporte N2,Pl,CLT,Híbrido,SC,Joinville,Técnico,2023-01-24,1,,,4757.78
+252,Yasmin Santos,TI,Dev Pl,Jr,CLT,Híbrido,BA,Feira de Santana,Graduação,2023-03-24,0,2026-01-17,Fim de contrato,3641.21
+253,Beatriz Carvalho,TI,Dev Pl,Pl,CLT,Remoto,GO,Goiânia,Pós-graduação,2020-03-06,1,,,9488.81
+254,Otávio Cardoso,Suporte,Suporte N2,Jr,CLT,Remoto,CE,Juazeiro do Norte,Graduação,2024-08-07,1,,,3089.37
+255,Caio Gomes,Comercial,Executivo de Contas,Jr,CLT,Presencial,DF,Taguatinga,Graduação,2020-11-18,0,2023-08-12,Acordo,4847.08
+256,Bruno Lima,Operações,Coordenador de Operações,Sr,CLT,Híbrido,BA,Feira de Santana,Técnico,2022-01-13,0,2022-11-05,Desempenho,9248.76
+257,Natália Ferreira,Financeiro,Contas a Pagar,Pl,CLT,Híbrido,SC,Blumenau,Técnico,2021-11-30,1,,,7043.43
+258,Kaique Cardoso,Suporte,Customer Success,Jr,CLT,Presencial,CE,Fortaleza,Graduação,2025-04-04,0,2025-09-05,Reestruturação,3101.32
+259,Renato Cardoso,Suporte,Customer Success,Sr,CLT,Remoto,RS,Caxias do Sul,Graduação,2025-08-30,1,,,6836.21
+260,Guilherme Rocha,Comercial,Inside Sales,Sr,CLT,Remoto,DF,,Graduação,2024-07-29,0,2025-01-25,Fim de contrato,7194.64
+261,Thiago Lima,Suporte,Suporte N2,Pl,CLT,Presencial,RS,Caxias do Sul,Pós-graduação,2022-02-17,1,,,4324.15
+262,Caio Carvalho,Fiscal,Especialista Fiscal,Jr,CLT,Presencial,PE,Olinda,Graduação,2023-11-06,1,,,4293.67
+263,Marcos Oliveira,Fiscal,Analista Fiscal Jr,Jr,CLT,Remoto,DF,Taguatinga,Graduação,2023-11-26,1,,,3765.6
+264,Lucas Costa,Operações,Assistente Operacional,Jr,CLT,Híbrido,PE,Olinda,Graduação,2022-02-27,0,2022-08-17,Desempenho,3098.56
+265,Renato Silva,Comercial,Gerente Comercial,Pl,CLT,Presencial,SC,Florianópolis,Graduação,2021-07-15,1,,,6149.04
+266,Camila Lima,Dados,Analista de Dados Pl,Jr,CLT,Presencial,GO,Goiânia,Graduação,2020-10-25,1,,,4948.53
+267,Diego Souza,Fiscal,Especialista Fiscal,Pl,PJ,Remoto,DF,Taguatinga,Graduação,2022-09-26,1,,,7818.91
+268,Kaique Lima,TI,Dev Pl,Sr,CLT,Presencial,BA,Salvador,Graduação,2023-07-28,1,,,11824.67
+269,Rafael Barbosa,RH,Analista de RH Pl,Pl,CLT,Híbrido,GO,Goiânia,Técnico,2024-05-01,0,2024-08-09,Reestruturação,6007.42
+270,Ana Souza,Comercial,Executivo de Contas,Jr,CLT,Presencial,PR,Maringá,Mestrado,2021-03-23,1,,,3115.28
+271,Sabrina Silva,TI,Dev Jr,Jr,CLT,Presencial,RS,Pelotas,Ensino Médio,2023-11-05,1,,,4942.53
+272,Rafael Santos,Suporte,Coordenador Suporte,Jr,CLT,Híbrido,CE,Fortaleza,Ensino Médio,2025-04-11,1,,,2175.58
+273,Beatriz Almeida,Suporte,Suporte N1,Pl,CLT,Híbrido,MG,Contagem,Ensino Médio,2024-08-15,1,,,27358.98
+274,Thiago Barbosa,Operações,Assistente Operacional,Jr,PJ,Presencial,GO,Rio Verde,Graduação,2025-04-11,1,,,4160.58
+275,Caio Martins,Fiscal,Assistente Fiscal,Jr,CLT,Presencial,DF,Ceilândia,Graduação,2024-10-12,1,,,4660.89
+276,Beatriz Almeida,Comercial,Inside Sales,Jr,CLT,Presencial,DF,Taguatinga,Graduação,2022-12-21,1,,,3973.6
+277,Thiago Almeida,TI,Dev Pl,Pl,CLT,Híbrido,RJ,Rio de Janeiro,Graduação,2025-12-17,0,2026-01-16,Desempenho,7083.96
+278,Fernanda Lima,TI,Dev Jr,Pl,CLT,Híbrido,SP,São Paulo,Graduação,2024-02-21,1,,,8358.97
+279,Yasmin Oliveira,Financeiro,Analista Financeiro Jr,Pl,CLT,Híbrido,PR,Maringá,Ensino Médio,2022-10-06,0,2026-01-07,Fim de contrato,6611.93
+280,Eduardo Rocha,Financeiro,Contas a Receber,Jr,CLT,Presencial,RS,Porto Alegre,Graduação,2024-05-12,1,,,4083.82
+281,Otávio Rocha,Operações,Analista Operacional,Pl,CLT,Híbrido,RS,Pelotas,Graduação,2025-08-24,1,,,5167.36
+282,Renato Souza,TI,Dev Pl,Sr,CLT,Presencial,SP,Campinas,Graduação,2022-01-22,1,,,12363.83
+283,Fernanda Barbosa,TI,Dev Jr,Sr,CLT,Presencial,PE,Caruaru,Técnico,2020-01-28,1,,,10909.29
+284,Lucas Rocha,Comercial,Vendedor,Sr,CLT,Presencial,RS,Pelotas,Graduação,2020-12-02,1,,,9871.14
+285,Caio Araújo,RH,BP RH,Sr,CLT,Presencial,PR,Curitiba,Graduação,2024-05-19,1,,,10690.98
+286,Beatriz Santos,RH,Analista de RH Jr,Pl,CLT,Híbrido,RS,Caxias do Sul,Técnico,2022-07-28,1,,,5049.05
+287,Beatriz Ribeiro,Operações,Coordenador de Operações,Jr,CLT,Híbrido,BA,Ilhéus,Graduação,2020-03-11,1,,,3430.97
+288,Otávio Melo,Suporte,Suporte N1,Sr,PJ,Presencial,MG,Belo Horizonte,Graduação,2023-01-08,0,2025-08-16,Fim de contrato,7842.03
+289,Guilherme Oliveira,Fiscal,Analista Fiscal Jr,Jr,CLT,Remoto,CE,Sobral,Mestrado,2025-06-05,1,,,4738.17
+290,João Gomes,Operações,Analista Operacional,Jr,CLT,Remoto,DF,Brasília,Graduação,2024-02-28,1,,,2916.36
+291,Kaique Oliveira,Financeiro,Contas a Pagar,Sr,CLT,Híbrido,PR,Maringá,Graduação,2025-08-18,1,,,8533.98
+292,Aline Lima,Financeiro,Analista Financeiro Pl,Sr,CLT,Presencial,CE,Fortaleza,Técnico,2024-02-08,1,,,10502.75
+293,Eduardo Silva,Suporte,Suporte N1,Jr,CLT,Híbrido,SP,São Paulo,Graduação,2020-05-21,1,,,2822.5
+294,Mariana Souza,Fiscal,Analista Fiscal Jr,Sr,CLT,Híbrido,SC,,Pós-graduação,2020-05-01,0,2022-01-22,Acordo,10448.67
+295,Eduardo Pereira,Operações,Assistente Operacional,Jr,CLT,Presencial,BA,Feira de Santana,Técnico,2024-10-04,1,,,3046.63
+296,Diego Lima,Fiscal,Especialista Fiscal,Jr,CLT,Presencial,CE,Sobral,Graduação,2025-07-13,1,,,3754.0
+297,Bruno Dias,TI,Dev Sr,Jr,CLT,Presencial,PR,Maringá,Pós-graduação,2023-03-21,1,,,3618.28
+298,Fernanda Pereira,TI,Infra,Pl,CLT,Presencial,MG,Uberlândia,Graduação,2021-03-25,0,2022-07-09,Fim de contrato,9055.08
+299,Camila Carvalho,Fiscal,Analista Fiscal Pl,Jr,CLT,Híbrido,GO,Goiânia,Graduação,2025-01-29,1,,,4484.7
+300,Marcos Silva,Operações,Analista Operacional,Pl,CLT,Remoto,PR,Londrina,Graduação,2021-05-27,1,,,3700.2
+301,Beatriz Lima,Operações,Assistente Operacional,Jr,PJ,Híbrido,MG,Belo Horizonte,Ensino Médio,2024-09-13,1,,,3350.35
+302,Juliana Almeida,Financeiro,Analista Financeiro Jr,Jr,CLT,Híbrido,CE,Fortaleza,Graduação,2020-07-14,1,,,4085.39
+303,Fernanda Pereira,TI,Dev Sr,Pl,CLT,Híbrido,SP,Campinas,Graduação,2022-08-28,1,,,9343.59
+304,Thiago Almeida,Fiscal,Analista Fiscal Pl,Pl,PJ,Híbrido,PE,Recife,Técnico,2022-12-23,1,,,8691.76
+305,Thiago Silva,Dados,Analista de Dados Jr,Jr,PJ,Híbrido,RS,Caxias do Sul,Graduação,2023-05-28,0,2024-02-14,Pedido de demissão,7380.16
+306,Ana Oliveira,Financeiro,Analista Financeiro Jr,Jr,CLT,Presencial,CE,Sobral,Graduação,2025-07-19,1,,,4408.13
+307,Renato Pereira,Comercial,Executivo de Contas,Sr,CLT,Híbrido,GO,Goiânia,Graduação,2023-10-10,0,2024-06-11,Acordo,8232.16
+308,Bruno Melo,Financeiro,Analista Financeiro Pl,Pl,CLT,Presencial,SC,Joinville,Graduação,2023-12-23,1,,,6622.41
+309,Helena Martins,Fiscal,Analista Fiscal Pl,Sr,CLT,Presencial,MG,Contagem,Técnico,2024-12-13,1,,,10636.46
+310,Kaique Souza,TI,Dev Sr,Jr,CLT,Híbrido,MG,Contagem,Graduação,2022-12-13,1,,,4836.67
+311,Kaique Pereira,Dados,Eng. de Dados,Sr,CLT,Remoto,PE,Recife,Graduação,2024-04-27,1,,,9934.37
+312,Kaique Ferreira,RH,Analista de RH Pl,Sr,CLT,Híbrido,SC,Blumenau,Graduação,2025-02-26,0,2025-09-05,Fim de contrato,9341.89
+313,Mariana Ribeiro,Fiscal,Analista Fiscal Pl,Sr,CLT,Híbrido,CE,Juazeiro do Norte,Graduação,2020-02-23,1,,,9887.88
+314,Helena Martins,RH,BP RH,Jr,CLT,Remoto,CE,Sobral,Graduação,2025-09-12,1,,,3118.73
+315,Diego Barbosa,RH,BP RH,Pl,CLT,Remoto,DF,Brasília,Graduação,2025-03-11,1,,,5728.76
+316,Lucas Costa,Dados,Analista de Dados Pl,Pl,CLT,Híbrido,GO,Goiânia,Pós-graduação,2023-05-14,0,2025-01-07,Acordo,9878.66
+317,Guilherme Gomes,Financeiro,Contas a Receber,Pl,PJ,Híbrido,DF,Brasília,Graduação,2023-11-10,1,,,6976.1
+318,Mariana Carvalho,Fiscal,Analista Fiscal Jr,Jr,CLT,Presencial,GO,Goiânia,Graduação,2024-10-04,1,,,4134.6
+319,Renato Ferreira,TI,QA,Pl,CLT,Híbrido,DF,Taguatinga,Técnico,2023-09-18,1,,,7616.52
+320,Guilherme Silva,TI,Infra,Jr,CLT,Presencial,DF,Ceilândia,Graduação,2025-11-24,1,,,4662.39
+321,Eduardo Gomes,RH,BP RH,Jr,CLT,Presencial,SC,,Ensino Médio,2023-11-26,1,,,3482.19
+322,Yasmin Oliveira,Operações,Analista Operacional,Jr,CLT,Híbrido,PR,Maringá,Graduação,2020-03-05,1,,,3118.3
+323,Diego Almeida,Financeiro,Contas a Receber,Jr,CLT,Híbrido,BA,Ilhéus,Técnico,2021-09-20,0,2025-07-23,Acordo,4644.73
+324,Juliana Santos,Operações,Analista Operacional,Jr,PJ,Remoto,GO,Anápolis,Técnico,2023-07-06,1,,,3892.44
+325,Thiago Rocha,Fiscal,Analista Fiscal Pl,Pl,CLT,Presencial,RJ,Rio de Janeiro,Pós-graduação,2023-10-25,0,2025-09-28,Reestruturação,7349.13
+326,Helena Ferreira,Operações,Analista Operacional,Pl,PJ,Híbrido,DF,Brasília,Graduação,2024-02-18,1,,,5804.6
+327,Caio Santos,Financeiro,Analista Financeiro Pl,Sr,CLT,Híbrido,PR,Londrina,Técnico,2024-06-02,1,,,9975.97
+328,Helena Souza,Fiscal,Assistente Fiscal,Sr,CLT,Híbrido,PR,Maringá,Técnico,2023-04-08,1,,,8199.37
+329,Helena Almeida,RH,Analista de RH Pl,Jr,CLT,Híbrido,SC,Florianópolis,Graduação,2020-08-10,1,,,3994.85
+330,Bruno Silva,Operações,Assistente Operacional,Pl,CLT,Híbrido,SP,São Paulo,Graduação,2021-10-27,1,,,5487.58
+331,Carla Lima,Financeiro,Analista Financeiro Pl,Jr,CLT,Remoto,SC,Joinville,Graduação,2023-04-12,1,,,4238.85
+332,Yasmin Almeida,RH,Analista de RH Jr,Pl,CLT,Híbrido,RJ,Duque de Caxias,Graduação,2021-08-08,1,,,6616.65
+333,Sabrina Silva,Financeiro,Analista Financeiro Jr,Jr,CLT,Presencial,CE,Fortaleza,Mestrado,2022-11-16,1,,,4793.53
+334,Renato Teixeira,Comercial,Gerente Comercial,Jr,CLT,Presencial,CE,Juazeiro do Norte,Graduação,2025-04-24,1,,,3566.51
+335,Helena Costa,Operações,Coordenador de Operações,Sr,CLT,Presencial,BA,Ilhéus,Ensino Médio,2021-08-02,1,,,7945.72
+336,Yasmin Oliveira,Financeiro,Contas a Pagar,Pl,CLT,Híbrido,CE,Juazeiro do Norte,Graduação,2025-04-14,1,,,8027.21
+337,Renato Souza,Operações,Coordenador de Operações,Jr,CLT,Presencial,RJ,Niterói,Pós-graduação,2025-11-09,1,,,2911.0
+338,Pedro Araújo,Fiscal,Assistente Fiscal,Pl,CLT,Híbrido,MG,Contagem,Técnico,2020-10-28,0,2023-09-18,Desempenho,6987.0
+339,Otávio Cardoso,Suporte,Suporte N2,Jr,CLT,Híbrido,GO,Rio Verde,Técnico,2025-06-12,1,,,3659.05
+340,Natália Oliveira,Suporte,Suporte N1,Pl,CLT,Presencial,DF,Brasília,Ensino Médio,2024-06-19,1,,,4317.84
+341,Igor Melo,Suporte,Customer Success,Pl,CLT,Híbrido,MG,Belo Horizonte,Pós-graduação,2022-05-06,1,,,5706.38
+342,Eduardo Martins,Suporte,Coordenador Suporte,Jr,CLT,Híbrido,MG,Belo Horizonte,Graduação,2024-03-12,1,,,3059.42
+343,Thiago Cardoso,TI,Infra,Jr,CLT,Presencial,RJ,Niterói,Pós-graduação,2020-09-19,1,,,4816.07
+344,Bruno Santos,Comercial,Executivo de Contas,Jr,CLT,Presencial,CE,Juazeiro do Norte,Mestrado,2022-10-09,1,,,3765.69
+345,Sabrina Barbosa,Operações,Analista Operacional,Pl,CLT,Remoto,PE,Recife,Pós-graduação,2022-03-26,0,2023-03-26,Pedido de demissão,5460.55
+346,Sabrina Gomes,Fiscal,Especialista Fiscal,Jr,CLT,Híbrido,MG,Uberlândia,Graduação,2022-05-21,1,,,4092.53
+347,Diego Araújo,Fiscal,Especialista Fiscal,Pl,CLT,Híbrido,BA,Salvador,Técnico,2024-11-29,1,,,6884.15
+348,Eduardo Souza,Dados,Analista de Dados Jr,Pl,CLT,Presencial,CE,Sobral,Ensino Médio,2021-12-11,1,,,8373.47
+349,Renato Araújo,TI,QA,Jr,CLT,Presencial,PR,Londrina,Graduação,2023-06-21,1,,,4893.16
+350,Juliana Ferreira,Operações,Coordenador de Operações,Jr,CLT,Híbrido,SP,São Paulo,Ensino Médio,2024-04-21,1,,,3372.81
+351,Vanessa Dias,TI,Dev Pl,Jr,CLT,Híbrido,MG,Belo Horizonte,Pós-graduação,2024-09-27,1,,,5844.0
+352,Bruno Lima,Operações,Assistente Operacional,Pl,CLT,Presencial,BA,Salvador,Pós-graduação,2022-09-18,1,,,4524.08
+353,Aline Martins,TI,Dev Sr,Pl,CLT,Híbrido,RS,Porto Alegre,Graduação,2024-09-09,1,,,7970.71
+354,Otávio Lima,Financeiro,Contas a Receber,Pl,CLT,Presencial,PR,Maringá,Graduação,2024-01-25,0,2024-03-05,Pedido de demissão,8125.5
+355,Fernanda Silva,TI,Dev Sr,Pl,CLT,Híbrido,BA,Ilhéus,Graduação,2021-01-20,0,2022-04-07,Acordo,8678.92
+356,Vanessa Costa,Comercial,Executivo de Contas,Sr,PJ,Híbrido,PE,Caruaru,Graduação,2024-03-12,0,2024-11-07,Reestruturação,8227.88
+357,Caio Dias,Financeiro,Analista Financeiro Pl,Sr,CLT,Presencial,DF,Brasília,Ensino Médio,2022-03-03,1,,,10844.82
+358,Otávio Dias,Fiscal,Assistente Fiscal,Jr,CLT,Remoto,GO,Goiânia,Mestrado,2025-11-20,0,2025-12-27,Acordo,3737.33
+359,Larissa Barbosa,Financeiro,Analista Financeiro Pl,Pl,CLT,Presencial,PE,Olinda,Técnico,2024-11-01,1,,,5385.48
+360,Bruno Martins,Fiscal,Analista Fiscal Pl,Pl,CLT,Remoto,PR,Curitiba,Ensino Médio,2024-02-07,1,,,6666.43
+361,Caio Melo,Comercial,Executivo de Contas,Pl,CLT,Presencial,SC,Joinville,Graduação,2024-03-04,1,,,6352.11
+362,Otávio Santos,TI,QA,Jr,CLT,Híbrido,DF,Brasília,Ensino Médio,2020-06-21,1,,,5818.55
+363,Carla Pereira,Operações,Analista Operacional,Jr,CLT,Remoto,PR,Londrina,Graduação,2024-12-01,1,,,3765.94
+364,Caio Almeida,Operações,Assistente Operacional,Pl,PJ,Híbrido,SC,Florianópolis,Pós-graduação,2021-04-30,1,,,6578.93
+365,Thiago Gomes,Suporte,Suporte N2,Jr,CLT,Híbrido,DF,Brasília,Graduação,2024-07-11,0,2025-07-09,Fim de contrato,2902.79
+366,Caio Barbosa,Financeiro,Contas a Receber,Pl,CLT,Híbrido,SC,Blumenau,Técnico,2023-07-14,0,2025-02-05,Fim de contrato,6959.59
+367,Eduardo Ferreira,RH,Analista de RH Pl,Sr,CLT,Presencial,CE,Juazeiro do Norte,Graduação,2025-12-01,1,,,10871.32
+368,Natália Teixeira,TI,QA,Pl,CLT,Híbrido,MG,Belo Horizonte,Técnico,2020-02-24,1,,,10058.25
+369,Thiago Melo,Suporte,Suporte N1,Jr,CLT,Remoto,SC,Joinville,Graduação,2023-12-17,1,,,2460.99
+370,Yasmin Rocha,Dados,Analista de Dados Pl,Sr,CLT,Remoto,SP,Campinas,Mestrado,2022-09-21,1,,,13755.58
+371,Otávio Almeida,Financeiro,Analista Financeiro Jr,Pl,CLT,Híbrido,GO,Anápolis,Técnico,2023-05-23,1,,,6048.12
+372,Larissa Almeida,TI,Dev Sr,Pl,CLT,Presencial,SP,Santos,Pós-graduação,2021-11-01,1,,,9031.55
+373,Marcos Lima,RH,Analista de RH Pl,Jr,CLT,Presencial,GO,Rio Verde,Pós-graduação,2024-02-01,1,,,4141.56
+374,Larissa Rocha,Fiscal,Analista Fiscal Pl,Sr,CLT,Híbrido,GO,Goiânia,Mestrado,2021-01-27,1,,,10196.75
+375,Pedro Rocha,Suporte,Suporte N1,Pl,CLT,Híbrido,RJ,Rio de Janeiro,Ensino Médio,2020-11-07,1,,,4298.95
+376,Thiago Oliveira,TI,Dev Pl,Jr,PJ,Presencial,SP,Santos,Ensino Médio,2020-04-09,0,2023-01-27,Reestruturação,6610.29
+377,Carla Araújo,RH,BP RH,Jr,CLT,Híbrido,DF,Ceilândia,Ensino Médio,2020-07-25,0,2023-11-09,Acordo,3794.87
+378,Helena Araújo,Financeiro,Analista Financeiro Jr,Jr,CLT,Híbrido,PE,Olinda,Graduação,2020-02-06,1,,,4308.19
+379,Igor Araújo,Dados,Cientista de Dados Jr,Jr,CLT,Híbrido,BA,Ilhéus,Graduação,2022-01-31,1,,,5547.85
+380,Marcos Ribeiro,Comercial,Executivo de Contas,Jr,CLT,Híbrido,BA,Feira de Santana,Pós-graduação,2021-01-07,1,,,3666.08
+381,Fernanda Melo,TI,Dev Pl,Jr,CLT,Remoto,CE,Sobral,Ensino Médio,2024-02-02,1,,,5253.59
+382,Camila Almeida,Fiscal,Analista Fiscal Pl,Sr,PJ,Remoto,BA,Feira de Santana,Graduação,2025-08-19,1,,,13410.64
+383,João Santos,Fiscal,Analista Fiscal Jr,Pl,CLT,Presencial,CE,Sobral,Pós-graduação,2025-11-25,1,,,4517.12
+384,Beatriz Costa,TI,Dev Jr,Jr,CLT,Remoto,RS,Porto Alegre,Graduação,2021-12-18,1,,,5092.04
+385,João Almeida,Fiscal,Assistente Fiscal,Pl,CLT,Remoto,SP,Campinas,Graduação,2025-04-18,1,,,6333.69
+386,Juliana Santos,Financeiro,Analista Financeiro Pl,Sr,CLT,Presencial,SP,Santos,Técnico,2025-08-16,0,2025-10-12,Acordo,10331.03
+387,Beatriz Oliveira,Dados,Analista de Dados Jr,Jr,CLT,Presencial,CE,Sobral,Graduação,2023-07-20,0,2024-05-02,Acordo,6213.67
+388,Yasmin Pereira,Suporte,Suporte N2,Jr,CLT,Presencial,MG,Belo Horizonte,Técnico,2020-08-03,0,2022-07-21,Reestruturação,3101.48
+389,Juliana Santos,Comercial,Inside Sales,Jr,CLT,Híbrido,RJ,Duque de Caxias,Técnico,2020-05-08,1,,,3556.47
+390,Juliana Lima,TI,Dev Jr,Jr,CLT,Híbrido,PE,Olinda,Pós-graduação,2023-08-17,1,,,4937.22
+391,Aline Silva,Operações,Assistente Operacional,Jr,CLT,Híbrido,RJ,Duque de Caxias,Ensino Médio,2023-08-31,1,,,3505.32
+392,Mariana Pereira,Financeiro,Contas a Receber,Pl,CLT,Presencial,GO,Anápolis,Pós-graduação,2023-03-05,1,,,7986.7
+393,Eduardo Silva,Comercial,Inside Sales,Pl,PJ,Presencial,PR,Londrina,Ensino Médio,2023-07-04,0,2024-08-04,Reestruturação,6892.81
+394,Larissa Barbosa,Financeiro,Analista Financeiro Jr,Pl,PJ,Presencial,RS,Porto Alegre,Técnico,2023-10-23,1,,,8088.62
+395,João Almeida,Comercial,Vendedor,Pl,CLT,Híbrido,SC,Blumenau,Ensino Médio,2022-03-13,1,,,5746.87
+396,Aline Ribeiro,Comercial,Executivo de Contas,Jr,CLT,Híbrido,SC,Florianópolis,Graduação,2025-01-31,1,,,3301.66
+397,Beatriz Pereira,Financeiro,Analista Financeiro Pl,Pl,CLT,Presencial,BA,Salvador,Graduação,2024-05-12,1,,,5952.76
+398,Eduardo Teixeira,RH,Analista de RH Pl,Sr,CLT,Híbrido,GO,Rio Verde,Graduação,2022-05-04,1,,,8111.27
+399,Natália Teixeira,Comercial,Executivo de Contas,Pl,CLT,Presencial,MG,,Pós-graduação,2024-05-06,1,,,5577.42
+400,Lucas Souza,Comercial,Executivo de Contas,Pl,CLT,Híbrido,SP,Santos,Graduação,2023-12-29,1,,,5932.07
+401,Helena Teixeira,Dados,Cientista de Dados Jr,Pl,CLT,Híbrido,CE,Fortaleza,Graduação,2021-10-10,1,,,9038.25
+402,Fernanda Souza,Dados,Analista de Dados Pl,Jr,CLT,Híbrido,BA,Salvador,Graduação,2021-04-08,1,,,5423.69
+403,Caio Cardoso,Financeiro,Analista Financeiro Jr,Sr,CLT,Presencial,SC,Florianópolis,Técnico,2021-10-07,1,,,10663.43
+404,Lucas Barbosa,TI,Dev Sr,Jr,PJ,Híbrido,DF,Taguatinga,Graduação,2024-09-18,1,,,6030.72
+405,Marcos Melo,TI,Infra,Jr,PJ,Remoto,PR,Maringá,Graduação,2020-12-01,1,,,6527.4
+406,Kaique Melo,Comercial,Vendedor,Pl,CLT,Híbrido,SC,Blumenau,Graduação,2023-03-17,1,,,5105.51
+407,Larissa Carvalho,Financeiro,Analista Financeiro Jr,Jr,CLT,Híbrido,GO,Goiânia,Ensino Médio,2025-10-03,1,,,4402.42
+408,Otávio Ribeiro,Operações,Analista Operacional,Jr,CLT,Presencial,PR,Curitiba,Pós-graduação,2020-06-25,0,2022-11-29,Desempenho,2863.84
+409,Larissa Almeida,TI,Dev Pl,Pl,CLT,Presencial,DF,Ceilândia,Pós-graduação,2023-04-14,1,,,6569.34
+410,Kaique Dias,Operações,Coordenador de Operações,Jr,CLT,Presencial,SC,Florianópolis,Graduação,2021-10-04,0,2025-12-18,Reestruturação,3414.69
+411,Camila Araújo,Dados,Analista de Dados Pl,Sr,CLT,Híbrido,CE,Juazeiro do Norte,Ensino Médio,2025-01-04,1,,,15443.8
+412,Eduardo Melo,RH,BP RH,Jr,CLT,Remoto,BA,Ilhéus,Graduação,2020-10-22,1,,,3616.77
+413,Marcos Rocha,Suporte,Customer Success,Pl,CLT,Presencial,CE,Sobral,Técnico,2023-08-02,1,,,3268.19
+414,Carla Santos,Comercial,Inside Sales,Pl,CLT,Híbrido,GO,Anápolis,Graduação,2024-06-21,1,,,6177.07
+415,Caio Melo,Financeiro,Analista Financeiro Jr,Jr,CLT,Híbrido,RJ,Niterói,Ensino Médio,2020-10-12,1,,,4293.6
+416,Guilherme Souza,TI,Infra,Sr,CLT,Presencial,CE,,Técnico,2022-06-04,1,,,15671.71
+417,Natália Gomes,Operações,Coordenador de Operações,Pl,CLT,Remoto,SC,Florianópolis,Graduação,2020-11-11,1,,,5848.71
+418,Guilherme Melo,Comercial,Inside Sales,Pl,CLT,Híbrido,PR,Maringá,Pós-graduação,2023-02-21,1,,,5115.25
+419,Guilherme Carvalho,TI,Dev Sr,Pl,CLT,Híbrido,CE,Fortaleza,Pós-graduação,2020-01-06,1,,,8068.76
+420,João Barbosa,Comercial,Gerente Comercial,Pl,CLT,Híbrido,SC,Blumenau,Graduação,2023-08-29,1,,,5777.65
+421,Fernanda Gomes,TI,Dev Pl,Jr,CLT,Híbrido,RJ,Niterói,Ensino Médio,2021-10-15,1,,,4853.12
+422,Larissa Pereira,Fiscal,Especialista Fiscal,Sr,PJ,Híbrido,BA,Feira de Santana,Graduação,2022-03-28,1,,,14469.65
+423,Renato Oliveira,Comercial,Vendedor,Jr,CLT,Remoto,DF,Brasília,Pós-graduação,2024-09-25,0,2024-10-29,Reestruturação,3796.25
+424,Yasmin Oliveira,Operações,Assistente Operacional,Jr,CLT,Remoto,BA,Salvador,Técnico,2025-12-01,0,2026-01-09,Fim de contrato,2923.17
+425,Igor Ferreira,Financeiro,Analista Financeiro Pl,Jr,CLT,Híbrido,PR,Curitiba,Ensino Médio,2022-12-08,1,,,4916.95
+426,Fernanda Santos,Dados,Eng. de Dados,Jr,CLT,Híbrido,RJ,Rio de Janeiro,Graduação,2024-07-08,0,2025-07-03,Reestruturação,4781.89
+427,Pedro Almeida,Financeiro,Analista Financeiro Jr,Sr,CLT,Híbrido,MG,Contagem,Graduação,2022-05-01,1,,,10640.74
+428,Guilherme Martins,TI,QA,Jr,CLT,Remoto,BA,Ilhéus,Mestrado,2023-11-22,1,,,4448.5
+429,Patrícia Carvalho,Suporte,Suporte N2,Jr,PJ,Presencial,MG,Belo Horizonte,Mestrado,2022-05-06,1,,,4056.19
+430,Igor Pereira,RH,Analista de RH Jr,Sr,CLT,Híbrido,CE,Sobral,Ensino Médio,2020-11-29,1,,,8128.16
+431,Caio Barbosa,Comercial,Vendedor,Pl,PJ,Remoto,SC,Florianópolis,Graduação,2025-03-16,1,,,6132.65
+432,Fernanda Lima,TI,QA,Pl,PJ,Presencial,RJ,Rio de Janeiro,Graduação,2022-03-24,1,,,10095.91
+433,Kaique Ribeiro,TI,Infra,Sr,CLT,Presencial,PE,Caruaru,Graduação,2022-02-24,1,,,12806.6
+434,Helena Carvalho,Suporte,Suporte N2,Jr,CLT,Híbrido,CE,Sobral,Pós-graduação,2022-04-11,1,,,3150.14
+435,Guilherme Dias,TI,Dev Sr,Pl,CLT,Remoto,GO,Rio Verde,Pós-graduação,2024-11-09,1,,,8225.83
+436,Rafael Santos,TI,Dev Sr,Jr,CLT,Híbrido,RJ,Rio de Janeiro,Graduação,2024-03-22,1,,,4614.26
+437,Helena Oliveira,Operações,Assistente Operacional,Jr,CLT,Híbrido,CE,Fortaleza,Ensino Médio,2021-01-19,1,,,3130.6
+438,Larissa Melo,Financeiro,Analista Financeiro Jr,Sr,CLT,Presencial,SP,Santos,Pós-graduação,2020-06-27,1,,,9917.47
+439,Juliana Teixeira,Financeiro,Contas a Receber,Sr,CLT,Remoto,DF,Ceilândia,Pós-graduação,2023-09-24,0,2023-11-02,Reestruturação,10290.73
+440,Rafael Santos,Financeiro,Contas a Receber,Pl,CLT,Híbrido,BA,Feira de Santana,Graduação,2020-11-02,1,,,6080.95
+441,Fernanda Ribeiro,Operações,Coordenador de Operações,Jr,CLT,Híbrido,RJ,Rio de Janeiro,Pós-graduação,2020-12-20,1,,,3500.87
+442,Vanessa Rocha,Fiscal,Analista Fiscal Pl,Sr,PJ,Híbrido,CE,Juazeiro do Norte,Graduação,2024-10-06,1,,,11539.1
+443,Sabrina Melo,Operações,Analista Operacional,Jr,CLT,Híbrido,CE,Sobral,Graduação,2024-05-09,1,,,2961.97
+444,Diego Dias,Fiscal,Especialista Fiscal,Pl,CLT,Remoto,BA,Ilhéus,Mestrado,2022-04-18,1,,,5924.67
+445,Vanessa Oliveira,Financeiro,Contas a Receber,Jr,CLT,Híbrido,SC,Blumenau,Graduação,2024-05-16,1,,,3721.4
+446,Fernanda Ribeiro,Dados,Analista de Dados Jr,Pl,CLT,Remoto,BA,Feira de Santana,Graduação,2021-10-18,0,2025-06-06,Pedido de demissão,7637.91
+447,Juliana Araújo,Operações,Analista Operacional,Jr,PJ,Presencial,CE,Juazeiro do Norte,Graduação,2022-10-20,1,,,3546.16
+448,Lucas Araújo,Dados,Analista de Dados Jr,Jr,CLT,Presencial,RJ,Duque de Caxias,Técnico,2020-08-18,1,,,6587.51
+449,Kaique Melo,Comercial,Executivo de Contas,Jr,CLT,Remoto,SP,Campinas,Graduação,2024-12-05,1,,,3515.41
+450,Igor Melo,Comercial,Vendedor,Pl,CLT,Híbrido,BA,Salvador,Pós-graduação,2020-07-04,1,,,6596.91
+451,Renato Rocha,Suporte,Coordenador Suporte,Pl,PJ,Presencial,GO,Goiânia,Graduação,2025-08-25,1,,,4398.93
+452,Larissa Ribeiro,TI,Infra,Sr,CLT,Presencial,RS,Porto Alegre,Ensino Médio,2022-07-07,1,,,13414.54
+453,Patrícia Santos,Dados,Cientista de Dados Jr,Sr,CLT,Remoto,SP,Campinas,Graduação,2021-10-13,0,2023-08-20,Pedido de demissão,14247.45
+454,Vanessa Lima,Comercial,Inside Sales,Jr,CLT,Remoto,SP,São Paulo,Pós-graduação,2022-10-05,1,,,2798.25
+455,Igor Teixeira,Financeiro,Analista Financeiro Pl,Sr,CLT,Híbrido,BA,Feira de Santana,Pós-graduação,2023-10-01,0,2024-03-14,Fim de contrato,10091.2
+456,João Costa,TI,Infra,Sr,CLT,Remoto,CE,Fortaleza,Graduação,2025-10-27,1,,,12502.36
+457,Larissa Lima,RH,Analista de RH Pl,Jr,CLT,Remoto,RS,Pelotas,Pós-graduação,2025-09-16,0,2026-01-10,Reestruturação,3985.02
+458,Fernanda Ferreira,Operações,Coordenador de Operações,Pl,CLT,Presencial,MG,Belo Horizonte,Graduação,2023-12-27,0,2025-08-23,Reestruturação,4595.24
+459,Juliana Lima,Dados,Analista de Dados Jr,Jr,CLT,Híbrido,MG,Contagem,Graduação,2025-11-10,1,,,5907.36
+460,Camila Rocha,TI,QA,Jr,CLT,Híbrido,RS,Pelotas,Graduação,2021-05-01,0,2022-12-21,Desempenho,5845.29
+461,Igor Lima,RH,Analista de RH Jr,Jr,CLT,Remoto,RJ,Duque de Caxias,Técnico,2020-02-14,1,,,3342.5
+462,Vanessa Teixeira,Comercial,Inside Sales,Pl,PJ,Híbrido,RS,Caxias do Sul,Ensino Médio,2024-02-06,1,,,6211.91
+463,Ana Silva,Suporte,Suporte N1,Jr,CLT,Híbrido,RJ,Niterói,Técnico,2025-09-03,1,,,3220.42
+464,Vanessa Gomes,Fiscal,Assistente Fiscal,Sr,CLT,Híbrido,PE,Recife,Graduação,2020-01-29,0,2022-07-02,Desempenho,9012.31
+465,Carla Oliveira,Dados,Cientista de Dados Jr,Sr,CLT,Híbrido,CE,Sobral,Pós-graduação,2025-04-24,1,,,14546.43
+466,Rafael Lima,TI,Dev Pl,Jr,CLT,Presencial,GO,Rio Verde,Pós-graduação,2024-06-20,1,,,5211.37
+467,Kaique Almeida,Financeiro,Analista Financeiro Jr,Pl,CLT,Presencial,MG,Contagem,Pós-graduação,2024-06-25,0,2024-08-23,Acordo,7229.76
+468,Ana Pereira,Comercial,Inside Sales,Pl,CLT,Híbrido,CE,Juazeiro do Norte,Ensino Médio,2021-11-16,1,,,3463.17
+469,Ana Ferreira,TI,QA,Jr,CLT,Remoto,GO,Goiânia,Pós-graduação,2024-12-10,1,,,5804.27
+470,Igor Almeida,Financeiro,Analista Financeiro Jr,Pl,CLT,Presencial,MG,Uberlândia,Ensino Médio,2024-01-29,1,,,6902.35
+471,Renato Souza,Financeiro,Contas a Pagar,Jr,CLT,Híbrido,GO,Anápolis,Ensino Médio,2024-12-03,0,2025-04-13,Desempenho,4543.76
+472,Bruno Ferreira,Comercial,Vendedor,Pl,CLT,Híbrido,MG,Uberlândia,Graduação,2025-09-25,1,,,4975.15
+473,Lucas Silva,Dados,Analista de Dados Jr,Sr,CLT,Híbrido,PR,Londrina,Técnico,2023-02-15,1,,,15816.5
+474,Guilherme Ribeiro,RH,Recrutador,Jr,CLT,Presencial,SC,Blumenau,Pós-graduação,2025-12-08,1,,,3460.84
+475,Thiago Araújo,Financeiro,Contas a Pagar,Jr,CLT,Presencial,CE,Fortaleza,Graduação,2022-01-02,1,,,4678.28
+476,Bruno Souza,Operações,Coordenador de Operações,Jr,CLT,Remoto,SC,Blumenau,Técnico,2023-05-01,1,,,3173.91
+477,Yasmin Souza,Operações,Coordenador de Operações,Jr,CLT,Presencial,CE,Sobral,Graduação,2025-07-05,1,,,2475.24
+478,João Ribeiro,RH,Analista de RH Jr,Jr,CLT,Remoto,PE,Caruaru,Pós-graduação,2020-06-02,1,,,4103.26
+479,Camila Oliveira,Dados,Eng. de Dados,Pl,CLT,Presencial,BA,Ilhéus,Técnico,2021-07-20,1,,,8745.52
+480,Bruno Oliveira,RH,Recrutador,Jr,CLT,Presencial,BA,Salvador,Pós-graduação,2020-05-15,1,,,3462.41
+481,Marcos Cardoso,Dados,Cientista de Dados Jr,Pl,CLT,Híbrido,RS,Caxias do Sul,Graduação,2024-03-26,1,,,8528.87
+482,Patrícia Ferreira,Financeiro,Contas a Receber,Jr,PJ,Presencial,SC,Blumenau,Graduação,2021-08-17,1,,,6712.55
+483,Carla Teixeira,TI,Dev Pl,Jr,CLT,Híbrido,PR,Curitiba,Graduação,2020-12-19,1,,,4786.42
+484,Helena Dias,Fiscal,Assistente Fiscal,Pl,CLT,Híbrido,BA,Ilhéus,Graduação,2020-07-25,1,,,7475.51
+485,Igor Araújo,TI,Dev Jr,Sr,CLT,Presencial,SP,Campinas,Graduação,2024-06-07,1,,,12002.85
+486,João Ferreira,Suporte,Suporte N1,Pl,CLT,Presencial,SC,Blumenau,Graduação,2021-09-22,1,,,4762.41
+487,Kaique Ribeiro,TI,Infra,Jr,CLT,Híbrido,SC,Blumenau,Graduação,2025-08-22,1,,,5801.85
+488,Thiago Santos,Fiscal,Analista Fiscal Jr,Pl,CLT,Remoto,GO,Rio Verde,Técnico,2025-04-25,1,,,7425.86
+489,Rafael Almeida,RH,Recrutador,Jr,CLT,Presencial,GO,Anápolis,Graduação,2022-01-14,1,,,3993.62
+490,Fernanda Rocha,TI,Dev Jr,Jr,CLT,Híbrido,CE,Fortaleza,Mestrado,2021-11-04,1,,,4582.04
+491,Renato Lima,Comercial,Vendedor,Jr,PJ,Híbrido,RJ,Niterói,Graduação,2025-04-19,1,,,4345.6
+492,Guilherme Lima,Fiscal,Analista Fiscal Pl,Jr,CLT,Presencial,CE,Juazeiro do Norte,Graduação,2021-12-23,1,,,4419.9
+493,João Souza,Operações,Analista Operacional,Pl,CLT,Presencial,CE,Sobral,Graduação,2023-06-27,1,,,4606.89
+494,Fernanda Ferreira,Comercial,Inside Sales,Pl,CLT,Híbrido,DF,Ceilândia,Graduação,2024-12-26,0,2025-02-04,Reestruturação,4733.83
+495,Diego Rocha,Operações,Analista Operacional,Sr,CLT,Remoto,BA,Feira de Santana,Técnico,2025-02-22,0,2025-09-13,Acordo,8628.22
+496,Yasmin Martins,Operações,Analista Operacional,Jr,CLT,Híbrido,PE,Olinda,Graduação,2024-07-25,0,2025-01-04,Pedido de demissão,2757.57
+497,Juliana Araújo,Comercial,Inside Sales,Pl,CLT,Híbrido,PR,Maringá,Mestrado,2023-08-29,1,,,5875.61
+498,Caio Carvalho,Financeiro,Contas a Receber,Pl,CLT,Híbrido,PE,Caruaru,Pós-graduação,2021-12-08,1,,,5932.19
+499,Natália Santos,TI,QA,Sr,PJ,Presencial,RS,Porto Alegre,Graduação,2021-06-13,1,,,15848.55
+500,Ana Costa,TI,Dev Jr,Sr,CLT,Híbrido,CE,Fortaleza,Graduação,2023-01-06,1,,,9361.07
+501,Larissa Oliveira,RH,Recrutador,Pl,CLT,Híbrido,SP,Campinas,Graduação,2025-12-10,1,,,6515.32
+502,Renato Souza,Dados,Analista de Dados Jr,Jr,CLT,Presencial,BA,Salvador,Graduação,2023-05-12,1,,,5394.9
+503,Renato Melo,RH,Analista de RH Jr,Sr,CLT,Híbrido,BA,Salvador,Técnico,2022-05-24,0,2023-02-11,Reestruturação,7915.06
+504,Lucas Cardoso,Financeiro,Analista Financeiro Jr,Jr,PJ,Híbrido,DF,Taguatinga,Pós-graduação,2024-05-03,1,,,6243.85
+505,Juliana Rocha,TI,Dev Jr,Pl,CLT,Presencial,DF,Taguatinga,Pós-graduação,2020-11-27,1,,,8037.6
+506,Vanessa Pereira,Financeiro,Contas a Pagar,Sr,CLT,Remoto,SC,Blumenau,Graduação,2020-10-20,1,,,10132.59
+507,Yasmin Cardoso,Financeiro,Contas a Pagar,Sr,CLT,Híbrido,RS,Caxias do Sul,Técnico,2022-03-17,1,,,10069.09
+508,Sabrina Rocha,TI,QA,Jr,CLT,Híbrido,SC,Joinville,Graduação,2024-07-09,1,,,5682.08
+509,Yasmin Santos,Fiscal,Assistente Fiscal,Pl,PJ,Híbrido,SP,Campinas,Técnico,2025-01-27,1,,,7493.32
+510,Igor Melo,Operações,Coordenador de Operações,Jr,CLT,Presencial,SP,São Paulo,Graduação,2020-07-31,1,,,3820.34
+511,Igor Teixeira,Financeiro,Analista Financeiro Jr,Jr,CLT,Híbrido,RJ,Rio de Janeiro,Técnico,2020-11-04,0,2022-09-24,Reestruturação,3800.04
+512,Carla Teixeira,Fiscal,Especialista Fiscal,Pl,CLT,Híbrido,DF,Taguatinga,Graduação,2023-07-10,1,,,6236.58
+513,Rafael Cardoso,Suporte,Suporte N2,Jr,CLT,Presencial,SC,,Graduação,2024-06-08,1,,,3076.36
+514,Renato Martins,Dados,Analista de Dados Pl,Pl,CLT,Híbrido,SP,São Paulo,Técnico,2025-09-02,1,,,10909.13
+515,Diego Ribeiro,Comercial,Executivo de Contas,Jr,CLT,Híbrido,PR,Maringá,Pós-graduação,2022-06-25,1,,,3306.53
+516,Eduardo Ferreira,Suporte,Coordenador Suporte,Jr,CLT,Híbrido,DF,Brasília,Ensino Médio,2021-01-10,1,,,3147.87
+517,Rafael Barbosa,Fiscal,Assistente Fiscal,Pl,CLT,Remoto,CE,Fortaleza,Mestrado,2021-07-08,1,,,6323.98
+518,Guilherme Melo,Comercial,Executivo de Contas,Pl,CLT,Híbrido,PR,Curitiba,Ensino Médio,2024-08-24,1,,,4943.5
+519,Ana Teixeira,Comercial,Gerente Comercial,Jr,CLT,Híbrido,PR,Curitiba,Graduação,2023-12-11,1,,,3626.2
+520,Lucas Rocha,TI,Infra,Pl,PJ,Híbrido,DF,Ceilândia,Graduação,2022-05-07,1,,,11412.37
+521,Guilherme Araújo,Operações,Analista Operacional,Jr,CLT,Híbrido,SC,Blumenau,Graduação,2023-05-12,1,,,2701.23
+522,Mariana Santos,Suporte,Coordenador Suporte,Jr,CLT,Híbrido,RJ,Niterói,Pós-graduação,2021-05-25,1,,,3091.8
+523,Fernanda Souza,Suporte,Suporte N2,Jr,CLT,Híbrido,PE,Recife,Graduação,2023-05-21,1,,,3195.55
+524,Ana Teixeira,Comercial,Inside Sales,Pl,CLT,Remoto,MG,Uberlândia,Graduação,2023-01-31,1,,,5291.63
+525,Yasmin Dias,Financeiro,Contas a Receber,Pl,CLT,Híbrido,BA,Feira de Santana,Ensino Médio,2020-12-22,0,2022-08-01,Reestruturação,6279.93
+526,Yasmin Cardoso,Comercial,Inside Sales,Jr,CLT,Remoto,CE,Juazeiro do Norte,Ensino Médio,2021-02-21,1,,,3173.75
+527,Thiago Santos,Suporte,Customer Success,Jr,CLT,Híbrido,BA,Feira de Santana,Graduação,2024-10-30,1,,,2853.97
+528,Larissa Pereira,Suporte,Suporte N1,Jr,CLT,Híbrido,SC,Florianópolis,Graduação,2022-09-02,1,,,2795.07
+529,Caio Silva,Financeiro,Analista Financeiro Pl,Jr,CLT,Híbrido,BA,Feira de Santana,Graduação,2020-10-21,0,2025-04-22,Pedido de demissão,4680.37
+530,Kaique Silva,Suporte,Suporte N1,Sr,CLT,Remoto,SC,Florianópolis,Graduação,2023-07-08,1,,,6549.23
+531,Sabrina Silva,Operações,Analista Operacional,Jr,CLT,Remoto,BA,Salvador,Graduação,2022-12-29,1,,,3323.54
+532,Patrícia Silva,RH,Recrutador,Jr,CLT,Presencial,MG,Belo Horizonte,Técnico,2024-08-16,1,,,4379.14
+533,Guilherme Rocha,TI,Infra,Sr,CLT,Presencial,CE,Fortaleza,Graduação,2020-11-26,1,,,10784.6
+534,Beatriz Martins,Suporte,Suporte N2,Sr,CLT,Presencial,RJ,Rio de Janeiro,Graduação,2024-11-19,1,,,6289.44
+535,Guilherme Barbosa,Operações,Assistente Operacional,Jr,CLT,Presencial,PR,Curitiba,Mestrado,2025-06-15,1,,,3220.65
+536,Camila Ferreira,TI,Dev Sr,Jr,PJ,Híbrido,GO,Rio Verde,Técnico,2025-05-01,1,,,5838.52
+537,Otávio Martins,Comercial,Inside Sales,Jr,CLT,Presencial,RS,Porto Alegre,Ensino Médio,2020-12-03,1,,,3915.28
+538,João Teixeira,TI,Infra,Pl,CLT,Presencial,BA,Salvador,Técnico,2022-12-01,1,,,8832.22
+539,Juliana Melo,Operações,Assistente Operacional,Jr,CLT,Híbrido,PE,Recife,Graduação,2022-02-05,1,,,3325.9
+540,Beatriz Rocha,Comercial,Gerente Comercial,Jr,CLT,Presencial,CE,Sobral,Técnico,2025-06-27,1,,,4007.6
+541,Otávio Almeida,Comercial,Vendedor,Sr,CLT,Híbrido,SP,Santos,Graduação,2025-05-17,0,2025-12-10,Desempenho,7953.27
+542,Larissa Araújo,RH,Analista de RH Pl,Jr,CLT,Remoto,SC,Blumenau,Graduação,2025-05-18,1,,,3856.2
+543,Renato Carvalho,Operações,Analista Operacional,Jr,CLT,Presencial,CE,Juazeiro do Norte,Técnico,2025-03-10,1,,,3661.63
+544,Larissa Pereira,TI,QA,Jr,CLT,Presencial,RS,Pelotas,Pós-graduação,2022-12-07,0,2025-05-24,Acordo,6721.5
+545,Camila Pereira,Operações,Assistente Operacional,Jr,CLT,Híbrido,RS,Caxias do Sul,Pós-graduação,2020-02-13,0,2022-10-04,Desempenho,3053.26
+546,Aline Martins,Comercial,Vendedor,Jr,CLT,Presencial,DF,Taguatinga,Técnico,2020-08-28,1,,,3378.43
+547,Renato Gomes,Dados,Analista de Dados Jr,Sr,CLT,Híbrido,DF,Brasília,Graduação,2021-05-02,1,,,15677.58
+548,Larissa Martins,Financeiro,Contas a Receber,Sr,CLT,Híbrido,GO,Rio Verde,Graduação,2022-03-10,1,,,9993.59
+549,Renato Barbosa,Fiscal,Assistente Fiscal,Sr,PJ,Presencial,SP,São Paulo,Graduação,2023-02-13,1,,,10088.16
+550,Aline Melo,RH,Analista de RH Pl,Jr,PJ,Híbrido,BA,Salvador,Pós-graduação,2024-06-22,1,,,4819.52
+551,Otávio Martins,RH,BP RH,Sr,CLT,Híbrido,RJ,Niterói,Mestrado,2021-05-24,1,,,8974.56
+552,Mariana Costa,TI,Dev Pl,Sr,PJ,Híbrido,PE,Caruaru,Graduação,2023-05-13,1,,,15013.55
+553,Guilherme Rocha,Fiscal,Especialista Fiscal,Jr,CLT,Remoto,MG,Uberlândia,Graduação,2022-11-20,1,,,4806.43
+554,Diego Silva,RH,Analista de RH Jr,Pl,CLT,Presencial,SP,São Paulo,Ensino Médio,2021-02-14,1,,,5571.13
+555,Rafael Melo,Comercial,Executivo de Contas,Pl,CLT,Remoto,PE,,Graduação,2021-06-22,1,,,5095.04
+556,Patrícia Martins,RH,Analista de RH Pl,Jr,CLT,Híbrido,PR,Maringá,Técnico,2025-03-02,1,,,3495.06
+557,Yasmin Oliveira,Comercial,Executivo de Contas,Pl,CLT,Presencial,DF,Brasília,Graduação,2022-11-20,1,,,6253.23
+558,Thiago Teixeira,Dados,Analista de Dados Jr,Pl,CLT,Remoto,BA,Feira de Santana,Mestrado,2023-11-16,1,,,9060.14
+559,Rafael Dias,Fiscal,Assistente Fiscal,Jr,CLT,Híbrido,RJ,Rio de Janeiro,Técnico,2022-02-07,1,,,2976.7
+560,Larissa Martins,Fiscal,Analista Fiscal Pl,Pl,CLT,Presencial,SC,Joinville,Pós-graduação,2020-10-08,1,,,7466.79
+561,João Almeida,RH,Analista de RH Jr,Pl,CLT,Remoto,GO,Anápolis,Ensino Médio,2021-08-27,0,2024-09-09,Fim de contrato,6224.7
+562,Ana Lima,Financeiro,Contas a Pagar,Jr,PJ,Híbrido,PR,Maringá,Pós-graduação,2024-12-02,1,,,3365.78
+563,Larissa Ferreira,Dados,Analista de Dados Jr,Jr,CLT,Híbrido,PE,Caruaru,Ensino Médio,2025-04-09,1,,,6731.51
+564,Pedro Cardoso,Operações,Coordenador de Operações,Jr,CLT,Híbrido,PE,Caruaru,Ensino Médio,2023-02-02,1,,,3931.07
+565,Vanessa Rocha,Financeiro,Contas a Pagar,Jr,CLT,Híbrido,PR,Curitiba,Ensino Médio,2023-11-19,0,2025-12-22,Pedido de demissão,4278.97
+566,Thiago Silva,Fiscal,Assistente Fiscal,Jr,CLT,Híbrido,MG,Belo Horizonte,Graduação,2022-02-22,1,,,4659.63
+567,Natália Barbosa,Suporte,Suporte N1,Jr,CLT,Remoto,CE,Fortaleza,Graduação,2025-05-22,0,2025-09-07,Pedido de demissão,2873.83
+568,Rafael Almeida,Comercial,Executivo de Contas,Jr,CLT,Remoto,DF,Taguatinga,Técnico,2023-02-21,0,2023-12-30,Pedido de demissão,3315.01
+569,Kaique Dias,Comercial,Executivo de Contas,Jr,CLT,Presencial,SC,Joinville,Graduação,2023-11-15,1,,,4007.5
+570,Caio Gomes,Suporte,Suporte N1,Pl,CLT,Híbrido,MG,Contagem,Graduação,2023-03-30,0,2023-11-17,Desempenho,4429.54
+571,Guilherme Santos,Operações,Analista Operacional,Sr,CLT,Híbrido,RS,Caxias do Sul,Ensino Médio,2023-04-16,1,,,7137.18
+572,Carla Cardoso,Suporte,Customer Success,Jr,CLT,Híbrido,PE,Caruaru,Graduação,2025-11-13,1,,,3181.9
+573,Beatriz Dias,Comercial,Executivo de Contas,Jr,CLT,Presencial,BA,Feira de Santana,Graduação,2023-02-21,1,,,17515.38
+574,Camila Gomes,Comercial,Gerente Comercial,Sr,CLT,Presencial,RS,Porto Alegre,Pós-graduação,2024-02-09,1,,,7815.86
+575,Renato Almeida,Financeiro,Contas a Pagar,Jr,CLT,Remoto,MG,Contagem,Pós-graduação,2022-07-13,1,,,4617.11
+576,Larissa Costa,Dados,Analista de Dados Pl,Pl,CLT,Híbrido,CE,Juazeiro do Norte,Graduação,2021-08-22,1,,,6828.97
+577,Otávio Santos,Fiscal,Analista Fiscal Jr,Pl,CLT,Presencial,BA,Ilhéus,Graduação,2020-11-19,1,,,6559.19
+578,Helena Martins,TI,Dev Pl,Pl,CLT,Híbrido,SC,Joinville,Graduação,2022-07-03,1,,,7654.65
+579,Fernanda Lima,TI,Infra,Sr,PJ,Híbrido,PE,Olinda,Técnico,2023-06-21,0,2024-02-23,Pedido de demissão,13292.02
+580,Lucas Silva,Operações,Coordenador de Operações,Jr,CLT,Remoto,PR,Londrina,Graduação,2020-09-02,0,2021-04-28,Acordo,2719.5
+581,Marcos Cardoso,Comercial,Executivo de Contas,Jr,PJ,Híbrido,RJ,Rio de Janeiro,Graduação,2025-09-16,1,,,3718.16
+582,Otávio Araújo,TI,Infra,Sr,CLT,Presencial,PE,Caruaru,Ensino Médio,2022-02-17,1,,,11169.56
+583,Helena Gomes,TI,QA,Pl,CLT,Presencial,MG,Belo Horizonte,Pós-graduação,2025-09-07,1,,,7242.11
+584,Beatriz Pereira,Comercial,Gerente Comercial,Jr,CLT,Presencial,DF,Ceilândia,Pós-graduação,2024-11-04,1,,,3381.95
+585,Eduardo Araújo,Financeiro,Analista Financeiro Pl,Sr,CLT,Presencial,PR,Londrina,Graduação,2020-09-01,1,,,9359.43
+586,Renato Barbosa,Comercial,Vendedor,Sr,CLT,Híbrido,PE,Olinda,Graduação,2022-06-05,1,,,7184.02
+587,Otávio Silva,TI,Infra,Sr,CLT,Presencial,MG,Belo Horizonte,Técnico,2020-10-20,1,,,12669.81
+588,Patrícia Teixeira,RH,Analista de RH Jr,Jr,PJ,Híbrido,SP,Campinas,Pós-graduação,2024-11-09,1,,,4691.65
+589,Otávio Teixeira,Dados,Analista de Dados Pl,Jr,CLT,Presencial,DF,Taguatinga,Técnico,2022-01-08,1,,,4645.54
+590,Aline Pereira,Financeiro,Contas a Receber,Sr,CLT,Híbrido,SP,São Paulo,Pós-graduação,2021-11-21,0,2024-02-27,Reestruturação,11063.22
+591,Guilherme Carvalho,Fiscal,Assistente Fiscal,Jr,CLT,Híbrido,SP,Santos,Graduação,2024-09-11,1,,,4190.19
+592,Camila Santos,Comercial,Executivo de Contas,Pl,CLT,Híbrido,MG,Contagem,Técnico,2023-09-27,1,,,5786.91
+593,Helena Cardoso,Suporte,Coordenador Suporte,Pl,CLT,Presencial,SP,Campinas,Mestrado,2020-01-25,1,,,4241.94
+594,Aline Martins,Dados,Eng. de Dados,Pl,CLT,Híbrido,PR,Curitiba,Pós-graduação,2020-06-10,1,,,7564.07
+595,Fernanda Cardoso,TI,Dev Pl,Jr,CLT,Remoto,CE,Juazeiro do Norte,Graduação,2020-02-29,1,,,5210.54
+596,Diego Araújo,TI,Infra,Pl,CLT,Híbrido,RJ,Duque de Caxias,Técnico,2020-10-19,1,,,7088.52
+597,Rafael Carvalho,Operações,Coordenador de Operações,Sr,CLT,Híbrido,DF,Brasília,Graduação,2022-08-01,1,,,8404.17
+598,Juliana Araújo,Financeiro,Contas a Receber,Jr,CLT,Remoto,DF,Brasília,Graduação,2022-06-15,1,,,5262.19
+599,João Araújo,Suporte,Suporte N2,Jr,CLT,Híbrido,SC,Florianópolis,Pós-graduação,2022-02-15,1,,,3266.22
+600,Patrícia Melo,TI,Infra,Pl,CLT,Remoto,MG,Belo Horizonte,Graduação,2025-07-02,1,,,8061.76
+601,Vanessa Ferreira,Fiscal,Especialista Fiscal,Jr,CLT,Remoto,RJ,Niterói,Graduação,2023-05-21,1,,,4085.49
+602,Vanessa Barbosa,Operações,Assistente Operacional,Jr,CLT,Híbrido,RS,,Graduação,2024-04-09,1,,,2878.59
+603,Thiago Martins,Fiscal,Analista Fiscal Jr,Jr,CLT,Remoto,BA,Ilhéus,Graduação,2021-01-18,1,,,4188.25
+604,Natália Lima,Financeiro,Analista Financeiro Pl,Sr,CLT,Presencial,RJ,Duque de Caxias,Técnico,2021-04-28,1,,,8883.25
+605,Patrícia Cardoso,Operações,Coordenador de Operações,Pl,PJ,Híbrido,DF,Brasília,Graduação,2021-07-05,1,,,5511.71
+606,Vanessa Oliveira,Fiscal,Analista Fiscal Pl,Sr,CLT,Híbrido,PR,Maringá,Graduação,2021-10-14,1,,,11679.36
+607,Camila Carvalho,Suporte,Suporte N2,Jr,CLT,Híbrido,BA,Salvador,Mestrado,2024-05-09,0,2024-11-10,Acordo,2868.18
+608,Diego Oliveira,Dados,Eng. de Dados,Jr,CLT,Presencial,BA,Salvador,Pós-graduação,2020-04-08,0,2024-12-19,Desempenho,6101.14
+609,Marcos Lima,Comercial,Inside Sales,Sr,CLT,Remoto,PE,Caruaru,Técnico,2020-06-10,1,,,9242.94
+610,Marcos Martins,Comercial,Inside Sales,Pl,CLT,Presencial,SC,Joinville,Pós-graduação,2023-11-06,1,,,5518.89
+611,Rafael Oliveira,Suporte,Suporte N2,Sr,CLT,Presencial,GO,Rio Verde,Ensino Médio,2020-10-25,0,2024-06-14,Desempenho,7369.25
+612,Vanessa Almeida,TI,Dev Jr,Jr,CLT,Híbrido,SP,São Paulo,Pós-graduação,2025-09-07,1,,,5306.43
+613,Mariana Teixeira,Operações,Analista Operacional,Jr,CLT,Remoto,PE,,Técnico,2020-02-29,1,,,2888.98
+614,Fernanda Carvalho,Comercial,Executivo de Contas,Pl,CLT,Híbrido,CE,Sobral,Graduação,2023-11-08,1,,,5272.35
+615,Fernanda Almeida,RH,Analista de RH Pl,Jr,CLT,Híbrido,CE,Fortaleza,Ensino Médio,2022-05-24,1,,,4105.79
+616,Caio Dias,Comercial,Executivo de Contas,Jr,CLT,Híbrido,DF,Taguatinga,Graduação,2024-07-13,0,2025-10-04,Acordo,2949.24
+617,Diego Lima,Fiscal,Analista Fiscal Pl,Jr,CLT,Remoto,DF,Ceilândia,Mestrado,2025-06-10,1,,,4044.17
+618,Mariana Araújo,Operações,Analista Operacional,Pl,CLT,Presencial,MG,Uberlândia,Pós-graduação,2022-04-12,1,,,5204.83
+619,Otávio Santos,Financeiro,Contas a Pagar,Pl,PJ,Híbrido,SC,Joinville,Graduação,2023-09-09,1,,,8338.3
+620,Rafael Ribeiro,TI,QA,Pl,CLT,Híbrido,MG,,Ensino Médio,2024-09-05,1,,,8103.83
+621,Guilherme Rocha,Operações,Assistente Operacional,Pl,PJ,Remoto,RJ,Rio de Janeiro,Graduação,2022-10-23,1,,,5714.13
+622,Pedro Pereira,Operações,Analista Operacional,Sr,CLT,Híbrido,CE,Juazeiro do Norte,Graduação,2022-12-09,0,2023-12-29,Reestruturação,7895.28
+623,Marcos Oliveira,Operações,Coordenador de Operações,Sr,CLT,Presencial,DF,Ceilândia,Pós-graduação,2022-04-09,1,,,7778.26
+624,João Oliveira,Fiscal,Analista Fiscal Jr,Pl,CLT,Remoto,SC,Joinville,Pós-graduação,2024-04-05,1,,,6707.55
+625,Caio Teixeira,Operações,Assistente Operacional,Pl,PJ,Remoto,GO,Goiânia,Pós-graduação,2025-10-20,1,,,5984.91
+626,Kaique Barbosa,Operações,Assistente Operacional,Jr,CLT,Presencial,SP,Campinas,Graduação,2021-07-21,1,,,3331.15
+627,Sabrina Teixeira,Financeiro,Analista Financeiro Pl,Pl,CLT,Presencial,CE,Fortaleza,Graduação,2021-08-30,1,,,6052.6
+628,Camila Carvalho,Operações,Coordenador de Operações,Pl,CLT,Presencial,SP,São Paulo,Mestrado,2024-03-24,0,2024-09-20,Acordo,5558.03
+629,Thiago Araújo,Suporte,Suporte N2,Jr,CLT,Híbrido,BA,Feira de Santana,Técnico,2022-03-29,0,2024-08-07,Desempenho,3461.4
+630,Beatriz Rocha,Financeiro,Analista Financeiro Jr,Jr,CLT,Presencial,DF,Ceilândia,Graduação,2021-05-27,0,2022-05-19,Acordo,4094.02
+631,Bruno Melo,Dados,Eng. de Dados,Jr,PJ,Remoto,SC,Blumenau,Graduação,2020-05-23,1,,,4860.29
+632,Rafael Ferreira,Comercial,Gerente Comercial,Jr,CLT,Híbrido,PE,Olinda,Graduação,2022-01-06,1,,,3004.03
+633,Kaique Carvalho,RH,BP RH,Pl,PJ,Híbrido,CE,Fortaleza,Graduação,2023-01-09,1,,,7676.09
+634,Kaique Araújo,Comercial,Executivo de Contas,Jr,CLT,Híbrido,RS,Pelotas,Graduação,2021-09-15,1,,,3094.81
+635,Kaique Barbosa,Suporte,Coordenador Suporte,Sr,CLT,Remoto,SC,,Ensino Médio,2024-04-15,0,2024-07-29,Acordo,7448.17
+636,Carla Rocha,Suporte,Coordenador Suporte,Jr,CLT,Remoto,RJ,Rio de Janeiro,Pós-graduação,2022-08-17,1,,,2552.54
+637,Juliana Gomes,Operações,Analista Operacional,Jr,CLT,Híbrido,PE,Olinda,Graduação,2021-12-21,1,,,3417.25
+638,Camila Dias,Operações,Coordenador de Operações,Pl,CLT,Presencial,DF,Brasília,Ensino Médio,2021-04-17,0,2022-12-06,Acordo,5029.96
+639,Sabrina Carvalho,TI,QA,Pl,CLT,Híbrido,SC,Blumenau,Graduação,2022-06-03,1,,,8083.16
+640,Diego Araújo,Financeiro,Contas a Receber,Sr,CLT,Híbrido,SC,Joinville,Técnico,2023-08-17,1,,,9400.92
+641,Igor Almeida,Operações,Analista Operacional,Sr,CLT,Híbrido,RJ,Niterói,Graduação,2023-08-02,1,,,7879.65
+642,Lucas Barbosa,Financeiro,Contas a Pagar,Sr,CLT,Presencial,PR,Londrina,Graduação,2023-11-16,1,,,8514.42
+643,Larissa Lima,Dados,Eng. de Dados,Pl,CLT,Presencial,BA,Ilhéus,Técnico,2022-04-10,0,2023-11-22,Pedido de demissão,9006.78
+644,Caio Costa,TI,QA,Pl,CLT,Híbrido,CE,Juazeiro do Norte,Graduação,2021-05-14,0,2023-04-20,Reestruturação,7825.41
+645,Camila Dias,Dados,Analista de Dados Jr,Jr,CLT,Presencial,DF,Ceilândia,Técnico,2025-12-14,1,,,6691.4
+646,Helena Ferreira,Comercial,Gerente Comercial,Pl,CLT,Híbrido,CE,Fortaleza,Graduação,2024-08-18,1,,,4112.56
+647,Otávio Gomes,Suporte,Suporte N2,Jr,CLT,Híbrido,RS,Caxias do Sul,Ensino Médio,2025-05-26,1,,,3068.11
+648,Renato Souza,Financeiro,Analista Financeiro Pl,Jr,CLT,Presencial,SP,São Paulo,Graduação,2023-12-26,1,,,3849.03
+649,Renato Ferreira,Operações,Analista Operacional,Pl,CLT,Híbrido,MG,Belo Horizonte,Ensino Médio,2024-11-10,1,,,5254.2
+650,Diego Rocha,TI,Infra,Jr,CLT,Híbrido,BA,Salvador,Graduação,2025-10-01,0,2026-01-19,Acordo,5782.45
+187,Lucas Souza,Operações,Coordenador de Operações,Pl,CLT,Híbrido,RJ,Duque de Caxias,Ensino Médio,2020-08-16,1,,,4944.86
+469,Ana Ferreira,TI,QA,Jr,CLT,Remoto,GO,Goiânia,Pós-graduação,2024-12-10,1,,,5804.27
+336,Yasmin Oliveira,Financeiro,Contas a Pagar,Pl,CLT,Híbrido,CE,Juazeiro do Norte,Graduação,2025-04-14,1,,,8027.21
