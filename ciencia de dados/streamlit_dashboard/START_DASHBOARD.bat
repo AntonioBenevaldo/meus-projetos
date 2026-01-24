@@ -4,7 +4,6 @@ cd /d "%~dp0"
 
 set PORT=8510
 
-REM cria venv se não existir
 if not exist ".venv\Scripts\python.exe" (
   echo Criando ambiente virtual...
   python -m venv .venv
@@ -12,13 +11,12 @@ if not exist ".venv\Scripts\python.exe" (
 
 call ".venv\Scripts\activate.bat"
 
-echo Instalando dependencias (se faltar)...
+echo Instalando dependencias...
 python -m pip install --upgrade pip >nul
-python -m pip install streamlit pandas numpy plotly openpyxl xlsxwriter >nul
-echo Abrindo navegador...
-start "" "http://127.0.0.1:%PORT%"
+python -m pip install streamlit pandas numpy plotly openpyxl >nul
 
-echo Iniciando Streamlit na porta %PORT%...
-python -m streamlit run app.py --server.port %PORT% --server.address 127.0.0.1
+echo Abrindo Dashboard Power BI Premium v2...
+start "" http://127.0.0.1:%PORT%
 
+streamlit run aypp.py --server.port %PORT% --server.address 127.0.0.1
 pause
