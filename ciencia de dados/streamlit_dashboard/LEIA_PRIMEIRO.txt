@@ -1,0 +1,15 @@
+CORREÇÃO IMPORTANTE (v3)
+
+No seu print, o arquivo aparece como "power_bi" (provavelmente power_bi.py).
+O build usa por padrão: powerbi.py
+
+FAÇA UM DESTES 2:
+A) RENOMEAR o arquivo para: powerbi.py
+B) OU editar BUILD_EXE_ROBUSTO.bat e mudar: ENTRY=power_bi.py
+   e também editar DashboardPowerBI.spec:
+   trocar ["powerbi.py"] por ["power_bi.py"]
+
+Depois rode:
+1) BUILD_EXE_ROBUSTO.bat
+2) DIAG_RUN.bat (teste)
+3) installer_inno_v2.iss (Compile no Inno Setup)
